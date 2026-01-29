@@ -20,14 +20,15 @@ const allowedOrigin = process.env.FRONTEND_URL || "http://localhost:5173";
 
 app.set('trust proxy', 1);
 app.use(express.json());
-app.options("*", cors());
+// app.options("*", cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("uploads"));
 app.use(
   cors({
     origin: allowedOrigin, // <-- must be frontend URL
-    credentials: true,      // allow cookies / auth headers
+    // credentials: true,      // allow cookies / auth headers
+    allowedHeaders: ["Content-Type", "Authorization"],
     methods: ["GET", "POST", "DELETE", "OPTIONS"],
     optionsSuccessStatus: 204,
     maxAge: 10800,
