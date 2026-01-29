@@ -1,0 +1,14 @@
+const express = require("express");
+const router = express.Router();
+const controller = require("../controllers/payout.controller");
+const schema = require("../schema/payout.schema");
+const validation = require("../middleware/validation");
+const { hostAuthentication } = require("../middleware/authorization");
+// const { upload } = require("../utils/fileHandler")
+
+
+router.post("/payout/account/details-add", [validation(schema.createHostAccDetails), hostAuthentication], controller.addHostAccountDetails);
+router.post("/payout/request/create", [validation(schema.createPayoutRequest), hostAuthentication], controller.cretePayoutRequest);
+router.get("/payout/request/list", [hostAuthentication], controller.getPayoutRequests);
+
+module.exports = router;

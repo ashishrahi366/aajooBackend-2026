@@ -1,0 +1,2228 @@
+2025-12-31 15:42:36 [ERROR]: Error in POST /properties/search: Unexpected token '"', ""\n\n\n\n\"... is not valid JSON
+2025-12-31 15:43:04 [ERROR]: Error in POST /properties/search: Unexpected token '"', ""{\n  \"la"... is not valid JSON
+2025-12-31 15:43:06 [ERROR]: Error in POST /properties/search: Unexpected token '"', ""{\n  \"la"... is not valid JSON
+2025-12-31 15:44:06 [ERROR]: Error in POST /properties/search: Unexpected token '"', ""{\n  \"la"... is not valid JSON
+2026-01-03 14:02:25 [ERROR]: SyntaxError: Expected property name or '}' in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (D:\Naxtre_Projects\aajaoBackend-main\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\Naxtre_Projects\aajaoBackend-main\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\Naxtre_Projects\aajaoBackend-main\node_modules\raw-body\index.js:238:16)
+    at done (D:\Naxtre_Projects\aajaoBackend-main\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Naxtre_Projects\aajaoBackend-main\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2026-01-06 10:50:52 [ERROR]: Error: Requested entity was not found.
+    at FirebaseMessagingError.fromServerError (D:\Naxtre_Projects\aajaoBackend-main\node_modules\firebase-admin\lib\utils\error.js:269:16)
+    at createFirebaseError (D:\Naxtre_Projects\aajaoBackend-main\node_modules\firebase-admin\lib\messaging\messaging-errors-internal.js:36:47)
+    at D:\Naxtre_Projects\aajaoBackend-main\node_modules\firebase-admin\lib\messaging\messaging-api-request-internal.js:74:75
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.sendNotification (D:\Naxtre_Projects\aajaoBackend-main\utils\methods.js:123:26)
+    at async Socket.<anonymous> (D:\Naxtre_Projects\aajaoBackend-main\controllers\socketController.js:141:9)
+2026-01-06 11:45:02 [ERROR]: ReferenceError: hostTitle is not defined
+    at Socket.<anonymous> (D:\Naxtre_Projects\aajaoBackend-main\controllers\socketController.js:127:71)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-06 15:30:23 [ERROR]: Error
+    at Query.run (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async tbl_bookings.save (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:2490:35)
+    at async tbl_bookings.create (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:1362:12)
+    at async bookingCreate (D:\Naxtre_Projects\aajaoBackend-main\controllers\booking.controller.js:210:22)
+2026-01-06 18:58:03 [ERROR]: ReferenceError: isInitiator is not defined
+    at Socket.<anonymous> (D:\Naxtre_Projects\aajaoBackend-main\controllers\socketController.js:128:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-06 18:58:07 [ERROR]: ReferenceError: isInitiator is not defined
+    at Socket.<anonymous> (D:\Naxtre_Projects\aajaoBackend-main\controllers\socketController.js:128:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-06 18:59:15 [ERROR]: ReferenceError: isInitiator is not defined
+    at Socket.<anonymous> (D:\Naxtre_Projects\aajaoBackend-main\controllers\socketController.js:128:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-06 18:59:19 [ERROR]: ReferenceError: isInitiator is not defined
+    at Socket.<anonymous> (D:\Naxtre_Projects\aajaoBackend-main\controllers\socketController.js:128:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-06 19:08:20 [ERROR]: ReferenceError: isInitiator is not defined
+    at Socket.<anonymous> (D:\Naxtre_Projects\aajaoBackend-main\controllers\socketController.js:129:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-06 19:08:23 [ERROR]: ReferenceError: isInitiator is not defined
+    at Socket.<anonymous> (D:\Naxtre_Projects\aajaoBackend-main\controllers\socketController.js:129:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-07 13:22:21 [ERROR]: Error
+    at Query.run (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async tbl_send_email.save (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:2490:35)
+    at async tbl_send_email.create (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:1362:12)
+    at async EmailManager.sendEmail (D:\Naxtre_Projects\aajaoBackend-main\utils\mailer.js:109:31)
+2026-01-07 13:29:25 [ERROR]: Error
+    at Query.run (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async tbl_send_email.save (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:2490:35)
+    at async tbl_send_email.create (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:1362:12)
+    at async EmailManager.sendEmail (D:\Naxtre_Projects\aajaoBackend-main\utils\mailer.js:109:31)
+2026-01-07 13:42:47 [ERROR]: Error
+    at Query.run (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async tbl_send_email.save (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:2490:35)
+    at async tbl_send_email.create (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:1362:12)
+    at async EmailManager.sendEmail (D:\Naxtre_Projects\aajaoBackend-main\utils\mailer.js:109:31)
+2026-01-07 13:57:53 [ERROR]: Error
+    at Query.run (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async tbl_send_email.save (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:2490:35)
+    at async tbl_send_email.create (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:1362:12)
+    at async EmailManager.sendEmail (D:\Naxtre_Projects\aajaoBackend-main\utils\mailer.js:109:31)
+    at async sendOtpEmail (D:\Naxtre_Projects\aajaoBackend-main\controllers\user.controller.js:26:5)
+2026-01-07 13:59:15 [ERROR]: Error
+    at Query.run (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async tbl_send_email.save (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:2490:35)
+    at async tbl_send_email.create (D:\Naxtre_Projects\aajaoBackend-main\node_modules\sequelize\lib\model.js:1362:12)
+    at async EmailManager.sendEmail (D:\Naxtre_Projects\aajaoBackend-main\utils\mailer.js:109:31)
+    at async sendOtpEmail (D:\Naxtre_Projects\aajaoBackend-main\controllers\user.controller.js:26:5)
+2026-01-17 22:57:39 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:78:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sat Jan 17 2026 22:57:39 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 2364,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 112472064,
+      "heapTotal": 78180352,
+      "heapUsed": 37528160,
+      "external": 6465748,
+      "arrayBuffers": 3067245
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 538499.828
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 78,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-17 22:59:28 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:78:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sat Jan 17 2026 22:59:28 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 20820,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 78438400,
+      "heapTotal": 38858752,
+      "heapUsed": 37724296,
+      "external": 6465748,
+      "arrayBuffers": 3067245
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 538608.828
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 78,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-17 23:00:14 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:78:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sat Jan 17 2026 23:00:13 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 8348,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 112553984,
+      "heapTotal": 78180352,
+      "heapUsed": 37534344,
+      "external": 6465748,
+      "arrayBuffers": 3067245
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 538654.671
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 78,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-17 23:03:03 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:78:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sat Jan 17 2026 23:03:03 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 8348,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 78651392,
+      "heapTotal": 38858752,
+      "heapUsed": 37257376,
+      "external": 6474004,
+      "arrayBuffers": 3075461
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 538823.828
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 78,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-17 23:03:25 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:78:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sat Jan 17 2026 23:03:25 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 8348,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 79089664,
+      "heapTotal": 39120896,
+      "heapUsed": 37765160,
+      "external": 6486726,
+      "arrayBuffers": 3088183
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 538846.406
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 78,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-18 02:23:03 [ERROR]: SyntaxError: Unexpected token '}', ..."goryId":
+}" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\aajao_backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\project\aajao_backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project\aajao_backend\node_modules\raw-body\index.js:238:16)
+    at done (D:\project\aajao_backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\project\aajao_backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+META: {
+  "body": {},
+  "params": {},
+  "query": {}
+}
+2026-01-18 03:06:42 [ERROR]: TypeError: response is not a function
+    at getCategory (D:\project\aajao_backend\controllers\adminPropertyCategories.controller.js:99:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Sun Jan 18 2026 03:06:42 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 20888,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 112574464,
+      "heapTotal": 77656064,
+      "heapUsed": 40094312,
+      "external": 6466909,
+      "arrayBuffers": 3068406
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 553443.484
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "D:\\project\\aajao_backend\\controllers\\adminPropertyCategories.controller.js",
+      "function": "getCategory",
+      "line": 99,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-01-18 03:07:15 [ERROR]: TypeError: response is not a function
+    at getCategory (D:\project\aajao_backend\controllers\adminPropertyCategories.controller.js:101:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Sun Jan 18 2026 03:07:15 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 18132,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 112644096,
+      "heapTotal": 78180352,
+      "heapUsed": 40077144,
+      "external": 6466909,
+      "arrayBuffers": 3068406
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 553475.968
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "D:\\project\\aajao_backend\\controllers\\adminPropertyCategories.controller.js",
+      "function": "getCategory",
+      "line": 101,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-01-18 03:18:06 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:78:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sun Jan 18 2026 03:18:06 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 6068,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 78991360,
+      "heapTotal": 38858752,
+      "heapUsed": 37677776,
+      "external": 6465752,
+      "arrayBuffers": 3067249
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 554127.203
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 78,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-21 03:45:14 [ERROR]: ReferenceError: req is not defined
+    at createUpdateAmeneties (D:\project\aajao_backend\controllers\adminPropertyAmeneties.controller.js:20:32)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:75:9)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+    at D:\project\aajao_backend\middleware\validation.js:7:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Wed Jan 21 2026 03:45:14 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 8760,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 113410048,
+      "heapTotal": 77918208,
+      "heapUsed": 37722208,
+      "external": 6465779,
+      "arrayBuffers": 3067276
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 83865.5
+  },
+  "trace": [
+    {
+      "column": 32,
+      "file": "D:\\project\\aajao_backend\\controllers\\adminPropertyAmeneties.controller.js",
+      "function": "createUpdateAmeneties",
+      "line": 20,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 75,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\middleware\\validation.js",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-01-23 04:24:13 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:77:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Fri Jan 23 2026 04:24:13 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7424,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 114274304,
+      "heapTotal": 78442496,
+      "heapUsed": 37149768,
+      "external": 6467462,
+      "arrayBuffers": 3068959
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 259006.515
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 77,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-23 04:26:15 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:79:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Fri Jan 23 2026 04:26:15 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 10976,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 114196480,
+      "heapTotal": 78704640,
+      "heapUsed": 37205624,
+      "external": 6467462,
+      "arrayBuffers": 3068959
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 259128.031
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 79,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-23 04:26:37 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:79:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Fri Jan 23 2026 04:26:37 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 10976,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 79040512,
+      "heapTotal": 39120896,
+      "heapUsed": 37367504,
+      "external": 6475718,
+      "arrayBuffers": 3077175
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 259150.625
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 79,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-23 04:27:01 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:79:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Fri Jan 23 2026 04:27:01 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 10976,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 79937536,
+      "heapTotal": 39383040,
+      "heapUsed": 38469496,
+      "external": 6488451,
+      "arrayBuffers": 3089908
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 259173.921
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 79,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-24 16:26:30 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:79:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sat Jan 24 2026 16:26:30 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 1684,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 86720512,
+      "heapTotal": 39120896,
+      "heapUsed": 38041288,
+      "external": 6465730,
+      "arrayBuffers": 3067227
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 388745.156
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 79,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-27 05:09:40 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:79:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Tue Jan 27 2026 05:09:40 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 13092,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 115048448,
+      "heapTotal": 78966784,
+      "heapUsed": 37376144,
+      "external": 6465702,
+      "arrayBuffers": 3067199
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 109175.312
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 79,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-27 05:17:13 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:101:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Tue Jan 27 2026 05:17:13 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 15172,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 115757056,
+      "heapTotal": 78180352,
+      "heapUsed": 41309616,
+      "external": 6476144,
+      "arrayBuffers": 3077641
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 109628.359
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 101,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-27 05:18:01 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:102:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Tue Jan 27 2026 05:18:01 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 5828,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 115294208,
+      "heapTotal": 78180352,
+      "heapUsed": 37284504,
+      "external": 6465702,
+      "arrayBuffers": 3067199
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 109676.046
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 102,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-01-27 05:21:19 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajao_backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajao_backend\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajao_backend\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajao_backend\middleware\authorization.js:103:23)
+    at Layer.handle [as handle_request] (D:\project\aajao_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajao_backend\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Tue Jan 27 2026 05:21:19 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 15960,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajao_backend",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajao_backend\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 116269056,
+      "heapTotal": 78704640,
+      "heapUsed": 37456552,
+      "external": 6465702,
+      "arrayBuffers": 3067199
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 109874.156
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajao_backend\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajao_backend\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 103,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajao_backend\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
