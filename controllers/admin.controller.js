@@ -2,26 +2,23 @@ const model = require("../models");
 const common = require("../utils/common");
 const commonConfig = require("../config/commonConfig");
 const methods = require("../utils/methods");
-const moduleConfig = require("../config/moduleConfigs");
+// const moduleConfig = require("../config/moduleConfigs");
 
 
 const adminLogin = async (req, res) => {
     try {
         const { username, password } = req.body;
-        const admin = await model.tbl_admins.findAdmin({ admin_username: username, });
-        console.log(admin,"admin")
+        const admin = await model.tbl_admins.findAdmin({ admin_email: username, });
+        // console.log(admin,"admin")
         if (!admin || admin == null) {
             await model.tbl_admin_login_logs.create({
-                admin_id: null,
                 ip_address: req.ip,
                 user_agent: req.headers["user-agent"],
                 is_success: false,
             });
-            console.log("iugcfhvbnml")
             return common.response(req, res, commonConfig.errorStatus, false, "Invalid credentials");
         }
         const isMatch = await methods.verifyPassword(password, admin.admin_password);
-
         if (!isMatch) {
             await model.tbl_admin_login_logs.create({
                 admin_id: admin.admin_id,

@@ -4,16 +4,15 @@ module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('tbl_admin_login_logs', {
       login_id: {
-        type: Sequelize.BIGINT,
+        type: Sequelize.INTEGER,
         primaryKey: true,
         autoIncrement: true,
       },
       admin_id: {
-        type: Sequelize.BIGINT,
-        allowNull: false,
+        type: Sequelize.INTEGER
       },
       role_id: {
-        type: Sequelize.BIGINT,
+        type: Sequelize.INTEGER,
         allowNull: true,
       },
       ip_address: {

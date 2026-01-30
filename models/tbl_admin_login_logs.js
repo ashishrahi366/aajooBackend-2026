@@ -15,16 +15,15 @@ module.exports = (sequelize, DataTypes) => {
   }
   tbl_admin_login_logs.init({
     login_id: {
-      type: DataTypes.BIGINT,
+      type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
     },
     admin_id: {
-      type: DataTypes.BIGINT,
-      allowNull: false,
+      type: DataTypes.INTEGER 
     },
     role_id: {
-      type: DataTypes.BIGINT,
+      type: DataTypes.INTEGER,
       allowNull: true,
     },
     ip_address: {

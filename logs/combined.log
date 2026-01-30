@@ -12801,3 +12801,169 @@ META: {
   "requestId": "N/A"
 }
 2026-01-29 16:01:52 [INFO]: SIGINT signal received: closing database connection.
+2026-01-30 14:08:34 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:08:34 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:35:58 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:35:58 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:36:13 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@famil.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 400,
+  "responseTime": "79.08ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.0",
+  "requestId": "N/A"
+}
+2026-01-30 14:36:40 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:36:40 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:36:44 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@famil.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 400,
+  "responseTime": "73.23ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.0",
+  "requestId": "N/A"
+}
+2026-01-30 14:36:54 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:36:54 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:37:55 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:37:55 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:38:10 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:38:10 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:39:30 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:39:30 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:39:34 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:39:34 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:39:36 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@famil.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 400,
+  "responseTime": "67.62ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.0",
+  "requestId": "N/A"
+}
+2026-01-30 14:39:48 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:39:48 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:39:52 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:39:52 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:48:54 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:48:55 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:49:05 [INFO]: ✅ Database connection established successfully.
+2026-01-30 14:49:05 [INFO]: 🚀 Server running on http://localhost:8000
+2026-01-30 14:49:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 200,
+  "responseTime": "159.00ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-01-30 15:25:37 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 200,
+  "responseTime": "143.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-01-30 15:27:21 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Ashish@123"
+  },
+  "statusCode": 400,
+  "responseTime": "91.08ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-01-30 15:27:31 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Ashish@12"
+  },
+  "statusCode": 400,
+  "responseTime": "103.76ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-01-30 15:27:39 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Ashish@123"
+  },
+  "statusCode": 400,
+  "responseTime": "190.90ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-01-30 15:28:11 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 200,
+  "responseTime": "140.59ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-01-30 15:42:44 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 200,
+  "responseTime": "108.99ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-01-30 15:43:31 [INFO]: ✅ Database connection established successfully.
+2026-01-30 15:43:31 [INFO]: 🚀 Server running on http://localhost:8000
