@@ -9,7 +9,6 @@ const adminLogin = async (req, res) => {
     try {
         const { username, password } = req.body;
         const admin = await model.tbl_admins.findAdmin({ admin_email: username, });
-        // console.log(admin,"admin")
         if (!admin || admin == null) {
             await model.tbl_admin_login_logs.create({
                 ip_address: req.ip,

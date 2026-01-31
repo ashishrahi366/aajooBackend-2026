@@ -191,7 +191,7 @@ const userListing = async (req, res) => {
             limit,
             offset,
             order: [["added_at", "DESC"]],
-            attributes: ["user_fullName", "user_isActive", "user_isVerified", "added_at", "user_dob"]
+            attributes: ["user_id","user_fullName", "user_isActive", "user_isVerified", "added_at", "user_dob"]
         });
         if (!rows) {
             return common.response(req, res, commonConfig.successStatus, true, "No records found")
