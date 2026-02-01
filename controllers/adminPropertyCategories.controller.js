@@ -34,19 +34,21 @@ const createOrUpdatePropertyCategory = async (req, res) => {
 const getPropertyCategories = async (req, res) => {
     // GET /api/property/categories?search=lux&page=1&limit=10
     try {
-        const page = parseInt(req.query.page, 10) || 1;
-        const limit = parseInt(req.query.limit, 10) || 10;
+        const reqData = { ...req.body };
+        const page = Number(reqData.page) > 0 ? Number(reqData.page) : 1;
+        const limit = Number(reqData.limit) > 0 ? Number(reqData.limit) : 10;
         const offset = (page - 1) * limit;
-        const search = req.query.search?.trim() || "";
-        const status = req.query.status ?? null;
+        const search = reqData.search?.trim() || "";
+        const status = reqData.status ?? null;
 
         const whereClause = { cat_isDelete: commonConfig.isNo };
         if (search) {
             whereClause.cat_title = { [Op.like]: `%${search}%`, };
         }
-        if (status !== null) {
+        if (status !== "") {
             whereClause.cat_isActive = status;
         }
+        console.log(whereClause);
         const { rows, count } = await model.tbl_categories.findAndCountAll({
             where: whereClause,
             limit: limit,
