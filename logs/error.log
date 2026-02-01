@@ -3242,3 +3242,375 @@ META: {
     }
   ]
 }
+2026-02-01 19:05:50 [ERROR]: Error: Transaction cannot be rolled back because it has been finished with state: commit
+    at Transaction.rollback (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\transaction.js:59:13)
+    at addUser (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminUser.controller.js:113:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Sun Feb 01 2026 19:05:50 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 20916,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 111644672,
+      "heapTotal": 78966784,
+      "heapUsed": 41862744,
+      "external": 6469040,
+      "arrayBuffers": 3070537
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 92292.562
+  },
+  "trace": [
+    {
+      "column": 13,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\transaction.js",
+      "function": "Transaction.rollback",
+      "line": 59,
+      "method": "rollback",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminUser.controller.js",
+      "function": "addUser",
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-02-01 19:10:09 [ERROR]: Error: Transaction cannot be rolled back because it has been finished with state: commit
+    at Transaction.rollback (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\transaction.js:59:13)
+    at addUser (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminUser.controller.js:113:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Sun Feb 01 2026 19:10:09 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 15672,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 111812608,
+      "heapTotal": 78704640,
+      "heapUsed": 41046400,
+      "external": 6468774,
+      "arrayBuffers": 3070271
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 92552.171
+  },
+  "trace": [
+    {
+      "column": 13,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\transaction.js",
+      "function": "Transaction.rollback",
+      "line": 59,
+      "method": "rollback",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminUser.controller.js",
+      "function": "addUser",
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-02-01 19:10:25 [ERROR]: Error: Transaction cannot be rolled back because it has been finished with state: commit
+    at Transaction.rollback (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\transaction.js:59:13)
+    at addUser (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminUser.controller.js:113:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Sun Feb 01 2026 19:10:25 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 18532,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 112775168,
+      "heapTotal": 79228928,
+      "heapUsed": 41060288,
+      "external": 6468774,
+      "arrayBuffers": 3070271
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 92567.671
+  },
+  "trace": [
+    {
+      "column": 13,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\transaction.js",
+      "function": "Transaction.rollback",
+      "line": 59,
+      "method": "rollback",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminUser.controller.js",
+      "function": "addUser",
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-02-01 19:10:26 [ERROR]: Error: Transaction cannot be rolled back because it has been finished with state: commit
+    at Transaction.rollback (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\transaction.js:59:13)
+    at addUser (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminUser.controller.js:113:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Sun Feb 01 2026 19:10:26 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 18532,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 112832512,
+      "heapTotal": 79228928,
+      "heapUsed": 41949000,
+      "external": 6478879,
+      "arrayBuffers": 3080336
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 92568.437
+  },
+  "trace": [
+    {
+      "column": 13,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\transaction.js",
+      "function": "Transaction.rollback",
+      "line": 59,
+      "method": "rollback",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminUser.controller.js",
+      "function": "addUser",
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-02-01 19:11:26 [ERROR]: Error: Transaction cannot be rolled back because it has been finished with state: commit
+    at Transaction.rollback (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\transaction.js:59:13)
+    at addUser (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminUser.controller.js:113:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Sun Feb 01 2026 19:11:26 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 18532,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 81350656,
+      "heapTotal": 43839488,
+      "heapUsed": 41516784,
+      "external": 6485463,
+      "arrayBuffers": 3086920
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 92628.609
+  },
+  "trace": [
+    {
+      "column": 13,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\transaction.js",
+      "function": "Transaction.rollback",
+      "line": 59,
+      "method": "rollback",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminUser.controller.js",
+      "function": "addUser",
+      "line": 113,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-02-01 19:13:06 [ERROR]: Error: Transaction cannot be rolled back because it has been finished with state: commit
+    at Transaction.rollback (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\transaction.js:59:13)
+    at addUser (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminUser.controller.js:114:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Sun Feb 01 2026 19:13:06 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 17972,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 112914432,
+      "heapTotal": 79228928,
+      "heapUsed": 40905960,
+      "external": 6468771,
+      "arrayBuffers": 3070268
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 92728.75
+  },
+  "trace": [
+    {
+      "column": 13,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\transaction.js",
+      "function": "Transaction.rollback",
+      "line": 59,
+      "method": "rollback",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminUser.controller.js",
+      "function": "addUser",
+      "line": 114,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}

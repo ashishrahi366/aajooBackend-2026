@@ -68,22 +68,22 @@ exports.createUserSchema = yup.object().shape({
     cred_username: yup
         .string()
         .trim()
-        .min(4, "Username must be at least 4 characters")
-        .required("Username is required"),
+        .min(4, "Username must be at least 4 characters"),
+        // .required("Username is required"),
 
     cred_user_email: yup
         .string()
         .email("Invalid email address")
         .required("Email is required"),
 
-    cred_user_password: yup
-        .string()
-        .min(8, "Password must be at least 8 characters")
-        .matches(
-            /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])/,
-            "Password must contain at least one letter, one number, and one special character"
-        )
-        .required("Password is required"),
+    // cred_user_password: yup
+    //     .string()
+    //     .min(8, "Password must be at least 8 characters")
+    //     .matches(
+    //         /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])/,
+    //         "Password must contain at least one letter, one number, and one special character"
+    //     ),
+        // .required("Password is required"),
 
     cred_user_doc_type: yup
         .number()
