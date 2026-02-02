@@ -83,6 +83,73 @@ const getAttchedProperties = async (rows, propIds) => {
         return error;
     }
 };
+const getAttachedPropertyImages = async (propertyId) => {
+    const model = require("../models");
+    const { CloudinaryManager } = require("../utils/cloudinary");
+    const moduleConfigs = require("../config/moduleConfigs");
+
+    const cloudinaryInstance = new CloudinaryManager();
+
+    try {
+        // 🔹 Fetch all attachments (images + cover + documents)
+        const attachments = await model.tbl_attachments.findAll({
+            raw: true,
+            where: {
+                afile_record_id: propertyId,
+                afile_type: [
+                    moduleConfigs.property_image_type,
+                    moduleConfigs.property_cover_image_type,
+                    moduleConfigs.property_doc_type, // ✅ NEW
+                ],
+            },
+            attributes: ["afile_id", "afile_type", "afile_cldId"],
+        });
+
+        // 🔹 Optimize Cloudinary URLs in parallel
+        const attachmentsWithUrls = await Promise.all(
+            attachments.map(async (file) => ({
+                afile_id: file.afile_id,
+                afile_type: file.afile_type,
+                url: await cloudinaryInstance.getOptimizedUrl(file.afile_cldId),
+            }))
+        );
+
+        // 🔹 Separate by type
+        let coverImage = null;
+        const images = [];
+        const documents = []; // ✅ NEW
+
+        attachmentsWithUrls.forEach((file) => {
+            if (file.afile_type === moduleConfigs.property_cover_image_type) {
+                coverImage = {
+                    afile_id: file.afile_id,
+                    url: file.url,
+                };
+            } else if (file.afile_type === moduleConfigs.property_image_type) {
+                images.push({
+                    afile_id: file.afile_id,
+                    url: file.url,
+                });
+            } else if (file.afile_type === moduleConfigs.property_doc_type) {
+                documents.push({
+                    afile_id: file.afile_id,
+                    url: file.url,
+                });
+            }
+        });
+
+        // ✅ Final structured response
+        return {
+            property_id: propertyId,
+            coverImage,
+            images,
+            documents, // ✅ NEW
+        };
+    } catch (error) {
+        return error;
+    }
+};
+
 const verifyPassword = async (password, hashedPassword) => {
     try {
         const isMatch = await bcrypt.compare(password, hashedPassword);
@@ -154,8 +221,7 @@ const calculateBookingtax = (price) => {
 function parseCustomDate(dateStr) {
     const [day, month, year] = dateStr.split("-").map(Number);
     return new Date(year, month - 1, day); // month is 0-based
-}
-
+};
 function validateBookingDates(fromDateStr, toDateStr) {
     if (!fromDateStr || !toDateStr) {
         return { success: false, message: "Both booking dates are required." };
@@ -192,7 +258,7 @@ function validateBookingDates(fromDateStr, toDateStr) {
 
     // ✅ All checks passed
     return { success: true, message: "Valid booking dates." };
-}
+};
 
 
 
@@ -206,5 +272,6 @@ module.exports = {
     generateOtp,
     verifyPassword,
     returnIshostObj,
-    sendNotification
+    sendNotification,
+    getAttachedPropertyImages
 }

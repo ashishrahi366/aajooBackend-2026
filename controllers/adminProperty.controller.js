@@ -118,16 +118,73 @@ const getPropetyById = async (req, res) => {
         const property = await model.tbl_properties.findOne({
             where: { property_id: propertyId },
             attributes: { exclude: ["is_deleted", "created_at", "updated_at"] },
+            include: [
+                {
+                    model: model.tbl_user,
+                    as: 'HostDetails',
+                    required: false,
+                    attributes: ['user_fullName']
+                },
+                {
+                    model: model.tbl_property_detail,
+                    as: 'propDetails',
+                    required: false,
+                    attributes: { exclude: ["propDetail_propId"] },
+                }
+            ],
             raw: true
         });
         if (!property) {
             return common.response(req, res, commonConfig.successStatus, false, "Property not found");
         }
-
+        const PropertyImages = await methods.getAttachedPropertyImages(propertyId);
+        const propertyCategories = await model.tbl_prop_to_cat.findAll({
+            raw: true,
+            where: { pt_cat_prop_id: propertyId },
+            attributes: ['pt_cat_cat_id', 'pt_cat_id'],
+            include: [{
+                model: model.tbl_categories,
+                as: 'category',
+                attributes: ['cat_title']
+            }]
+        });
+        const propertyTags = await model.tbl_prop_to_tag.findAll({
+            raw: true,
+            where: { pt_tag_prop_id: propertyId },
+            attributes: ['pt_tag_tag_id', 'pt_tag_id'],
+            include: [{
+                model: model.tbl_tags,
+                as: 'tag',
+                attributes: ['tag_name']
+            }]
+        });
+        const propertyAmenities = await model.tbl_prop_to_amenities.findAll({
+            raw: true,
+            where: { pa_prop_id: propertyId },
+            attributes: ['pa_amn_id', 'pa_id'],
+            include: [{
+                model: model.tbl_amenities,
+                as: 'amenity',
+                attributes: ['amn_title']
+            }]
+        });
+        console.log(propertyCategories, "propertyCategories")
+        return common.response(req, res, commonConfig.successStatus, true, "Property fetched successfully", {
+            ...property,
+            ...PropertyImages,
+            categories: propertyCategories,
+            tags: propertyTags,
+            amenities: propertyAmenities,
+        });
     } catch (error) {
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
 
 
-module.exports = { PropertySearch, updateStatus, deleteProperty }
+module.exports = {
+    PropertySearch,
+    updateStatus,
+    deleteProperty,
+    getPropetyById
+}

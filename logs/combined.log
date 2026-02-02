@@ -19331,3 +19331,570 @@ META: {
 2026-02-02 12:42:47 [INFO]: ✅ Database connection established successfully.
 2026-02-02 12:42:47 [INFO]: 🚀 Server running on http://localhost:8000
 2026-02-02 12:48:18 [INFO]: SIGINT signal received: closing database connection.
+2026-02-03 04:16:24 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:16:24 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:17:16 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:17:16 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:18:22 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:18:22 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:18:30 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:18:30 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:19:22 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:19:22 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:19:42 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:19:42 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:20:20 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 200,
+  "responseTime": "433.76ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:21:34 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/categories",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "180.20ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:21:39 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/categories",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "single",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "45.52ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:21:43 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/categories",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "single",
+    "status": "0"
+  },
+  "statusCode": 200,
+  "responseTime": "112.93ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:21:47 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/categories",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "single",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "21.51ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:21:50 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/categories",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "26.01ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:02 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/category/create",
+  "body": {
+    "cat_title": "add one cate",
+    "cat_isActive": "1"
+  },
+  "statusCode": 200,
+  "responseTime": "117.93ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:02 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/categories",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "51.29ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:11 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/categories/delete",
+  "body": {
+    "categoryId": "9"
+  },
+  "statusCode": 200,
+  "responseTime": "43.88ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:11 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/categories",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "35.63ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:19 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/category",
+  "body": {
+    "categoryId": 7
+  },
+  "statusCode": 200,
+  "responseTime": "36.34ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:25 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/category/create",
+  "body": {
+    "cat_title": "Test Api ",
+    "cat_isActive": "1",
+    "categoryId": "7"
+  },
+  "statusCode": 200,
+  "responseTime": "28.46ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:25 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/categories",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "48.79ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:28 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/category/update-status",
+  "body": {
+    "categoryId": 7,
+    "status": "0"
+  },
+  "statusCode": 200,
+  "responseTime": "46.20ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:28 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/categories",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "62.78ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:37 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "111.10ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:37 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "61.40ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:42 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": 0
+  },
+  "statusCode": 200,
+  "responseTime": "30.65ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:43 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": 0
+  },
+  "statusCode": 200,
+  "responseTime": "17.98ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:44 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": 1
+  },
+  "statusCode": 200,
+  "responseTime": "25.71ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:46 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": 1
+  },
+  "statusCode": 200,
+  "responseTime": "26.04ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:51 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": "admin"
+  },
+  "statusCode": 200,
+  "responseTime": "173.57ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:22:55 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "35.55ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-03 04:26:16 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:26:16 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:26:40 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:26:40 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:27:07 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:27:07 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:28:24 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:28:24 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:28:26 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 400,
+  "responseTime": "22.54ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:28:43 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:28:43 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:28:48 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 200,
+  "responseTime": "127.72ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:29:58 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:29:58 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:30:04 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:30:04 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:31:07 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:31:07 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:37:06 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:37:06 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:37:14 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:37:14 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:37:35 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:37:35 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:37:44 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:37:44 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:37:49 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 200,
+  "responseTime": "68.44ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:38:07 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:38:07 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:38:09 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 200,
+  "responseTime": "62.63ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:38:42 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:38:42 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:38:44 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 200,
+  "responseTime": "93.11ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:39:16 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:39:16 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:40:04 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:40:04 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:41:01 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:41:01 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:41:43 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:41:43 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:41:46 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 200,
+  "responseTime": "120.57ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:42:08 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:42:08 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:42:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 200,
+  "responseTime": "142.68ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:43:10 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:43:10 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:43:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 400,
+  "responseTime": "72.39ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:44:25 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:44:25 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:45:12 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:45:12 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:45:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 400,
+  "responseTime": "85.91ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:45:58 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:45:58 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:46:16 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:46:16 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:46:31 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:46:31 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:46:49 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:46:49 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:46:51 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 200,
+  "responseTime": "77.39ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:47:29 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:47:29 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:47:32 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 200,
+  "responseTime": "90.11ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-03 04:50:37 [INFO]: ✅ Database connection established successfully.
+2026-02-03 04:50:37 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-03 04:50:39 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 1
+  },
+  "statusCode": 200,
+  "responseTime": "101.98ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
