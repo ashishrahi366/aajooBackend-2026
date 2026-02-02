@@ -21,6 +21,8 @@ module.exports = (sequelize, DataTypes) => {
       tbl_properties.hasMany(models.tbl_prop_to_cat, { foreignKey: 'pt_cat_prop_id', as: 'propertyCategories' });
       tbl_properties.hasMany(models.tbl_prop_to_amenities, { foreignKey: 'pa_prop_id', as: 'propertyAmenities' });
       tbl_properties.hasMany(models.tbl_prop_to_tag, { foreignKey: 'pt_tag_prop_id', as: 'propertyTags' });
+
+      
     };
 
     static async getPropertiesBylangLat(userLat, userLng, kmRadius) {

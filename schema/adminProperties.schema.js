@@ -45,3 +45,19 @@ exports.amenityStatus = yup.object({
         .oneOf(["0", "1"], "Amenity status must be 0 (Inactive) or 1 (Active)")
         .required("Amenity status is required"),
 });
+
+
+//----------------PROPERTIES SCHEMA----------------//
+
+exports.propertyStatusSchema = yup.object({
+    propertyId: yup.number()
+        .required("Property ID is required"),
+
+    status: yup.number()
+        .oneOf([0, 1], "Status must be 0 or 1")
+        .required("Status is required"),
+});
+exports.propertyIdSchema = yup.object({
+    propertyId: yup.number()
+        .required("Property ID is required"),
+});
