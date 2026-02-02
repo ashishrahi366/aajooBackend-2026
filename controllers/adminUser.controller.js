@@ -34,7 +34,7 @@ const addUser = async (req, res) => {
             user_isHost: reqData.user_isHost,
             user_isUser: reqData.user_isUser,
             user_isActive: reqData.user_isActive,
-            user_isVerified: commonConfig.isYes,
+            user_isVerified: reqData.user_isVerified,
         };
 
         let credPayload = {
@@ -114,7 +114,7 @@ const addUser = async (req, res) => {
         // await transaction.rollback();
         if (!transaction.finished) {
             await transaction.rollback();
-          }
+        }
         console.log(error)
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
