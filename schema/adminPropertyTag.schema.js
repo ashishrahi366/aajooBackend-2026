@@ -9,7 +9,7 @@ exports.createOrUpdateTagSchema = yup.object({
     .nullable()
     .optional(),
 
-  tag_title: yup
+  tag_name: yup
     .string()
     .trim()
     .min(2, "Tag title must be at least 2 characters")

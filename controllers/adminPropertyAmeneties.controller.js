@@ -8,8 +8,8 @@ const createUpdateAmeneties = async (req, res) => {
         const reqData = { ...req.body };
         let amenetiesId = reqData.amenetiesId;
         let payload = {
-            amn_title: reqData.ameneties_name,
-            amn_isActive: reqData.ameneties_isActive
+            amn_title: reqData.amn_title,
+            amn_isActive: reqData.amn_isActive
         };
         if (amenetiesId) {
             await model.tbl_amenities.updateAmenity(amenetiesId, payload);
@@ -68,7 +68,7 @@ const amenetiesListing = async (req, res) => {
         if (search) {
             whereClause.amn_title = { [Op.like]: `%${search}%` };
         }
-        if (status !== null) {
+        if (status !== "") {
             whereClause.amn_isActive = status;
         }
         const { rows, count } = await model.tbl_amenities.findAndCountAll({
@@ -100,13 +100,13 @@ const amenetiesListing = async (req, res) => {
 
 const updateStatus = async (req, res) => {
     try {
-        const { amenetiesId, ameneties_isActive } = req.body;
+        const { amenetiesId, amn_isActive } = req.body;
         const amenity = await model.tbl_amenities.findByPk(amenetiesId);
         if (!amenity) {
             return common.response(req, res, commonConfig.errorStatus, false, "Amenity not found");
         }
         await model.tbl_amenities.update(
-            { amn_isActive: ameneties_isActive },
+            { amn_isActive: amn_isActive },
             { where: { amn_id: amenetiesId } }
         );
         return common.response(req, res, commonConfig.successStatus, true, "Amenity status updated successfully");

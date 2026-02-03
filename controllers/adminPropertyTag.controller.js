@@ -8,7 +8,7 @@ const createOrUpdatePropertyTag = async (req, res) => {
         const reqData = { ...req.body };
         let tagId = reqData.tagId;
         const payload = {
-            tag_name: reqData.tag_title,
+            tag_name: reqData.tag_name,
             tag_isActive: reqData.tag_isActive,
             tag_isDelete: commonConfig.isNo,
         };
@@ -42,11 +42,12 @@ const deleteTag = async (req, res) => {
 
 const getTagListing = async (req, res) => {
     try {
-        const page = Number(req.body.page) > 0 ? Number(req.body.page) : 1;
-        const limit = Number(req.body.limit) > 0 ? Number(req.body.limit) : 10;
+        const reqData = { ...req.body };
+        const page = Number(reqData.page) > 0 ? Number(reqData.page) : 1;
+        const limit = Number(reqData.limit) > 0 ? Number(reqData.limit) : 10;
         const offset = (page - 1) * limit;
-        const search = req.body.search?.trim() || "";
-        const status = req.query.status ?? null;
+        const search = reqData.search?.trim() || "";
+        const status = reqData.status ?? null;
 
         const whereClause = {
             tag_isDelete: commonConfig.isNo,
@@ -54,7 +55,7 @@ const getTagListing = async (req, res) => {
         if (search) {
             whereClause.tag_name = { [Op.like]: `%${search}%` };
         }
-        if (status !== null) {
+        if (status !== "") {
             whereClause.tag_isActive = status;
         }
 
@@ -63,7 +64,7 @@ const getTagListing = async (req, res) => {
             // attributes: ["tag_id", "tag_name", "tag_isActive",],
             limit,
             offset,
-            order: [["created_at", "DESC"]],
+            order: [["tag_id", "DESC"]],
             raw: true,
         });
         if (rows.lenght === 0) {

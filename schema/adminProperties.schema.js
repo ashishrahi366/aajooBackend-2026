@@ -10,14 +10,14 @@ exports.createOrUpdateAmenitySchema = yup.object({
         .nullable()
         .optional(),
 
-    ameneties_name: yup
+    amn_title: yup
         .string()
         .trim()
         .min(2, "Amenity title must be at least 2 characters")
         .max(200, "Amenity title cannot exceed 200 characters")
         .required("Amenity title is required"),
 
-    ameneties_isActive: yup
+    amn_isActive: yup
         .string()
         .oneOf(["0", "1"], "Amenity status must be 0 (Inactive) or 1 (Active)")
         .required("Amenity status is required"),
@@ -40,7 +40,7 @@ exports.amenityStatus = yup.object({
         .positive("Amenity ID must be greater than zero")
         .required("Amenity ID is required"),
 
-    ameneties_isActive: yup
+    amn_isActive: yup
         .string()
         .oneOf(["0", "1"], "Amenity status must be 0 (Inactive) or 1 (Active)")
         .required("Amenity status is required"),
