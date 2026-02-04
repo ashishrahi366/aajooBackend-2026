@@ -12,7 +12,7 @@ const PropertySearch = async (req, res) => {
     try {
         const reqData = { ...req.body };
         const page = Number(reqData.page) > 0 ? Number(reqData.page) : 1;
-        const limit = 10;
+        const limit = Number(reqData.limit) > 0 ? Number(reqData.limit) : 10;
         const offset = (page - 1) * limit;
         const search = reqData.search?.trim() || "";
         const status = reqData.status ?? null;
@@ -20,7 +20,7 @@ const PropertySearch = async (req, res) => {
         let whereCondition = {
             is_deleted: 0,
         };
-        if (status) {
+        if (status !== "") {
             whereCondition.is_active = status;
         }
         if (search) {
