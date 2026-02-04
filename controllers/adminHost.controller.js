@@ -66,10 +66,13 @@ const hostListing = async (req, res) => {
         if (!rows) {
             return common.response(req, res, commonConfig.successStatus, true, "No records found")
         }
+        console.log(count, "count")
+        let totalPage = Math.ceil(count.length / limit);
+        console.log(totalPage, "totalPage")
         return common.response(req, res, commonConfig.successStatus, true, "Host listing fetched successfully", {
             totalRecords: rows.length,
             currentPage: page,
-            totalPages: Math.ceil(count / limit),
+            totalPages: totalPage,
             search,
             page,
             limit,
@@ -77,7 +80,7 @@ const hostListing = async (req, res) => {
             data: rows,
         });
     } catch (error) {
-        console.log(error,"error in host listing");
+        console.log(error, "error in host listing");
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
