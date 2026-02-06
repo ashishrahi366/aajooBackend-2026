@@ -87,4 +87,4 @@ const hostListing = async (req, res) => {
 
 module.exports = {
     hostListing
-}
+};

@@ -81,7 +81,7 @@ class CloudinaryManager {
     async deleteSingleImage(publicId) {
         try {
             const data = await cloudinary.uploader.destroy(publicId);
-            // console.log(data, "data")
+            console.log(data, "delete img Cloudinary")
         } catch (error) {
             return error;
         }

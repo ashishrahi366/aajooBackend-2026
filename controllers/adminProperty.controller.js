@@ -168,7 +168,6 @@ const getPropetyById = async (req, res) => {
                 attributes: ['amn_title']
             }]
         });
-        console.log(propertyCategories, "propertyCategories")
         return common.response(req, res, commonConfig.successStatus, true, "Property fetched successfully", {
             ...property,
             ...PropertyImages,
@@ -181,10 +180,180 @@ const getPropetyById = async (req, res) => {
     }
 };
 
+const createuUpdateProperty = async (req, res) => {
+    let transaction = await model.sequelize.transaction();
+    try {
+        const reqData = { ...req.body };
+        let files = req.files;
+        let propertyId = reqData.propertyId ?? null;
+        console.log(propertyId, "update flow");
+        const isUpdate = Boolean(propertyId);
+        const propertyPayload = {
+            property_name: reqData.propertyName,
+            property_host_id: reqData.propHostId,
+            property_address: reqData.propAddress,
+            property_longitude: reqData.propLang,
+            property_latitude: reqData.propLat,
+            property_desc: reqData.propDesc,
+            property_price: reqData.propPrice,
+            property_mini_price: reqData.propMiniPrice,
+            property_city: reqData.propCity,
+            property_zip: reqData.propZip,
+            property_state: reqData.propState,
+            property_contry: reqData.propCountry,
+            property_contact: reqData.propContact,
+            property_email: reqData.Email,
+            is_active: reqData.isActive ? 1 : 0,
+            is_verify: reqData.isVerify,
+            is_luxury: reqData.isLuxury,
+        };
+        if (isUpdate) {
+            model.tbl_properties.update(propertyPayload, { where: { property_id: propertyId }, transaction });
+        } else {
+            const creadtedData = model.tbl_properties.create(propertyPayload, { transaction });
+            propertyId = creadtedData.dataValues.property_id
+        }
+        const propertyDetailsPayload = {
+            propDetail_propId: propertyId,
+            propDetail_isPetFriendly: reqData.isPetFriendly ? 1 : 0,
+            propDetail_isSmoke: reqData.isSmoke ? 1 : 0,
+            propDetail_inTime: reqData.inTime,
+            propDetail_outTime: reqData.outTime,
+            propDetail_no_of_beds: reqData.noOfBeds,
+            propDetail_no_of_guests: reqData.noOfGuests,
+            propDetail_weeklyMini_price: reqData.weeklyMiniPrice,
+            propDetail_weeklyMax_price: reqData.weeklyMaxPrice,
+            propDetail_monthly_security: reqData.monthlySecurity,
+            propDetail_extra: reqData.extra
+        };
+        if (isUpdate) {
+            await model.tbl_property_detail.update(propertyDetailsPayload,
+                {
+                    where: { propDetail_propId: propertyId },
+                    transaction
+                });
+        } else {
+            await model.tbl_property_detail.create(propertyDetailsPayload, { transaction });
+        }
+        if (Array.isArray(reqData.categories)) {
+            const categoryIds = [...new Set(
+                reqData.categories.map(id => Number(id)).filter(Boolean)
+            )];
+            await model.tbl_prop_to_cat.destroy({ where: { pt_cat_prop_id: propertyId }, transaction });
+            if (categoryIds.length) {
+                const categoryPayload = categoryIds.map(catId => ({
+                    pt_cat_prop_id: propertyId,
+                    pt_cat_cat_id: catId,
+                }));
+                await model.tbl_prop_to_cat.bulkCreate(categoryPayload, { transaction });
+            }
+        }
+
+
+        if (Array.isArray(reqData.ameneties)) {
+            const amenityIds = reqData.ameneties
+                .map(id => Number(id))
+                .filter(Boolean);
+            await model.tbl_prop_to_amenities.destroy({ where: { pa_prop_id: propertyId }, transaction });
+            if (amenityIds.length) {
+                const amenityPayload = amenityIds.map(amnId => ({
+                    pa_prop_id: propertyId,
+                    pa_amn_id: amnId,
+                }));
+                await model.tbl_prop_to_amenities.bulkCreate(amenityPayload, { transaction });
+            }
+        }
+        if (Array.isArray(reqData.tags)) {
+            const tagIds = [...new Set(
+                reqData.tags.map(id => Number(id)).filter(Boolean)
+            )];
+
+            await model.tbl_prop_to_tag.destroy({
+                where: { pt_tag_prop_id: propertyId },
+                transaction,
+            });
+            if (tagIds.length) {
+                const tagPayload = tagIds.map(tagId => ({
+                    pt_tag_prop_id: propertyId,
+                    pt_tag_tag_id: tagId,
+                }));
+                await model.tbl_prop_to_tag.bulkCreate(tagPayload, { transaction });
+            }
+        }
+
+        await transaction.commit();
+        if (files.propertyCover.length > 0) {
+            let findCoverImg = await model.tbl_attachments.findOne(
+                {
+                    where:
+                        { afile_type: moduleConfig.property_cover_image_type, afile_record_id: propertyId },
+                    raw: true
+                }
+            );
+            if (findCoverImg) {
+                await cloudinaryInstance.deleteSingleImage(findCoverImg.afile_cldId);
+                await model.tbl_attachments.destroy({ where: { afile_id: findCoverImg.afile_id } });
+            }
+            await cloudinaryInstance.uploadImage(files.propertyCover[0].path, moduleConfig.property_cover_image_type, propertyId);
+        }
+        if (files.propertyImage) {
+            let existingImages = await model.tbl_attachments.findAll(
+                {
+                    where:
+                        { afile_type: moduleConfig.property_image_type, afile_record_id: propertyId },
+                    raw: true
+                });
+            if (existingImages.length > 0) {
+                for (const img of existingImages) {
+                    if (img.afile_cldId) {
+                        await cloudinaryInstance.deleteSingleImage(img.afile_cldId);
+                    }
+                }
+                await model.tbl_attachments.destroy({
+                    where: {
+                        afile_id: existingImages.map(img => img.afile_id)
+                    }
+                });
+            }
+            await cloudinaryInstance.multipleImages(files.propertyImage, moduleConfig.property_image_type, propertyId, "property_folder");
+
+        }
+        if (files.propertyDoc) {
+            let existingDoc = await model.tbl_attachments.findAll(
+                {
+                    where:
+                        { afile_type: moduleConfig.property_doc_type, afile_record_id: propertyId },
+                    raw: true
+                });
+            if (existingDoc.length > 0) {
+                for (const img of existingDoc) {
+                    if (img.afile_cldId) {
+                        await cloudinaryInstance.deleteSingleImage(img.afile_cldId);
+                    }
+                }
+                await model.tbl_attachments.destroy({
+                    where: {
+                        afile_id: existingDoc.map(img => img.afile_id)
+                    }
+                });
+            }
+            await cloudinaryInstance.multipleImages(files.propertyDoc, moduleConfig.property_doc_type, propertyId, "property_folder");
+
+        }
+        return common.response(req, res, commonConfig.successStatus, true, "Property created/updated successfully");
+    }
+    catch (error) {
+        await transaction.rollback();
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+};
+
+
 
 module.exports = {
     PropertySearch,
     updateStatus,
     deleteProperty,
-    getPropetyById
+    getPropetyById,
+    createuUpdateProperty
 }

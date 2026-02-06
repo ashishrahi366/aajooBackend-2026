@@ -5,16 +5,14 @@ const schema = require("../schema/adminProperties.schema");
 const validation = require("../middleware/validation");
 const { adminAuthToken } = require("../middleware/authorization");
 const { upload } = require("../utils/fileHandler");
-const { generalLimiter, uploadLimiter } = require("../middleware/rateLimiter");
+const { adminApiLimiter } = require("../middleware/adminRateLimiter");
 
-// router.post("/admin/category/create", [validation(schema.propertyCategorySchema), adminAuthToken], controller.createOrUpdatePropertyCategory);
-router.post("/admin/properties/search", [generalLimiter, adminAuthToken], controller.PropertySearch);
+
+router.post("/admin/property/create", upload.fields([{ name: "propertyCover", maxCount: 1 }, { name: "propertyImage" }, { name: "propertyDoc" }]), [validation(schema.propertySchema), adminAuthToken], controller.createuUpdateProperty);
+router.post("/admin/properties/search", [adminAuthToken], controller.PropertySearch);
 router.post("/admin/property/delete", [validation(schema.propertyIdSchema), adminAuthToken], controller.deleteProperty);
 router.post("/admin/property", [validation(schema.propertyIdSchema), adminAuthToken], controller.getPropetyById);
 router.post("/admin/properties/update-status", [validation(schema.propertyStatusSchema), adminAuthToken], controller.updateStatus);
-
-
-
 
 
 module.exports = router;
