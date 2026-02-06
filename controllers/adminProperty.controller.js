@@ -186,7 +186,6 @@ const createuUpdateProperty = async (req, res) => {
         const reqData = { ...req.body };
         let files = req.files;
         let propertyId = reqData.propertyId ?? null;
-        console.log(propertyId, "update flow");
         const isUpdate = Boolean(propertyId);
         const propertyPayload = {
             property_name: reqData.propertyName,
@@ -202,7 +201,7 @@ const createuUpdateProperty = async (req, res) => {
             property_state: reqData.propState,
             property_contry: reqData.propCountry,
             property_contact: reqData.propContact,
-            property_email: reqData.Email,
+            property_email: reqData.propEmail,
             is_active: reqData.isActive ? 1 : 0,
             is_verify: reqData.isVerify,
             is_luxury: reqData.isLuxury,
@@ -210,7 +209,8 @@ const createuUpdateProperty = async (req, res) => {
         if (isUpdate) {
             model.tbl_properties.update(propertyPayload, { where: { property_id: propertyId }, transaction });
         } else {
-            const creadtedData = model.tbl_properties.create(propertyPayload, { transaction });
+            const creadtedData = await model.tbl_properties.create(propertyPayload, { transaction });
+            console.log(creadtedData, "creadtedData")
             propertyId = creadtedData.dataValues.property_id
         }
         const propertyDetailsPayload = {
@@ -248,8 +248,6 @@ const createuUpdateProperty = async (req, res) => {
                 await model.tbl_prop_to_cat.bulkCreate(categoryPayload, { transaction });
             }
         }
-
-
         if (Array.isArray(reqData.ameneties)) {
             const amenityIds = reqData.ameneties
                 .map(id => Number(id))
@@ -281,8 +279,9 @@ const createuUpdateProperty = async (req, res) => {
             }
         }
 
-        await transaction.commit();
-        if (files.propertyCover.length > 0) {
+        // console.log("test",files)
+        // return
+        if (files?.propertyCover?.length > 0) {
             let findCoverImg = await model.tbl_attachments.findOne(
                 {
                     where:
@@ -296,7 +295,7 @@ const createuUpdateProperty = async (req, res) => {
             }
             await cloudinaryInstance.uploadImage(files.propertyCover[0].path, moduleConfig.property_cover_image_type, propertyId);
         }
-        if (files.propertyImage) {
+        if (files?.propertyImage?.length > 0) {
             let existingImages = await model.tbl_attachments.findAll(
                 {
                     where:
@@ -318,7 +317,7 @@ const createuUpdateProperty = async (req, res) => {
             await cloudinaryInstance.multipleImages(files.propertyImage, moduleConfig.property_image_type, propertyId, "property_folder");
 
         }
-        if (files.propertyDoc) {
+        if (files?.propertyDoc?.length > 0) {
             let existingDoc = await model.tbl_attachments.findAll(
                 {
                     where:
@@ -340,13 +339,19 @@ const createuUpdateProperty = async (req, res) => {
             await cloudinaryInstance.multipleImages(files.propertyDoc, moduleConfig.property_doc_type, propertyId, "property_folder");
 
         }
+        await transaction.commit();
         return common.response(req, res, commonConfig.successStatus, true, "Property created/updated successfully");
     }
     catch (error) {
-        await transaction.rollback();
+        // await transaction.rollback();
+        if (!transaction.finished) {
+            await transaction.rollback();
+        }
+        console.log(error, "error in property create/update")
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
+
 
 
 

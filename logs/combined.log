@@ -21942,3 +21942,1124 @@ META: {
   "userAgent": "PostmanRuntime/7.51.1",
   "requestId": "N/A"
 }
+2026-02-06 14:49:49 [INFO]: ✅ Database connection established successfully.
+2026-02-06 14:49:49 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 14:54:51 [INFO]: ✅ Database connection established successfully.
+2026-02-06 14:54:51 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 14:56:17 [INFO]: ✅ Database connection established successfully.
+2026-02-06 14:56:18 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 14:56:37 [INFO]: ✅ Database connection established successfully.
+2026-02-06 14:56:37 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 14:56:48 [ERROR]: Error: Transaction cannot be rolled back because it has been finished with state: commit
+    at Transaction.rollback (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\transaction.js:59:13)
+    at createuUpdateProperty (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminProperty.controller.js:346:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Fri Feb 06 2026 14:56:48 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 11080,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 115748864,
+      "heapTotal": 79491072,
+      "heapUsed": 41490272,
+      "external": 6470844,
+      "arrayBuffers": 3072341
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 125376.718
+  },
+  "trace": [
+    {
+      "column": 13,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\transaction.js",
+      "function": "Transaction.rollback",
+      "line": 59,
+      "method": "rollback",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminProperty.controller.js",
+      "function": "createuUpdateProperty",
+      "line": 346,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-02-06 14:57:50 [INFO]: ✅ Database connection established successfully.
+2026-02-06 14:57:50 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 14:57:57 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "property_name": "Test API NAME",
+    "property_host_id": "3",
+    "property_address": "api test address",
+    "property_longitude": "77.2090",
+    "property_latitude": "28.6139",
+    "property_desc": "test api aDec",
+    "property_price": "1768",
+    " property_mini_price": "15000",
+    "property_city": "vice city",
+    "property_zip": "109878",
+    "property_state": "TN",
+    "property_contry": "INDIA",
+    "property_contact": "0987654321",
+    "property_email": "property@mailinator.com",
+    "is_active": "True",
+    "is_verify": "1",
+    "is_luxury": "0",
+    "propDetail_isPetFriendly": "False",
+    "propDetail_isSmoke": "True",
+    "propDetail_inTime": "11:00AM",
+    "propDetail_outTime": "10:00AM",
+    "propDetail_no_of_beds": "2",
+    "propDetail_weeklyMini_price": "100",
+    "propDetail_weeklyMax_price": "10000",
+    "propDetail_monthly_security": "1890",
+    "propDetail_extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ],
+    "propertyId": "10"
+  },
+  "statusCode": 400,
+  "responseTime": "940.41ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 14:58:54 [INFO]: ✅ Database connection established successfully.
+2026-02-06 14:58:54 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 14:59:44 [INFO]: ✅ Database connection established successfully.
+2026-02-06 14:59:44 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:00:03 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:00:03 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:00:20 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:00:20 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:00:56 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:00:56 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:02:09 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "property_name": "Test API NAME",
+    "property_host_id": "3",
+    "property_address": "api test address",
+    "property_longitude": "77.2090",
+    "property_latitude": "28.6139",
+    "property_desc": "test api aDec",
+    "property_price": "1768",
+    " property_mini_price": "15000",
+    "property_city": "vice city",
+    "property_zip": "109878",
+    "property_state": "TN",
+    "property_contry": "INDIA",
+    "property_contact": "0987654321",
+    "property_email": "property@mailinator.com",
+    "is_active": "True",
+    "is_verify": "1",
+    "is_luxury": "0",
+    "propDetail_isPetFriendly": "False",
+    "propDetail_isSmoke": "True",
+    "propDetail_inTime": "11:00AM",
+    "propDetail_outTime": "10:00AM",
+    "propDetail_no_of_beds": "2",
+    "propDetail_weeklyMini_price": "100",
+    "propDetail_weeklyMax_price": "10000",
+    "propDetail_monthly_security": "1890",
+    "propDetail_extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ],
+    "propertyId": "10"
+  },
+  "statusCode": 200,
+  "responseTime": "9285.73ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:02:33 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "274.52ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:03:50 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:03:51 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:10:14 [ERROR]: Error: rollback has been called on this transaction(e47018bc-8a36-4ea9-bd7d-63e559268f2d), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at checkTransaction (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\sequelize.js:294:23)
+    at D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\sequelize.js:304:7
+    at D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\retry-as-promised\dist\index.js:59:25
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\retry-as-promised\dist\index.js:48:12)
+    at Sequelize.query (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\sequelize.js:300:12)
+    at MySQLQueryInterface.insert (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:42)
+    at tbl_properties.save (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\model.js:2490:79)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async tbl_properties.create (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\model.js:1362:12)
+META: {
+  "error": {
+    "sql": "INSERT INTO `tbl_properties` (`property_id`,`is_active`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?);"
+  },
+  "rejection": true,
+  "date": "Fri Feb 06 2026 15:10:14 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 5304,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 81383424,
+      "heapTotal": 42004480,
+      "heapUsed": 40008952,
+      "external": 6466148,
+      "arrayBuffers": 3067645
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 126182.593
+  },
+  "trace": [
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\sequelize.js",
+      "function": "checkTransaction",
+      "line": 294,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\sequelize.js",
+      "function": null,
+      "line": 304,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\retry-as-promised\\dist\\index.js",
+      "function": null,
+      "line": 59,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": null,
+      "file": null,
+      "function": "new Promise",
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\retry-as-promised\\dist\\index.js",
+      "function": "retryAsPromised",
+      "line": 48,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\sequelize.js",
+      "function": "Sequelize.query",
+      "line": 300,
+      "method": "query",
+      "native": false
+    },
+    {
+      "column": 42,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js",
+      "function": "MySQLQueryInterface.insert",
+      "line": 308,
+      "method": "insert",
+      "native": false
+    },
+    {
+      "column": 79,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\model.js",
+      "function": "tbl_properties.save",
+      "line": 2490,
+      "method": "save",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\model.js",
+      "function": "async tbl_properties.create",
+      "line": 1362,
+      "method": "create",
+      "native": false
+    }
+  ]
+}
+2026-02-06 15:10:14 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "property_name": "Test API NAME",
+    "property_host_id": "3",
+    "property_address": "api test address",
+    "property_longitude": "77.2090",
+    "property_latitude": "28.6139",
+    "property_desc": "test api aDec",
+    "property_price": "1768",
+    " property_mini_price": "15000",
+    "property_city": "vice city",
+    "property_zip": "109878",
+    "property_state": "TN",
+    "property_contry": "INDIA",
+    "property_contact": "0987654321",
+    "property_email": "property@mailinator.com",
+    "is_active": "True",
+    "is_verify": "1",
+    "is_luxury": "0",
+    "propDetail_isPetFriendly": "False",
+    "propDetail_isSmoke": "True",
+    "propDetail_inTime": "11:00AM",
+    "propDetail_outTime": "10:00AM",
+    "propDetail_no_of_beds": "2",
+    "propDetail_weeklyMini_price": "100",
+    "propDetail_weeklyMax_price": "10000",
+    "propDetail_monthly_security": "1890",
+    "propDetail_extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ]
+  },
+  "statusCode": 400,
+  "responseTime": "898.94ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:10:51 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:10:51 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:11:07 [ERROR]: Error: rollback has been called on this transaction(587c1727-f392-450e-82ee-77d36634a614), you can no longer use it. (The rejected query is attached as the 'sql' property of this error)
+    at checkTransaction (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\sequelize.js:294:23)
+    at D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\sequelize.js:304:7
+    at D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\retry-as-promised\dist\index.js:59:25
+    at new Promise (<anonymous>)
+    at retryAsPromised (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\retry-as-promised\dist\index.js:48:12)
+    at Sequelize.query (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\sequelize.js:300:12)
+    at MySQLQueryInterface.insert (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:42)
+    at tbl_properties.save (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\model.js:2490:79)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async tbl_properties.create (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\sequelize\lib\model.js:1362:12)
+META: {
+  "error": {
+    "sql": "INSERT INTO `tbl_properties` (`property_id`,`is_active`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?);"
+  },
+  "rejection": true,
+  "date": "Fri Feb 06 2026 15:11:07 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7420,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 117010432,
+      "heapTotal": 79491072,
+      "heapUsed": 41192416,
+      "external": 6572565,
+      "arrayBuffers": 3174062
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 126235.781
+  },
+  "trace": [
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\sequelize.js",
+      "function": "checkTransaction",
+      "line": 294,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\sequelize.js",
+      "function": null,
+      "line": 304,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\retry-as-promised\\dist\\index.js",
+      "function": null,
+      "line": 59,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": null,
+      "file": null,
+      "function": "new Promise",
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\retry-as-promised\\dist\\index.js",
+      "function": "retryAsPromised",
+      "line": 48,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\sequelize.js",
+      "function": "Sequelize.query",
+      "line": 300,
+      "method": "query",
+      "native": false
+    },
+    {
+      "column": 42,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js",
+      "function": "MySQLQueryInterface.insert",
+      "line": 308,
+      "method": "insert",
+      "native": false
+    },
+    {
+      "column": 79,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\model.js",
+      "function": "tbl_properties.save",
+      "line": 2490,
+      "method": "save",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\sequelize\\lib\\model.js",
+      "function": "async tbl_properties.create",
+      "line": 1362,
+      "method": "create",
+      "native": false
+    }
+  ]
+}
+2026-02-06 15:11:07 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "property_name": "Test API NAME",
+    "property_host_id": "3",
+    "property_address": "api test address",
+    "property_longitude": "77.2090",
+    "property_latitude": "28.6139",
+    "property_desc": "test api aDec",
+    "property_price": "1768",
+    " property_mini_price": "15000",
+    "property_city": "vice city",
+    "property_zip": "109878",
+    "property_state": "TN",
+    "property_contry": "INDIA",
+    "property_contact": "0987654321",
+    "property_email": "property@mailinator.com",
+    "is_active": "True",
+    "is_verify": "1",
+    "is_luxury": "0",
+    "propDetail_isPetFriendly": "False",
+    "propDetail_isSmoke": "True",
+    "propDetail_inTime": "11:00AM",
+    "propDetail_outTime": "10:00AM",
+    "propDetail_no_of_beds": "2",
+    "propDetail_weeklyMini_price": "100",
+    "propDetail_weeklyMax_price": "10000",
+    "propDetail_monthly_security": "1890",
+    "propDetail_extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ]
+  },
+  "statusCode": 400,
+  "responseTime": "1009.81ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:11:28 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:11:28 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:12:02 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "property_name": "Test API NAME",
+    "property_host_id": "3",
+    "property_address": "api test address",
+    "property_longitude": "77.2090",
+    "property_latitude": "28.6139",
+    "property_desc": "test api aDec",
+    "property_price": "1768",
+    " property_mini_price": "15000",
+    "property_city": "vice city",
+    "property_zip": "109878",
+    "property_state": "TN",
+    "property_contry": "INDIA",
+    "property_contact": "0987654321",
+    "property_email": "property@mailinator.com",
+    "is_active": "True",
+    "is_verify": "1",
+    "is_luxury": "0",
+    "propDetail_isPetFriendly": "False",
+    "propDetail_isSmoke": "True",
+    "propDetail_inTime": "11:00AM",
+    "propDetail_outTime": "10:00AM",
+    "propDetail_no_of_beds": "2",
+    "propDetail_weeklyMini_price": "100",
+    "propDetail_weeklyMax_price": "10000",
+    "propDetail_monthly_security": "1890",
+    "propDetail_extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ]
+  },
+  "statusCode": 200,
+  "responseTime": "8585.04ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:15:11 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:15:11 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:20:41 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:20:41 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:21:15 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:21:15 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:22:20 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:22:20 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:25:41 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "propertyName": "Test API NAME",
+    "propHostId": "3",
+    "propAddress": "api test address",
+    "propLang": "77.2090",
+    "propLat": "28.6139",
+    "propDesc": "test api aDec",
+    "propPrice": "1768",
+    "propMiniPrice": "15000",
+    "propCity": "vice city",
+    "propZip": "109878",
+    "propState": "TN",
+    "propCountry": "INDIA",
+    "propContact": "0987654321",
+    "propEmail": "property@mailinator.com",
+    "isActive": "True",
+    "isVerify": "1",
+    "isLuxury": "0",
+    "isPetFriendly": "False",
+    "isSmoke": "True",
+    "inTime": "11:00AM",
+    "outTime": "10:00AM",
+    "noOfBeds": "2",
+    "weeklyMiniPrice": "100",
+    "weeklyMaxPrice": "10000",
+    "monthlySecurity": "1890",
+    "extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ],
+    "propertyId": "10"
+  },
+  "statusCode": 422,
+  "responseTime": "372.39ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:26:28 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "propertyName": "Test API NAME",
+    "propHostId": "3",
+    "propAddress": "api test address",
+    "propLang": "77.2090",
+    "propLat": "28.6139",
+    "propDesc": "test api aDec",
+    "propPrice": "1768",
+    "propMiniPrice": "15000",
+    "propCity": "vice city",
+    "propZip": "109878",
+    "propState": "TN",
+    "propCountry": "INDIA",
+    "propContact": "0987654321",
+    "isActive": "True",
+    "isVerify": "1",
+    "isLuxury": "0",
+    "isPetFriendly": "False",
+    "isSmoke": "True",
+    "inTime": "11:00AM",
+    "outTime": "10:00AM",
+    "noOfBeds": "2",
+    "weeklyMiniPrice": "100",
+    "weeklyMaxPrice": "10000",
+    "monthlySecurity": "1890",
+    "extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ],
+    "propertyId": "10"
+  },
+  "statusCode": 422,
+  "responseTime": "87.19ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:27:44 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:27:44 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:27:53 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "propertyName": "Test API NAME",
+    "propHostId": "3",
+    "propAddress": "api test address",
+    "propLang": "77.2090",
+    "propLat": "28.6139",
+    "propDesc": "test api aDec",
+    "propPrice": "1768",
+    "propMiniPrice": "15000",
+    "propCity": "vice city",
+    "propZip": "109878",
+    "propState": "TN",
+    "propCountry": "INDIA",
+    "propContact": "0987654321",
+    "propEmail": "ashish@gmail.com",
+    "isActive": "True",
+    "isVerify": "1",
+    "isLuxury": "0",
+    "isPetFriendly": "False",
+    "isSmoke": "True",
+    "inTime": "11:00AM",
+    "outTime": "10:00AM",
+    "noOfBeds": "2",
+    "weeklyMiniPrice": "100",
+    "weeklyMaxPrice": "10000",
+    "monthlySecurity": "1890",
+    "extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ],
+    "propertyId": "10"
+  },
+  "statusCode": 422,
+  "responseTime": "258.68ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:28:27 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "propertyName": "Test API NAME",
+    "propHostId": "3",
+    "propAddress": "api test address",
+    "propLang": "77.2090",
+    "propLat": "28.6139",
+    "propDesc": "test api aDec",
+    "propPrice": "1768",
+    "propMiniPrice": "15000",
+    "propCity": "vice city",
+    "propZip": "109878",
+    "propState": "TN",
+    "propCountry": "INDIA",
+    "propContact": "0987654321",
+    "isActive": "True",
+    "isVerify": "1",
+    "isLuxury": "0",
+    "isPetFriendly": "False",
+    "isSmoke": "True",
+    "inTime": "11:00AM",
+    "outTime": "10:00AM",
+    "noOfBeds": "2",
+    "weeklyMiniPrice": "100",
+    "weeklyMaxPrice": "10000",
+    "monthlySecurity": "1890",
+    "extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ],
+    "propertyId": "10"
+  },
+  "statusCode": 422,
+  "responseTime": "287.23ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:29:25 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:29:25 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:32:11 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:32:11 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:32:15 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "propertyName": "Test API NAME",
+    "propHostId": "3",
+    "propAddress": "api test address",
+    "propLang": "77.2090",
+    "propLat": "28.6139",
+    "propDesc": "test api aDec",
+    "propPrice": "1768",
+    "propMiniPrice": "15000",
+    "propCity": "vice city",
+    "propZip": "109878",
+    "propState": "TN",
+    "propCountry": "INDIA",
+    "propContact": "0987654321",
+    "propEmail": "ashish@gmail.com",
+    "isActive": "True",
+    "isVerify": "1",
+    "isLuxury": "0",
+    "isPetFriendly": "False",
+    "isSmoke": "True",
+    "inTime": "11:00AM",
+    "outTime": "10:00AM",
+    "noOfBeds": "2",
+    "weeklyMiniPrice": "100",
+    "weeklyMaxPrice": "10000",
+    "monthlySecurity": "1890",
+    "extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ],
+    "propertyId": "10"
+  },
+  "statusCode": 422,
+  "responseTime": "177.47ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:32:31 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:32:31 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:32:35 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "propertyName": "Test API NAME",
+    "propHostId": "3",
+    "propAddress": "api test address",
+    "propLang": "77.2090",
+    "propLat": "28.6139",
+    "propDesc": "test api aDec",
+    "propPrice": "1768",
+    "propMiniPrice": "15000",
+    "propCity": "vice city",
+    "propZip": "109878",
+    "propState": "TN",
+    "propCountry": "INDIA",
+    "propContact": "0987654321",
+    "propEmail": "ashish@gmail.com",
+    "isActive": "True",
+    "isVerify": "1",
+    "isLuxury": "0",
+    "isPetFriendly": "False",
+    "isSmoke": "True",
+    "inTime": "11:00AM",
+    "outTime": "10:00AM",
+    "noOfBeds": "2",
+    "weeklyMiniPrice": "100",
+    "weeklyMaxPrice": "10000",
+    "monthlySecurity": "1890",
+    "extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ],
+    "propertyId": "10"
+  },
+  "statusCode": 422,
+  "responseTime": "365.38ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:33:07 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:33:07 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:33:54 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:33:54 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:36:02 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:36:02 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:36:26 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:36:26 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:36:33 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "propertyName": "Test API NAME",
+    "propHostId": "3",
+    "propAddress": "api test address",
+    "propLang": "77.2090",
+    "propLat": "28.6139",
+    "propDesc": "test api aDec",
+    "propPrice": "1768",
+    "propMiniPrice": "15000",
+    "propCity": "vice city",
+    "propZip": "109878",
+    "propState": "TN",
+    "propCountry": "INDIA",
+    "propContact": "0987654321",
+    "propEmail": "ashish@gmail.com",
+    "isActive": "True",
+    "isVerify": "1",
+    "isLuxury": "0",
+    "isPetFriendly": "False",
+    "isSmoke": "True",
+    "inTime": "11:00AM",
+    "outTime": "10:00AM",
+    "noOfBeds": "2",
+    "weeklyMiniPrice": "100",
+    "weeklyMaxPrice": "10000",
+    "monthlySecurity": "1890",
+    "extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ],
+    "propertyId": "10"
+  },
+  "statusCode": 422,
+  "responseTime": "166.97ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:37:22 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/create",
+  "body": {
+    "propertyName": "Test API NAME",
+    "propHostId": "3",
+    "propAddress": "api test address",
+    "propLang": "77.2090",
+    "propLat": "28.6139",
+    "propDesc": "test api aDec",
+    "propPrice": "1768",
+    "propMiniPrice": "15000",
+    "propCity": "vice city",
+    "propZip": "109878",
+    "propState": "TN",
+    "propCountry": "INDIA",
+    "propContact": "9882498824",
+    "propEmail": "ashish@gmail.com",
+    "isActive": "True",
+    "isVerify": "1",
+    "isLuxury": "0",
+    "isPetFriendly": "False",
+    "isSmoke": "True",
+    "inTime": "11:00AM",
+    "outTime": "10:00AM",
+    "noOfBeds": "2",
+    "weeklyMiniPrice": "100",
+    "weeklyMaxPrice": "10000",
+    "monthlySecurity": "1890",
+    "extra": "",
+    "ameneties": [
+      "1",
+      "2"
+    ],
+    "categories": [
+      "1",
+      "2"
+    ],
+    "tags": [
+      "1",
+      "2"
+    ],
+    "propertyId": "10"
+  },
+  "statusCode": 200,
+  "responseTime": "10738.88ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:37:37 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "176.42ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:38:13 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:38:13 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:40:24 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:40:25 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:41:12 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:41:12 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:41:47 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:41:47 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:46:28 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "301.48ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:47:24 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:47:24 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:48:07 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:48:07 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:48:13 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?seatch=aajoo",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "236.14ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:48:35 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:48:35 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:51:10 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:51:10 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:51:52 [INFO]: ✅ Database connection established successfully.
+2026-02-06 15:51:52 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-06 15:52:00 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?seatch=aajoo",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "335.51ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:52:11 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=aajoo",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "197.88ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-06 15:52:48 [INFO]: SIGINT signal received: closing database connection.

@@ -65,48 +65,48 @@ exports.propertyIdSchema = yup.object({
 // import * as yup from "yup";
 
 exports.propertySchema = yup.object().shape({
-    property_name: yup
+    propertyName: yup
         .string()
         .trim()
         .required("Property name is required"),
 
-    property_host_id: yup
+    propHostId: yup
         .number()
         .typeError("Host is required")
         .required("Host is required"),
 
-    property_address: yup
+    propAddress: yup
         .string()
         .trim()
         .required("Property address is required"),
 
-    property_longitude: yup
+    propLang: yup
         .number()
         .typeError("Longitude is required")
         .required("Longitude is required"),
 
-    property_latitude: yup
+    propLat: yup
         .number()
         .typeError("Latitude is required")
         .required("Latitude is required"),
 
-    property_desc: yup
+    propDesc: yup
         .string()
         .trim()
         .required("Property description is required"),
 
-    property_price: yup
+    propPrice: yup
         .number()
         .typeError("Property price is required")
         .required("Property price is required"),
 
-        property_mini_price: yup
+    propMiniPrice: yup
         .number()
         .transform((_, val) =>
             val === "" || val === null ? undefined : Number(val)
         )
-        // .typeError("Minimum price must be a number")
-        // .required("Minimum price is required")
+        .typeError("Minimum price must be a number")
+        .required("Minimum price is required")
         .test(
             "mini-less-than-price",
             "Minimum price must be less than property price",
@@ -117,85 +117,96 @@ exports.propertySchema = yup.object().shape({
             }
         ),
 
-    property_city: yup
+    propCity: yup
         .string()
         .trim()
         .required("City is required"),
 
-    property_zip: yup
+    propZip: yup
         .string()
         .trim()
         .required("Zip code is required"),
 
-    property_state: yup
+    propState: yup
         .string()
         .trim()
         .required("State is required"),
 
-    property_contry: yup
+    propCountry: yup
         .string()
         .trim()
         .required("Country is required"),
 
-    property_email: yup
+    propContact: yup
         .string()
-        .email("Invalid email format")
-        .nullable(),
+        .transform((value) => (value ? value.trim() : null))
+        .nullable()
+        .matches(
+            /^[6-9]\d{9}$/,
+            "Enter a valid 10-digit mobile number (without +91)"
+        ),
 
-    is_active: yup
+    isActive: yup
         .boolean()
         .required("Active status is required"),
 
-    is_verify: yup
+    isVerify: yup
         .number()
         .oneOf([0, 1], "Verify must be 0 or 1")
         .required("Verify status is required"),
 
-    is_luxury: yup
+    isLuxury: yup
         .number()
         .oneOf([0, 1], "Luxury must be 0 or 1")
         .required("Luxury status is required"),
 
+    propEmail: yup
+        .string()
+        .transform((value) =>
+            value ? value.trim() : null
+        )
+        .nullable()
+        .email("Invalid email format"),
     // ===== Property Details =====
-    propDetail_isPetFriendly: yup.boolean(),
-    propDetail_isSmoke: yup.boolean(),
+    isPetFriendly: yup.boolean(),
+    isSmoke: yup.boolean(),
 
-    propDetail_inTime: yup
+    inTime: yup
         .string()
         .nullable(),
 
-    propDetail_outTime: yup
+    outTime: yup
         .string()
         .nullable(),
 
-    propDetail_no_of_beds: yup
+    noOfBeds: yup
         .number()
         .integer()
         .min(0)
         .nullable(),
 
-    propDetail_no_of_guests: yup
+    noOfGuests: yup
         .number()
         .integer()
         .min(0)
         .nullable(),
 
-    propDetail_weeklyMini_price: yup
+    weeklyMiniPrice: yup
         .number()
         .min(0)
         .nullable(),
 
-    propDetail_weeklyMax_price: yup
+    weeklyMaxPrice: yup
         .number()
         .min(0)
         .nullable(),
 
-    propDetail_monthly_security: yup
+    monthlySecurity: yup
         .number()
         .min(0)
         .nullable(),
 
-    propDetail_extra: yup
+    extra: yup
         .string()
         .nullable(),
 

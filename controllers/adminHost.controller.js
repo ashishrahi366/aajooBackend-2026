@@ -80,11 +80,42 @@ const hostListing = async (req, res) => {
             data: rows,
         });
     } catch (error) {
-        console.log(error, "error in host listing");
+        // console.log(error, "error in host listing");
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
+const hostListForAssgnProperty = async (req, res) => {
+    try {
+        // const search = req.query.search ? req.query.search.trim() : "";
+        const search = (req.query.search || "").trim();
+        const whereClause = {
+            user_isDelete: commonConfig.isNo,
+            user_isHost: commonConfig.isYes,
+            user_isActive: commonConfig.isYes,
+            user_isVerified: commonConfig.isYes,
+            ...(search && {
+              user_fullName: { [Op.like]: `%${search}%` },
+            }),
+          };
+
+          const hosts = await model.tbl_user.findAll({
+            where: whereClause,
+            attributes: ["user_id", "user_fullName"],
+            raw: true,
+            limit: 20,
+            order: [["user_fullName", "ASC"]],
+          });
+        if (hosts.length === 0) {
+            return common.response(req, res, commonConfig.successStatus, true, "No hosts found", { data: [] })
+        }
+        return common.response(req, res, commonConfig.successStatus, true, "Host listing fetched successfully", { data: hosts })
+    } catch (error) {
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+
+    }
+}
 
 module.exports = {
-    hostListing
+    hostListing,
+    hostListForAssgnProperty
 };

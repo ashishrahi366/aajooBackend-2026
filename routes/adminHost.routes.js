@@ -9,6 +9,7 @@ const { adminApiLimiter } = require("../middleware/adminRateLimiter");
 
 
 router.post("/admin/host/search", [adminApiLimiter, adminAuthToken], controller.hostListing);
+router.get("/admin/host/search/assign-property", [adminApiLimiter, adminAuthToken], controller.hostListForAssgnProperty);
 
 
 module.exports = router;
