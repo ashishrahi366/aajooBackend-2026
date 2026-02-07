@@ -2,9 +2,6 @@ const model = require("../models");
 const common = require("../utils/common");
 const commonConfig = require("../config/commonConfig");
 const { Op } = require("sequelize");
-// const { CloudinaryManager } = require("../utils/cloudinary");
-// const moduleConfig = require("../config/moduleConfigs");
-// const methods = require("../utils/methods");
 
 const hostListing = async (req, res) => {
     try {

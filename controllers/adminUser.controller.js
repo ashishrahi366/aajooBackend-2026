@@ -21,9 +21,6 @@ const addUser = async (req, res) => {
         let userDoc;
         let userId = reqData.userId;
 
-
-        console.log(reqData.cred_user_password)
-        // return
         const payload = {
             user_fullName: reqData.user_fullName,
             user_pnumber: reqData.user_pnumber,
@@ -46,19 +43,11 @@ const addUser = async (req, res) => {
             let hashPassword = await methods.hashPassword(reqData.cred_user_password);
             credPayload.cred_user_password = hashPassword
         }
-        let userDocPayload = {
-            ud_acc_doc_id: reqData.cred_user_doc_type,
-            // ud_afile_id: userIdAfileId ?? 0,
-            ud_number: reqData.cred_user_doc_number,
-            ud_isVerified: commonConfig.isYes,
-        };
-        if (userIdAfileId) {
-            userDocPayload.ud_afile_id = userIdAfileId ?? 0
-        }
+
         if (reqData.userId) {
             await model.tbl_user.update(payload, { where: { user_id: userId }, transaction });
             await model.tbl_user_cred.update(credPayload, { where: { cred_user_id: userId }, transaction });
-            await model.user_kyc_docs.update(userDocPayload, { where: { ud_user_id: userId }, transaction });
+            // await model.user_kyc_docs.update(userDocPayload, { where: { ud_user_id: userId }, transaction });
         } else {
             userData = await model.tbl_user.create(payload, { transaction });
             if (userData == null) {
@@ -67,8 +56,8 @@ const addUser = async (req, res) => {
             userId = userData.dataValues.user_id;
             credPayload.cred_user_id = userId;
             credData = await model.tbl_user_cred.create(credPayload, { transaction });
-            userDocPayload.ud_user_id = userId;
-            userDoc = await model.user_kyc_docs.create(userDocPayload, { transaction });
+            // userDocPayload.ud_user_id = userId;
+            // userDoc = await model.user_kyc_docs.create(userDocPayload, { transaction });
         }
 
         if (req.files?.user_profile) {
@@ -88,7 +77,7 @@ const addUser = async (req, res) => {
             const loadUserImage = await cloudinaryInstance.uploadImage(userImageUrl, moduleConfig.user_image_type, userId);
             userProAfileId = loadUserImage.afileId;
         }
-        await transaction.commit();
+
         if (req.files?.user_id_image) {
             if (userId) {
                 let findAttachment = await model.tbl_attachments.findOne({
@@ -105,10 +94,36 @@ const addUser = async (req, res) => {
             let imageUrl = req.files.user_id_image[0].path;
             loadIdImage = await cloudinaryInstance.uploadImage(imageUrl, moduleConfig.id_document_image_type, userId);
             userIdAfileId = loadIdImage.afileId;
-
-
+        }
+        let userDocPayload = {
+            ud_acc_doc_id: reqData.cred_user_doc_type,
+            ud_user_id: userId,
+            ud_number: reqData.cred_user_doc_number,
+            ud_isVerified: commonConfig.isYes,
+        };
+        if (userIdAfileId) {
+            userDocPayload.ud_afile_id = userIdAfileId ?? 0
+        }
+        const existingKyc = await model.user_kyc_docs.findOne({
+            where: { ud_user_id: userId },
+            transaction
+          });
+        if (existingKyc) {
+            const x = await model.user_kyc_docs.update(
+                userDocPayload,
+                { where: { ud_user_id: userId }, transaction }
+              );
+              console.log(x, "KYC updated");
+        } else {
+            // userDoc = await model.user_kyc_docs.create(userDocPayload);
+            const userDoc = await model.user_kyc_docs.create(
+                userDocPayload,
+                { transaction }
+              );
+            console.log(userDoc, "userDoc")
         }
         // console.log("khjggnkl;")
+        await transaction.commit();
         return common.response(req, res, commonConfig.successStatus, true, "User added successfully");
     } catch (error) {
         // await transaction.rollback();
