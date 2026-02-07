@@ -33,7 +33,7 @@ const hostListing = async (req, res) => {
                     model: model.tbl_user_cred,
                     as: "userCred",
                     where: credWhereClause,
-                    required: false,
+                    required: true,
                     attributes: ["cred_user_email"]
                 },
                 {

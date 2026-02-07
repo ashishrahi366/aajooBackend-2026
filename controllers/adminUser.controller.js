@@ -39,6 +39,7 @@ const addUser = async (req, res) => {
             cred_user_email: reqData.cred_user_email,
             cred_user_refrel: reqData.cred_user_refrel ?? null,
         };
+        console.log(credPayload, "credPayload")
         if (reqData.cred_user_password) {
             let hashPassword = await methods.hashPassword(reqData.cred_user_password);
             credPayload.cred_user_password = hashPassword
@@ -46,7 +47,8 @@ const addUser = async (req, res) => {
 
         if (reqData.userId) {
             await model.tbl_user.update(payload, { where: { user_id: userId }, transaction });
-            await model.tbl_user_cred.update(credPayload, { where: { cred_user_id: userId }, transaction });
+            const y = await model.tbl_user_cred.update(credPayload, { where: { cred_user_id: userId }, transaction });
+            console.log(y, "yyy")
             // await model.user_kyc_docs.update(userDocPayload, { where: { ud_user_id: userId }, transaction });
         } else {
             userData = await model.tbl_user.create(payload, { transaction });
@@ -107,19 +109,19 @@ const addUser = async (req, res) => {
         const existingKyc = await model.user_kyc_docs.findOne({
             where: { ud_user_id: userId },
             transaction
-          });
+        });
         if (existingKyc) {
             const x = await model.user_kyc_docs.update(
                 userDocPayload,
                 { where: { ud_user_id: userId }, transaction }
-              );
-              console.log(x, "KYC updated");
+            );
+            console.log(x, "KYC updated");
         } else {
             // userDoc = await model.user_kyc_docs.create(userDocPayload);
             const userDoc = await model.user_kyc_docs.create(
                 userDocPayload,
                 { transaction }
-              );
+            );
             console.log(userDoc, "userDoc")
         }
         // console.log("khjggnkl;")
@@ -211,7 +213,7 @@ const userListing = async (req, res) => {
                     model: model.tbl_user_cred,
                     as: "userCred",
                     where: credWhereClause,
-                    required: false,
+                    required: true,
                     attributes: ["cred_user_email"]
                 }
             ],

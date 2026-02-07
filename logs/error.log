@@ -4057,3 +4057,148 @@ META: {
     }
   ]
 }
+2026-02-08 01:13:11 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajooBackend-2026\aajooBackend-2026\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajooBackend-2026\aajooBackend-2026\middleware\authorization.js:103:23)
+    at Layer.handle [as handle_request] (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sun Feb 08 2026 01:13:11 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 19876,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 59215872,
+      "heapTotal": 49082368,
+      "heapUsed": 43459912,
+      "external": 6495965,
+      "arrayBuffers": 3093279
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 248759.718
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 103,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-02-08 01:30:10 [ERROR]: SyntaxError: Unexpected token '}', "{
+    "status":
+}" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\raw-body\index.js:238:16)
+    at done (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+META: {
+  "body": {},
+  "params": {},
+  "query": {}
+}

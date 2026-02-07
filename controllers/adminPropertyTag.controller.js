@@ -55,7 +55,7 @@ const getTagListing = async (req, res) => {
         if (search) {
             whereClause.tag_name = { [Op.like]: `%${search}%` };
         }
-        if (status !== "") {
+        if (status !== null) {
             whereClause.tag_isActive = status;
         }
 

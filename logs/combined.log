@@ -30657,3 +30657,2292 @@ META: {
   "requestId": "N/A"
 }
 2026-02-07 05:59:16 [INFO]: SIGINT signal received: closing database connection.
+2026-02-07 16:11:07 [INFO]: ✅ Database connection established successfully.
+2026-02-07 16:11:07 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 16:12:05 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "897.12ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:12:11 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/update/status",
+  "body": {
+    "userId": 73,
+    "isActive": 0
+  },
+  "statusCode": 200,
+  "responseTime": "301.20ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:12:11 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "99.88ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:12:13 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/update/status",
+  "body": {
+    "userId": 73,
+    "isActive": 1
+  },
+  "statusCode": 200,
+  "responseTime": "201.37ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:12:14 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "186.21ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:26:17 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "555.54ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:26:17 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "1307.65ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:27:04 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "147.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:29:09 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "184.07ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:29:09 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "197.07ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:29:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 73
+  },
+  "statusCode": 200,
+  "responseTime": "288.98ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:29:32 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "83.54ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:52:28 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "145.43ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:52:38 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 73
+  },
+  "statusCode": 200,
+  "responseTime": "359.00ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:52:51 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 66
+  },
+  "statusCode": 200,
+  "responseTime": "103.43ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:53:51 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/create",
+  "body": {
+    "userId": "66",
+    "user_fullName": "admin full name ",
+    "cred_user_email": "TEstintg@email.com",
+    "user_pnumber": "0987654321",
+    "user_dob": "1997-12-17",
+    "user_address": "admin test address",
+    "user_city": "admin test city ",
+    "user_zipcode": "098765",
+    "user_isActive": "0",
+    "user_isVerified": "0",
+    "cred_user_doc_type": "2",
+    "cred_user_doc_number": "DL8290eJD9u9",
+    "user_isUser": "1",
+    "user_isHost": "1",
+    "cred_user_password": ""
+  },
+  "statusCode": 200,
+  "responseTime": "311.96ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:53:52 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "109.20ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:57:56 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 2,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "73.98ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:58:00 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 2,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "85.34ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:58:05 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "206.43ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:58:13 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 66
+  },
+  "statusCode": 200,
+  "responseTime": "328.77ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:58:37 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/create",
+  "body": {
+    "userId": "66",
+    "user_fullName": "admin full name ",
+    "cred_user_email": "ashish@gamil.com",
+    "user_pnumber": "0987654321",
+    "user_dob": "1997-12-17",
+    "user_address": "admin test address",
+    "user_city": "admin test city ",
+    "user_zipcode": "098765",
+    "user_isActive": "0",
+    "user_isVerified": "0",
+    "cred_user_doc_type": "2",
+    "cred_user_doc_number": "DL8290eJD9u9",
+    "user_isUser": "1",
+    "user_isHost": "1",
+    "cred_user_password": ""
+  },
+  "statusCode": 200,
+  "responseTime": "77.84ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 16:58:38 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "182.33ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:11:33 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:11:33 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:11:47 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:11:47 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:12:24 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 65
+  },
+  "statusCode": 200,
+  "responseTime": "259.68ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:13:51 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:13:51 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:15:43 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:15:43 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:16:16 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 66
+  },
+  "statusCode": 200,
+  "responseTime": "458.57ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:17:42 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 66
+  },
+  "statusCode": 200,
+  "responseTime": "265.25ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:18:58 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 66
+  },
+  "statusCode": 200,
+  "responseTime": "191.39ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-07 17:19:28 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:19:28 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:19:34 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 66
+  },
+  "statusCode": 200,
+  "responseTime": "581.24ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-07 17:20:09 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:20:09 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:20:21 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 66
+  },
+  "statusCode": 404,
+  "responseTime": "439.58ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-07 17:20:37 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:20:37 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:21:27 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 66
+  },
+  "statusCode": 200,
+  "responseTime": "339.81ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-07 17:24:27 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:24:27 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:24:45 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:24:45 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:24:46 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 2,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "361.80ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:24:49 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "261.47ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:24:58 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 67
+  },
+  "statusCode": 200,
+  "responseTime": "471.91ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:25:38 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/create",
+  "body": {
+    "userId": "67",
+    "user_fullName": "update api test",
+    "cred_user_email": "admin@mailinator.com",
+    "user_pnumber": "0987654321",
+    "user_dob": "1997-12-17",
+    "user_address": "admin test address",
+    "user_city": "admin test city ",
+    "user_zipcode": "098765",
+    "user_isActive": "1",
+    "user_isVerified": "1",
+    "cred_user_doc_type": "1",
+    "cred_user_doc_number": "4444333322221111",
+    "user_isUser": "1",
+    "user_isHost": "1",
+    "cred_user_password": ""
+  },
+  "statusCode": 200,
+  "responseTime": "2831.89ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:25:38 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "142.20ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:25:43 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/update/status",
+  "body": {
+    "userId": 67,
+    "isActive": 0
+  },
+  "statusCode": 200,
+  "responseTime": "59.89ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:25:44 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "43.58ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:27:46 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/create",
+  "body": {
+    "user_fullName": "check add api ",
+    "cred_user_email": "howitsgo@gmail.com",
+    "user_pnumber": "9876543210",
+    "cred_user_password": "Ashish@123",
+    "user_dob": "2017-02-15",
+    "user_address": "TEsting address for apis ",
+    "user_city": "Solid ",
+    "user_zipcode": "098098",
+    "user_isActive": "0",
+    "user_isVerified": "0",
+    "cred_user_doc_type": "1",
+    "cred_user_doc_number": "098709980987",
+    "user_isUser": "0",
+    "user_isHost": "1"
+  },
+  "statusCode": 200,
+  "responseTime": "3156.86ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:27:47 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "77.21ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:29:54 [INFO]: SIGINT signal received: closing database connection.
+2026-02-07 17:33:13 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:33:13 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:33:27 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:33:27 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:33:56 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": 1
+  },
+  "statusCode": 200,
+  "responseTime": "277.35ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:33:58 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "62.44ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:35:40 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "82.34ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:38:19 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "116.01ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:39:03 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "54.14ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:39:07 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/update/status",
+  "body": {
+    "userId": 73,
+    "isActive": 0
+  },
+  "statusCode": 200,
+  "responseTime": "92.80ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:39:08 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "46.91ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:39:11 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/delete",
+  "body": {
+    "userId": 73
+  },
+  "statusCode": 200,
+  "responseTime": "33.67ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:39:11 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "28.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:39:18 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "26.77ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:41:29 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "103.33ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:41:30 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "208.60ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:41:33 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 77
+  },
+  "statusCode": 200,
+  "responseTime": "423.38ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:41:39 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 77
+  },
+  "statusCode": 200,
+  "responseTime": "387.43ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:41:46 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "how",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "115.44ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:41:52 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "34.79ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:42:02 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "82.12ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:42:17 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "79.19ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:42:19 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/categories",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "32.05ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:42:22 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/tag/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "33.89ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:42:25 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/amenity/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "34.91ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:42:27 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "78.95ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:26 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "629.55ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:29 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/update/status",
+  "body": {
+    "userId": 77,
+    "isActive": 1
+  },
+  "statusCode": 200,
+  "responseTime": "65.69ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:30 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "48.50ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:35 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/update/status",
+  "body": {
+    "userId": 77,
+    "isActive": 0
+  },
+  "statusCode": 200,
+  "responseTime": "45.51ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:35 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "35.09ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:42 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/update/status",
+  "body": {
+    "userId": 77,
+    "isActive": 1
+  },
+  "statusCode": 200,
+  "responseTime": "43.63ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:42 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "86.04ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/update/status",
+  "body": {
+    "userId": 72,
+    "isActive": 0
+  },
+  "statusCode": 200,
+  "responseTime": "54.40ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "65.61ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:51 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "72.35ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:51 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "67.16ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:52 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "133.44ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:54 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/update/status",
+  "body": {
+    "userId": 72,
+    "isActive": 1
+  },
+  "statusCode": 200,
+  "responseTime": "59.14ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:44:54 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "54.37ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 17:47:31 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:47:31 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:47:37 [INFO]: ✅ Database connection established successfully.
+2026-02-07 17:47:37 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 17:47:37 [INFO]: SIGINT signal received: closing database connection.
+2026-02-07 18:01:03 [INFO]: ✅ Database connection established successfully.
+2026-02-07 18:01:03 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 18:02:56 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "1146.08ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 18:03:11 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "447.69ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 18:03:36 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "1581.68ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-07 18:25:20 [INFO]: SIGINT signal received: closing database connection.
+2026-02-07 22:29:30 [INFO]: ✅ Database connection established successfully.
+2026-02-07 22:29:30 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 22:30:24 [INFO]: ✅ Database connection established successfully.
+2026-02-07 22:30:24 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-07 22:30:55 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "763.08ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-07 22:51:51 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=aajoo",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "386.41ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-07 23:02:34 [INFO]: SIGINT signal received: closing database connection.
+2026-02-08 00:26:49 [INFO]: ✅ Database connection established successfully.
+2026-02-08 00:26:49 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 00:36:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "703.87ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:36:56 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "202.47ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:37:04 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=as",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "64.85ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:37:19 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admi",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "25.65ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:37:59 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admi",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "358.03ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:43:09 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "66.55ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:43:51 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=ashish",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "81.25ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:46:19 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "69.02ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:52:00 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 200,
+  "responseTime": "456.59ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:52:08 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "265.74ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:52:22 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=ad,",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "59.05ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:52:23 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admoni",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "186.69ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:52:24 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=adm",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "46.89ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:52:25 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "52.00ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:52:57 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=asd",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "46.54ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:54:01 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "232.63ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:55:04 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "162.05ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:56:35 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "48.73ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:57:15 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "318.50ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:57:18 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "220.05ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:58:19 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "34.51ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 00:59:00 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "290.84ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:01:20 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "30.93ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:07:04 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "66.17ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:08:57 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "138.36ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:09:02 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin%20full%20name",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "95.57ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:09:17 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "317.08ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:09:22 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property/delete",
+  "body": {
+    "propertyId": 23
+  },
+  "statusCode": 200,
+  "responseTime": "54.58ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:09:22 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "56.81ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:09:28 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "70.21ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:09:30 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin%20full%20name",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "30.12ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:09:59 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin%20full%20name",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "34.34ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:10:06 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=ashish",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "39.38ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:10:09 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=ASHISH",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "30.24ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:10:16 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=ASHISH",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "93.09ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:10:38 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=ashish",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "60.71ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:11:26 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=Ashish",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "43.79ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:13:11 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajooBackend-2026\aajooBackend-2026\utils\common.js:4:31)
+    at exports.adminAuthToken (D:\project\aajooBackend-2026\aajooBackend-2026\middleware\authorization.js:103:23)
+    at Layer.handle [as handle_request] (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\router\route.js:149:13)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sun Feb 08 2026 01:13:11 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 19876,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 59215872,
+      "heapTotal": 49082368,
+      "heapUsed": 43459912,
+      "external": 6495965,
+      "arrayBuffers": 3093279
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 248759.718
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\middleware\\authorization.js",
+      "function": "exports.adminAuthToken",
+      "line": 103,
+      "method": "adminAuthToken",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\router\\layer.js",
+      "function": "Layer.handle [as handle_request]",
+      "line": 95,
+      "method": "handle [as handle_request]",
+      "native": false
+    },
+    {
+      "column": 13,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\router\\route.js",
+      "function": "next",
+      "line": 149,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2026-02-08 01:14:22 [INFO]: ✅ Database connection established successfully.
+2026-02-08 01:14:22 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 01:15:53 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=Ashish",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "1260.02ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:16:27 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=Ashish",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "124.82ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:17:29 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=Ashish",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "117.93ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:17:33 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "121.94ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:17:35 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "47.62ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:17:44 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "31.70ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:17:56 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admi",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "29.94ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:17:57 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=Ashish",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "79.80ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:18:02 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "136.62ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:18:15 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "83.07ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:18:25 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/single",
+  "body": {
+    "userId": 77
+  },
+  "statusCode": 200,
+  "responseTime": "188.63ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:18:29 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "70.62ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:18:35 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "40.98ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:24:55 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "436.45ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:24:57 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=ad",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "11.97ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:25:00 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=Ashish",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "52.93ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:25:05 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=Ashish",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "31.47ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:25:05 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=Ashi",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "38.61ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:25:28 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/host/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "128.24ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:25:29 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "128.55ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:25:36 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=adm",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "18.57ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:25:55 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=adm",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "171.21ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:25:56 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=adm",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "41.83ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:26:44 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=admin%20full%20name",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "122.17ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:26:47 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=As",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "16.71ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:26:47 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=Ash",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "46.52ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:29:46 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/tag/search",
+  "body": {
+    "status": 1
+  },
+  "statusCode": 200,
+  "responseTime": "65.04ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-08 01:29:54 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/tag/search",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "48.59ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-08 01:30:10 [ERROR]: SyntaxError: Unexpected token '}', "{
+    "status":
+}" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\raw-body\index.js:238:16)
+    at done (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+META: {
+  "body": {},
+  "params": {},
+  "query": {}
+}
+2026-02-08 01:30:14 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/tag/search",
+  "body": {
+    "status": 1
+  },
+  "statusCode": 200,
+  "responseTime": "101.85ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-08 01:30:47 [INFO]: ✅ Database connection established successfully.
+2026-02-08 01:30:47 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 01:30:50 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/tag/search",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "279.70ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-08 01:31:00 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/tag/search",
+  "body": {
+    "status": 0
+  },
+  "statusCode": 200,
+  "responseTime": "76.57ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-08 01:31:19 [INFO]: ✅ Database connection established successfully.
+2026-02-08 01:31:19 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 01:31:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/tag/search",
+  "body": {
+    "status": 1
+  },
+  "statusCode": 200,
+  "responseTime": "400.08ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-08 01:39:01 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/tag/search",
+  "body": {
+    "page": 1
+  },
+  "statusCode": 200,
+  "responseTime": "322.41ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:39:42 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/tag/search",
+  "body": {
+    "page": 1
+  },
+  "statusCode": 200,
+  "responseTime": "292.13ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:40:09 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/tag/search",
+  "body": {
+    "page": 1
+  },
+  "statusCode": 200,
+  "responseTime": "34.94ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:42:36 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/tag/search",
+  "body": {
+    "page": 1
+  },
+  "statusCode": 200,
+  "responseTime": "209.94ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 01:42:54 [INFO]: SIGINT signal received: closing database connection.

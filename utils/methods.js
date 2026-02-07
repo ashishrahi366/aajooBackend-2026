@@ -14,7 +14,7 @@ const hashPassword = async (password) => {
         return error;
     }
 };
-const genrateToken = async (data, epx = "30d") => {
+const genrateToken = async (data, epx = "24h") => {
     try {
         const token = jwt.sign(data, process.env.JWT_SECRET, { expiresIn: epx });
         return token;
