@@ -24,7 +24,7 @@ const PropertySearch = async (req, res) => {
             whereCondition.is_active = status;
         }
         if (search) {
-            whereCondition.property_name = { [Op.iLike]: `%${search}%` }
+            whereCondition.property_name = { [Op.like]: `%${search}%` }
         }
         const { count, rows } = await model.tbl_properties.findAndCountAll({
             where: whereCondition,
