@@ -116,10 +116,32 @@ const updateStatus = async (req, res) => {
     }
 };
 
+const amenetiesListingForDropdown = async (req, res) => {
+    try {
+        const amenities = await model.tbl_amenities.findAll({
+            where: {
+                amn_isDelete: commonConfig.isNo,
+                amn_isActive: commonConfig.isYes
+            },
+            attributes: ['amn_id', 'amn_title'],
+            order: [['amn_title', 'ASC']],
+            raw: true
+        });
+        if (amenities.length === 0) {
+            return common.response(req, res, commonConfig.notFoundStatus, false, "No amenities found");
+        }
+        return common.response(req, res, commonConfig.successStatus, true, "Amenity listing fetched successfully", amenities);
+        
+    } catch (error) {
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+}
+
 module.exports = {
     createUpdateAmeneties,
     deleteAmenity,
     amenity,
     amenetiesListing,
-    updateStatus
+    updateStatus,
+    amenetiesListingForDropdown
 }

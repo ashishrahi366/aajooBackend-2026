@@ -11,6 +11,7 @@ router.post("/admin/amenity/create", [validation(schema.createOrUpdateAmenitySch
 router.post("/admin/amenity", [validation(schema.amenityId), adminAuthToken], controller.amenity);
 router.post("/admin/amenity/delete", [validation(schema.amenityId), adminAuthToken], controller.deleteAmenity);
 router.post("/admin/amenity/search", [adminAuthToken], controller.amenetiesListing);
+router.get("/admin/amenity/list/dropdowns", [adminAuthToken], controller.amenetiesListingForDropdown);
 router.post("/admin/amenity/update-status", [validation(schema.amenityStatus), adminAuthToken], controller.updateStatus);
 
 module.exports = router;

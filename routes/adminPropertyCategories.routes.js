@@ -11,6 +11,7 @@ router.post("/admin/category/create", [validation(schema.propertyCategorySchema)
 router.post("/admin/categories", [adminAuthToken], controller.getPropertyCategories);
 router.post("/admin/categories/delete", [adminAuthToken], controller.deleteCategory);
 router.post("/admin/category", [validation(schema.categoryId), adminAuthToken], controller.getCategory);
+router.get("/admin/category/list/dropdowns", [adminAuthToken], controller.categoriesForDropdown);
 router.post("/admin/category/update-status", [validation(schema.updateCategoryStatusSchema), adminAuthToken], controller.updateStatus);
 
 

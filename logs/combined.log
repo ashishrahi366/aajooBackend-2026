@@ -32946,3 +32946,722 @@ META: {
   "requestId": "N/A"
 }
 2026-02-08 01:42:54 [INFO]: SIGINT signal received: closing database connection.
+2026-02-08 14:59:53 [INFO]: ✅ Database connection established successfully.
+2026-02-08 14:59:53 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 15:01:38 [INFO]: ✅ Database connection established successfully.
+2026-02-08 15:01:38 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 15:02:06 [INFO]: ✅ Database connection established successfully.
+2026-02-08 15:02:06 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 15:02:40 [INFO]: ✅ Database connection established successfully.
+2026-02-08 15:02:40 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 15:03:22 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "362.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-08 15:05:12 [INFO]: ✅ Database connection established successfully.
+2026-02-08 15:05:12 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 15:05:28 [INFO]: ✅ Database connection established successfully.
+2026-02-08 15:05:28 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 15:06:08 [INFO]: ✅ Database connection established successfully.
+2026-02-08 15:06:08 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 15:06:23 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "215.67ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-08 15:07:48 [INFO]: ✅ Database connection established successfully.
+2026-02-08 15:07:48 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 15:08:11 [INFO]: ✅ Database connection established successfully.
+2026-02-08 15:08:11 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-08 15:08:14 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "467.48ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-08 15:19:48 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "384.88ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:25:02 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "139.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:26:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "53.69ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:26:59 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "105.94ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:29:52 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "112.35ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:31:53 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "93.81ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:40:43 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "58.41ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:43:38 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "59.15ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:44:58 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "166.27ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:44:58 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "169.02ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:45:38 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "86.66ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:45:38 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "27.64ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:46:43 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "130.03ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:46:43 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "101.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:52:25 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "125.63ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:52:25 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "35.88ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:53:39 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "349.83ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:53:39 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "113.49ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:55:16 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "70.45ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:55:16 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "61.90ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:59:46 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "43.83ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 15:59:46 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "53.47ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:00:08 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {
+    "propertyId": 10
+  },
+  "statusCode": 200,
+  "responseTime": "31.11ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-08 16:05:22 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "112.37ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:05:22 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "130.95ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:07:14 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "66.60ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:07:14 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "61.29ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:07:14 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "78.82ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:15:03 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "90.36ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:15:03 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "105.35ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:15:03 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "116.40ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:15:36 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "25.62ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:15:36 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "24.11ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:15:36 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "26.23ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:19:15 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "77.55ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:19:15 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "53.54ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:19:15 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "60.41ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:19:55 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 22
+  },
+  "statusCode": 200,
+  "responseTime": "249.75ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-08 16:27:15 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "25.59ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:27:17 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "12.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:27:17 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "10.09ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:30:45 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "93.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:30:45 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "29.45ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:30:45 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "52.57ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:43:06 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "747.95ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:43:06 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "1079.71ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:43:06 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "1286.99ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:43:07 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 22
+  },
+  "statusCode": 200,
+  "responseTime": "2081.89ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:48:58 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 22
+  },
+  "statusCode": 200,
+  "responseTime": "134.74ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:49:01 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "115.56ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:49:04 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "46.01ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:49:05 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "16.27ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:49:29 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/host/search/assign-property?search=Apurva",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "75.06ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:49:30 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "13.55ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:49:30 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "17.26ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:49:30 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 22
+  },
+  "statusCode": 200,
+  "responseTime": "72.20ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-08 16:49:30 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "9.49ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}

@@ -30,6 +30,26 @@ const createOrUpdatePropertyCategory = async (req, res) => {
     }
 };
 
+const categoriesForDropdown = async (req, res) => {
+    try {
+        const categories = await model.tbl_categories.findAll({
+            where: {
+                cat_isActive: commonConfig.isYes,
+                cat_isDelete: commonConfig.isNo,
+            },
+            attributes: ["cat_id", "cat_title"],
+            order: [["cat_title", "ASC"]],
+            raw: true,
+        });
+        if (categories.length === 0) {
+            return common.response(req, res, commonConfig.successStatus, true, "No categories found");
+        }
+        return common.response(req, res, commonConfig.successStatus, true, "Categories fetched successfully", categories);
+        
+    } catch (error) {
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+}
 
 const getPropertyCategories = async (req, res) => {
     // GET /api/property/categories?search=lux&page=1&limit=10
@@ -48,7 +68,7 @@ const getPropertyCategories = async (req, res) => {
         if (status !== "") {
             whereClause.cat_isActive = status;
         }
-        console.log(whereClause);
+        // console.log(whereClause);
         const { rows, count } = await model.tbl_categories.findAndCountAll({
             where: whereClause,
             limit: limit,
@@ -132,5 +152,6 @@ module.exports = {
     getPropertyCategories,
     deleteCategory,
     getCategory,
-    updateStatus
+    updateStatus,
+    categoriesForDropdown
 }

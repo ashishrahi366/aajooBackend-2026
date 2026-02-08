@@ -85,6 +85,26 @@ const getTagListing = async (req, res) => {
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
+const tagListingforDropdown = async (req, res) => {
+    try {
+        const tags = await model.tbl_tags.findAll({
+            where: {
+                tag_isDelete: commonConfig.isNo,
+                tag_isActive: commonConfig.isYes,
+            },
+            attributes: ["tag_id", "tag_name"],
+            order: [["tag_name", "ASC"]],
+            raw: true,
+        });
+        if(tags.length === 0){
+            return common.response(req, res, commonConfig.successStatus, true, "No tags found", []);
+        }
+        return common.response(req, res, commonConfig.successStatus, true, "Tags fetched successfully", tags);
+    }
+    catch (error) {
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+};
 
 const updateStatus = async (req, res) => {
     try {
@@ -126,5 +146,6 @@ module.exports = {
     deleteTag,
     getTagListing,
     updateStatus,
-    getTag
+    getTag,
+    tagListingforDropdown
 }
