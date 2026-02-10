@@ -39413,3 +39413,273 @@ META: {
   "userAgent": "PostmanRuntime/7.51.1",
   "requestId": "N/A"
 }
+2026-02-10 14:48:34 [INFO]: ✅ Database connection established successfully.
+2026-02-10 14:48:34 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 14:49:59 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/user/detail",
+  "body": {
+    "userId": 10
+  },
+  "statusCode": 400,
+  "responseTime": "23.20ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 14:50:59 [INFO]: ✅ Database connection established successfully.
+2026-02-10 14:50:59 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 14:51:03 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/user/detail",
+  "body": {
+    "userId": 10
+  },
+  "statusCode": 400,
+  "responseTime": "174.41ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 14:51:38 [INFO]: ✅ Database connection established successfully.
+2026-02-10 14:51:38 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 14:52:12 [INFO]: ✅ Database connection established successfully.
+2026-02-10 14:52:12 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 14:52:35 [INFO]: ✅ Database connection established successfully.
+2026-02-10 14:52:35 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:00:07 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:00:07 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:00:21 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {},
+  "statusCode": 401,
+  "responseTime": "40.34ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 15:01:22 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:01:22 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:01:34 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "996.87ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 15:04:41 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:04:41 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:06:03 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:06:03 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:06:37 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:06:37 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:09:42 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:09:42 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:11:40 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:11:40 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:11:45 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:11:45 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:12:05 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:12:05 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:12:15 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:12:15 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:13:45 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:13:45 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:14:15 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:14:15 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:15:56 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:15:56 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:16:13 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:16:13 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:17:20 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:17:20 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:17:58 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:17:58 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:19:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "333.28ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 15:32:36 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:32:36 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:34:49 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:34:49 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:35:17 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:35:17 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:35:51 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:35:51 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:36:56 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:36:56 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:37:14 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:37:14 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:37:50 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:37:50 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:38:36 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/detail",
+  "body": {
+    "bookingId": "B649467"
+  },
+  "statusCode": 422,
+  "responseTime": "103.07ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 15:39:00 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:39:00 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:39:03 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/detail",
+  "body": {
+    "bookingId": "B649467"
+  },
+  "statusCode": 200,
+  "responseTime": "347.91ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 15:39:49 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:39:49 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:42:13 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:42:13 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:42:18 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/detail",
+  "body": {
+    "bookingId": "B649467"
+  },
+  "statusCode": 200,
+  "responseTime": "207.40ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 15:44:53 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:44:53 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:46:01 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:46:01 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:50:15 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:50:15 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:52:00 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:52:00 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:53:03 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:53:03 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:53:06 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/detail",
+  "body": {
+    "bookingId": "B649467"
+  },
+  "statusCode": 400,
+  "responseTime": "62.33ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 15:53:59 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:53:59 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:56:21 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/detail",
+  "body": {
+    "bookingId": "B649467"
+  },
+  "statusCode": 200,
+  "responseTime": "179.86ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 15:57:24 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:57:24 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 15:58:49 [INFO]: ✅ Database connection established successfully.
+2026-02-10 15:58:49 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 16:00:06 [INFO]: ✅ Database connection established successfully.
+2026-02-10 16:00:06 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 16:00:13 [INFO]: ✅ Database connection established successfully.
+2026-02-10 16:00:13 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 16:00:22 [INFO]: ✅ Database connection established successfully.
+2026-02-10 16:00:22 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 16:01:52 [INFO]: ✅ Database connection established successfully.
+2026-02-10 16:01:52 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 16:02:25 [INFO]: ✅ Database connection established successfully.
+2026-02-10 16:02:25 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 16:02:34 [INFO]: ✅ Database connection established successfully.
+2026-02-10 16:02:34 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 16:02:37 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/detail",
+  "body": {
+    "bookingId": "B649467"
+  },
+  "statusCode": 400,
+  "responseTime": "74.39ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 16:03:19 [INFO]: ✅ Database connection established successfully.
+2026-02-10 16:03:19 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 16:03:23 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/detail",
+  "body": {
+    "bookingId": "B649467"
+  },
+  "statusCode": 200,
+  "responseTime": "69.37ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 16:03:50 [INFO]: ✅ Database connection established successfully.
+2026-02-10 16:03:50 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-10 16:03:55 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/detail",
+  "body": {
+    "bookingId": "B649467"
+  },
+  "statusCode": 200,
+  "responseTime": "56.80ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-10 16:04:40 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "bookingId": "B649467"
+  },
+  "statusCode": 200,
+  "responseTime": "32.12ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}

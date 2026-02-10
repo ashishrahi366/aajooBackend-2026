@@ -30,6 +30,8 @@ module.exports = (sequelize, DataTypes) => {
     bt_book_id: DataTypes.STRING(100),
     bt_book_from: DataTypes.STRING(100),
     bt_book_to: DataTypes.STRING(100),
+    bt_book_checkIn: DataTypes.STRING(10),
+    bt_book_checkout: DataTypes.STRING(10),
     bt_book_status: DataTypes.INTEGER(11),
   }, {
     sequelize,

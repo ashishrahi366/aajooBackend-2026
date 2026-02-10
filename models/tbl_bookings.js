@@ -59,6 +59,7 @@ module.exports = (sequelize, DataTypes) => {
     book_status: DataTypes.INTEGER(11),
     book_no_of_guests: DataTypes.INTEGER(11),
     book_no_of_beds: DataTypes.INTEGER(11),
+    book_is_delete: DataTypes.TINYINT(1),
   }, {
     sequelize,
     modelName: 'tbl_bookings',

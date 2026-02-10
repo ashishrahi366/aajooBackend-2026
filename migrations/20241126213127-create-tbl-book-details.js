@@ -25,6 +25,14 @@ module.exports = {
         type: Sequelize.STRING(100),
         allowNull: false
       },
+      bt_book_checkIn: {
+        type: Sequelize.STRING(10),
+        allowNull: false
+      },
+      bt_book_checkout: {
+        type: Sequelize.STRING(10),
+        allowNull: false
+      },
       bt_book_status: {
         type: Sequelize.INTEGER(11),
         allowNull: false

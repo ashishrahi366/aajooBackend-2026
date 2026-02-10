@@ -42,67 +42,49 @@ exports.hostAuthentication = async (req, res, next) => {
 };
 
 
-exports.adminAuth = (req, res, next) => {
-    try {
-        const authHeader = req.headers.authorization;
-        if (!authHeader || !authHeader.startsWith("Bearer ")) {
-            return common.response(req, res, 401, false, "Unauthorized");
+    exports.adminAuth = (req, res, next) => {
+        try {
+            const authHeader = req.headers.authorization;
+            if (!authHeader || !authHeader.startsWith("Bearer ")) {
+                return common.response(req, res, 401, false, "Unauthorized");
+            }
+            const token = authHeader.split(" ")[1];
+            const decoded = jwt.verify(token, process.env.JWT_SECRET);
+            req.admin = decoded;
+            req.token = token;
+            next();
+        } catch (error) {
+            return common.response(req, res, 401, false, "Invalid token");
         }
-        const token = authHeader.split(" ")[1];
-        const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        req.admin = decoded;
-        req.token = token;
-        next();
-    } catch (error) {
-        return common.response(req, res, 401, false, "Invalid token");
-    }
-};
+    };
 
 exports.adminAuthToken = async (req, res, next) => {
     try {
-        if (req.method === "OPTIONS") return res.sendStatus(204);
-        const authHeader = req.headers.authorization;
-        console.log(authHeader, "authHeader")
-        if (!authHeader || !authHeader.startsWith("Bearer")) {
-            return common.response(req, res, commonConfig.unauthorizedStatus, false, "Authorization token required");
+        const authHeader = req.headers["authorization"];
+        if (!authHeader) {
+          return common.response(req, res, 401, false, "Authorization token is required");
+        }
+        if (!authHeader.startsWith("Bearer ")) {
+          return common.response(req, res, 401, false, "Invalid authorization format");
         }
         const token = authHeader.split(" ")[1];
-        console.log(token, "token")
-
-        let decoded;
-        try {
-            decoded = jwt.verify(token, process.env.JWT_SECRET);
-        } catch (err) {
-            // Handle expired token specifically
-            if (err.name === "TokenExpiredError") {
-                return common.response(
-                    req,
-                    res,
-                    commonConfig.unauthorizedStatus,
-                    false,
-                    "Token expired, please login again"
-                );
-            }
-            return common.response(
-                req,
-                res,
-                commonConfig.unauthorizedStatus,
-                false,
-                "Invalid token"
-            );
+        if (!token) {
+          return common.response(req, res, 401, false, "Token is required");
         }
+        const decoded = jwt.verify(token, commonConfig.JWT_SECRET);
 
-        // console.log(decoded, "decoded")
-        if (!decoded.isAdmin) {
-            return common.response(req, res, commonConfig.forbiddenStatus, false, "Admin access only");
+        if (!decoded) {
+          return common.response(req, res, 401, false, "Invalid token");
         }
-        req.admin = { adminId: decoded.adminId, isAdmin: decoded.isAdmin };
+        req.admin = decoded;
         next();
-    } catch (error) {
-        console.error("Admin auth error:", error.message);
-        return common.response(req, res, commonConfig.unauthorizedStatus, false, "Invalid or expired token");
-    }
+      } catch (error) {
+        if (error.name === "TokenExpiredError") {
+          return common.response(req, res, 401, false, "Session expired, please login again");
+        }
+        if (error.name === "JsonWebTokenError") {
+          return common.response(req, res, 401, false, "Invalid token");
+        }    
+        return common.response(req, res, 500, false, error.message);
+      }
 };
-
-
-// module.exports = adminAuth;

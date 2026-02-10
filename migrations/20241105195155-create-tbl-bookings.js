@@ -61,6 +61,20 @@ module.exports = {
         type: Sequelize.INTEGER(11),
         allowNull: false
       },
+
+      book_no_of_guests: {
+        type: Sequelize.INTEGER(11),
+        allowNull: false
+      },
+      book_no_of_beds: {
+        type: Sequelize.INTEGER(11),
+        allowNull: false
+      },
+      book_is_delete: {
+        type: Sequelize.TINYINT(1),
+        allowNull: false,
+        defaultValue: 0
+      },
       book_added_at: {
         allowNull: false,
         type: Sequelize.DATE

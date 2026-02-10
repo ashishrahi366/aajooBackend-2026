@@ -19,7 +19,9 @@ const getBookingList = async (req, res) => {
         const fromDate = reqData.fromDate ? new Date(reqData.fromDate) : null;
         const toDate = reqData.toDate ? new Date(reqData.toDate) : null;
 
-        let whereClause = {};
+        let whereClause = {
+            book_is_delete: commonConfig.isNo,
+        };
         if (reqData.search) {
             whereClause.book_id = reqData.bookingId;
         }
@@ -30,11 +32,11 @@ const getBookingList = async (req, res) => {
             limit,
             offset,
             include: [
-                // {
-                //     model: model.tbl_book_details,
-                //     as: "bookDetails",
-                //     attributes: ["bd_check_in_date", "bd_check_out_date"]
-                // },
+                {
+                    model: model.tbl_book_details,
+                    as: "bookDetails",
+                    attributes: ["bt_book_checkIn", "bt_book_checkout"]
+                },
                 {
                     model: model.tbl_user,
                     as: "userDetails",
@@ -51,11 +53,10 @@ const getBookingList = async (req, res) => {
                     attributes: ["bs_title", "bs_code"]
                 }
             ],
-            attributes:["book_pri_id","book_id","book_total_amt","book_is_paid","book_added_at"],
+            attributes: ["book_pri_id", "book_id", "book_total_amt", "book_is_paid", "book_added_at"],
             order: [["book_added_at", "DESC"]],
-            raw:true
+            raw: true
         });
-        console.log(rows,"row")
         if (rows.length === 0) {
             return common.response(req, res, commonConfig.notFoundStatus, false, "No bookings found");
         }
@@ -70,11 +71,79 @@ const getBookingList = async (req, res) => {
             bookings: rows
         });
     } catch (error) {
-        console.log(error)
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+};
+const bpokingDetail = async (req, res) => {
+    try {
+        const bookId = req.body.bookingId;
+        const bookingDetails = await model.tbl_bookings.findOne({
+            where: {
+                book_id: bookId,
+                book_is_delete: commonConfig.isNo
+            },
+            include: [
+                {
+                    model: model.tbl_book_details,
+                    as: "bookDetails",
+                    attributes: ["bt_book_checkIn", "bt_book_checkout"]
+                },
+                {
+                    model: model.tbl_user,
+                    as: "userDetails",
+                    attributes: ["user_fullName", "user_pnumber"],
+                    include: {
+                        model: model.tbl_user_cred,
+                        as: "userCred",
+                        attributes: ["cred_user_email"]
+                    }
+                },
+                {
+                    model: model.tbl_properties,
+                    as: "bookingProperty",
+                    attributes: ["property_name", "property_contact", "property_email"],
+                    include: {
+                        model: model.tbl_user,
+                        as: "HostDetails",
+                        attributes: ["user_fullName", "user_pnumber"],
+                        include: {
+                            model: model.tbl_user_cred,
+                            as: "userCred",
+                            attributes: ["cred_user_email"]
+                        }
+                    }
+                },
+                {
+                    model: model.tbl_book_status,
+                    as: "bookingStatus",
+                    attributes: ["bs_id", "bs_title", "bs_code"]
+                }
+            ],
+            attributes: [
+                "book_pri_id", "book_id",
+                "book_total_amt", "book_is_paid", "book_added_at",
+                "book_price", "book_tax", "book_tax_percentagenatage",
+                "book_total_amt", "book_is_paid", "book_is_cod"
+            ],
+            raw: true
+        });
+        if (!bookingDetails) {
+            return common.response(req, res, commonConfig.notFoundStatus, false, "Booking not found");
+        }
+        const bookHistory = await model.tbl_book_history.findAll({
+            raw: true,
+            where: {
+                bh_book_id: bookingDetails.book_pri_id
+            },
+            attributes:["bh_title","bh_description"]
+        })
+        return common.response(req, res, commonConfig.successStatus, true, "Booking details fetched successfully", {bookingDetails, bookHistory});
+    } catch (error) {
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
 
 module.exports = {
-    getBookingList
+    getBookingList,
+    bpokingDetail
 }

@@ -433,13 +433,6 @@ const checkEmailIsExist = async (req, res) => {
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
-// const userRegDocTypes = async (req, res) => {
-//     try {
-//         return common.response(req, res, commonConfig.successStatus, true, "success", moduleConfig.documnetTypes);
-//     } catch (error) {
-//         return common.response(req, res, commonConfig.errorStatus, false, error.message);
-//     }
-// };
 const userHistory = async (req, res) => {
     try {
         const reqData = { ...req.body };

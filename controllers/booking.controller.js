@@ -186,6 +186,7 @@ const bookingCreate = async (req, res) => {
             bt_book_id: `B${bookingId}`,
             bt_book_from: reqData.bookFrom,
             bt_book_to: reqData.bookTo,
+            
             bt_book_status: bookStatus,
         };
         await model.tbl_book_details.create(detailPayload, { transaction });
