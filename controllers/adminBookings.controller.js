@@ -1,7 +1,7 @@
 const model = require("../models");
 const common = require("../utils/common");
 const commonConfig = require("../config/commonConfig");
-const { Op } = require("sequelize");
+const { Op, where } = require("sequelize");
 const { CloudinaryManager } = require("../utils/cloudinary");
 const moduleConfig = require("../config/moduleConfigs");
 const methods = require("../utils/methods");
@@ -135,9 +135,85 @@ const bpokingDetail = async (req, res) => {
             where: {
                 bh_book_id: bookingDetails.book_pri_id
             },
-            attributes:["bh_title","bh_description"]
+            attributes: ["bh_title", "bh_description"]
         })
-        return common.response(req, res, commonConfig.successStatus, true, "Booking details fetched successfully", {bookingDetails, bookHistory});
+        return common.response(req, res, commonConfig.successStatus, true, "Booking details fetched successfully", { bookingDetails, bookHistory });
+    } catch (error) {
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+};
+const updateBookingStatusforBookings = async (req, res) => {
+    const transaction = await model.sequelize.transaction();
+    try {
+        const reqData = { ...req.body };
+        const bookingId = reqData.bookingId;
+
+        const findBooking = await model.tbl_bookings.findOne({
+            where: {
+                book_id: bookingId,
+                book_is_delete: commonConfig.isNo
+            },
+            attributes: ["book_pri_id", "book_id", "book_status"],
+            transaction
+        });
+
+        if (!findBooking) {
+            await transaction.rollback();
+            return common.response(req, res, commonConfig.notFoundStatus, false, "Booking not found");
+        }
+
+        await model.tbl_bookings.update(
+            { book_status: reqData.statusId },
+            { where: { book_pri_id: findBooking.book_pri_id }, transaction }
+        );
+
+        await model.tbl_book_history.create(
+            {
+                bh_book_id: findBooking.book_pri_id,
+                bh_title: "Booking status updated",
+                bh_description: `Booking status updated to ${reqData.statusId}`
+            },
+            { transaction }
+        );
+
+        await transaction.commit();
+        return common.response(req, res, commonConfig.successStatus, true, "Booking status updated successfully");
+    } catch (error) {
+        await transaction.rollback();
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+};
+const bookingStatusListing = async (req, res) => {
+    try {
+        const { rows, count } = await model.tbl_book_status.findAndCountAll({
+            where: {
+                bs_isDelete: commonConfig.isNo
+            },
+            attributes: ["bs_id", "bs_title", "bs_code"],
+            raw: true
+        });
+        if (rows.length === 0) {
+            return common.response(req, res, commonConfig.notFoundStatus, false, "No booking status found");
+        }
+        return common.response(req, res, commonConfig.successStatus, true, "Booking status listing fetched successfully", {
+            totalRecords: count,
+            bookingStatus: rows
+        });
+    } catch (error) {
+        // console.log(error, "error in bookingStatusListing");
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+};
+const updateBookingStatus = async (req, res) => {
+    try {
+        const reqData = { ...req.body };
+        const statusId = reqData.statusId;
+        const payload = {
+            bs_title: reqData.bs_title,
+            bs_code: reqData.bs_code,
+        };
+        await model.tbl_book_status.update(payload, { where: { bs_id: statusId } });
+        return common.response(req, res, commonConfig.successStatus, true, "Booking status updated successfully");
     } catch (error) {
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
@@ -145,5 +221,8 @@ const bpokingDetail = async (req, res) => {
 
 module.exports = {
     getBookingList,
-    bpokingDetail
-}
+    bpokingDetail,
+    bookingStatusListing,
+    updateBookingStatus,
+    updateBookingStatusforBookings
+}   

@@ -39683,3 +39683,810 @@ META: {
   "userAgent": "PostmanRuntime/7.51.1",
   "requestId": "N/A"
 }
+2026-02-11 13:50:22 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:50:22 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:50:54 [ERROR]: ReferenceError: req is not defined
+    at bookingStatusListing (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminBookings.controller.js:171:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Wed Feb 11 2026 13:50:54 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 16072,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 82235392,
+      "heapTotal": 41742336,
+      "heapUsed": 40279160,
+      "external": 6532012,
+      "arrayBuffers": 3133509
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 234044.031
+  },
+  "trace": [
+    {
+      "column": 32,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminBookings.controller.js",
+      "function": "bookingStatusListing",
+      "line": 171,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-02-11 13:51:22 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:51:22 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:51:24 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/booking/status/list",
+  "body": {},
+  "statusCode": 400,
+  "responseTime": "50.31ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-11 13:52:12 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/booking/status/list",
+  "body": {},
+  "statusCode": 400,
+  "responseTime": "13.85ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-11 13:52:35 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:52:35 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:52:37 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/booking/status/list",
+  "body": {},
+  "statusCode": 400,
+  "responseTime": "79.07ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-11 13:52:55 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:52:55 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:52:56 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/booking/status/list",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "50.32ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-11 13:53:51 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:53:51 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:55:57 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:55:57 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:56:42 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:56:42 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:56:56 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:56:56 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:57:05 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:57:05 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:57:11 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:57:11 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:57:17 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:57:17 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:57:31 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:57:31 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:58:22 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:58:22 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:58:41 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:58:41 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:58:59 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:58:59 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 13:59:09 [INFO]: ✅ Database connection established successfully.
+2026-02-11 13:59:09 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:01:13 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/status/update",
+  "body": {
+    "statusId": "14",
+    "bs_title": "Failed Test",
+    "bs_code": "#56789"
+  },
+  "statusCode": 401,
+  "responseTime": "5.90ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-11 14:01:22 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/status/update",
+  "body": {
+    "statusId": "14",
+    "bs_title": "Failed Test",
+    "bs_code": "#56789"
+  },
+  "statusCode": 200,
+  "responseTime": "43.70ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-11 14:02:23 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:02:23 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:03:01 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:03:01 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:04:23 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:04:23 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:04:31 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:04:31 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:04:33 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:04:33 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:05:38 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:05:38 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:05:53 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:05:53 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:06:18 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:06:18 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:07:05 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:07:05 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:07:56 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:07:56 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:08:17 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:08:17 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:08:24 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:08:24 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:09:06 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:09:06 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:09:14 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:09:14 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:09:17 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:09:17 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:11:28 [INFO]: ✅ Database connection established successfully.
+2026-02-11 14:11:28 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-11 14:11:30 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/update",
+  "body": {
+    "statusId": 14,
+    "bookingId": "B969014"
+  },
+  "statusCode": 200,
+  "responseTime": "225.20ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-11 14:12:00 [INFO]: SIGINT signal received: closing database connection.
+2026-02-13 13:13:26 [INFO]: ✅ Database connection established successfully.
+2026-02-13 13:13:26 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-13 13:24:17 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "215.41ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:24:22 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "24.34ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:24:22 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "22.83ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:24:22 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "4.88ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:24:23 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 22
+  },
+  "statusCode": 200,
+  "responseTime": "83.17ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:29:03 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 22
+  },
+  "statusCode": 200,
+  "responseTime": "32.11ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-13 13:29:48 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "56.43ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:29:48 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "56.95ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:29:48 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "60.62ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:29:48 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 22
+  },
+  "statusCode": 200,
+  "responseTime": "64.33ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:32:28 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "94.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:32:28 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "117.72ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:32:28 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "137.76ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:32:28 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 22
+  },
+  "statusCode": 200,
+  "responseTime": "300.08ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:34:24 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "107.31ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:34:24 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "109.66ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:34:24 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "116.58ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:34:24 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 22
+  },
+  "statusCode": 200,
+  "responseTime": "197.28ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:39:59 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/tag/listing/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "19.59ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:39:59 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/amenity/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "21.38ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:39:59 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/category/list/dropdowns",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "25.18ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:39:59 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/property",
+  "body": {
+    "propertyId": 22
+  },
+  "statusCode": 200,
+  "responseTime": "23.99ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 13:46:46 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "bookingId": "B649467"
+  },
+  "statusCode": 200,
+  "responseTime": "28.86ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-13 14:02:09 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "25.04ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:02:31 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "25.25ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:02:44 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "8.89ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:02:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "18.62ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:03:07 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "39.32ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:05:55 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "16.42ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:05:57 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "25.98ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:07:10 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "9.82ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:08:35 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "11.69ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:19:44 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 2,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "9.54ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:20:01 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "33.14ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:20:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "18.00ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:37:55 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "284.11ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:43:04 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "52.59ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:49:53 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/properties/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "status": ""
+  },
+  "statusCode": 200,
+  "responseTime": "38.99ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:49:53 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "6.21ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:52:11 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "20.56ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:52:17 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "7.73ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:52:35 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "21.21ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:53:42 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "18.62ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:55:32 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "32.15ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:58:22 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "95.15ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:58:30 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "26.84ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-13 14:58:48 [INFO]: SIGINT signal received: closing database connection.

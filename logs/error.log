@@ -4202,3 +4202,56 @@ META: {
   "params": {},
   "query": {}
 }
+2026-02-11 13:50:54 [ERROR]: ReferenceError: req is not defined
+    at bookingStatusListing (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminBookings.controller.js:171:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Wed Feb 11 2026 13:50:54 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 16072,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 82235392,
+      "heapTotal": 41742336,
+      "heapUsed": 40279160,
+      "external": 6532012,
+      "arrayBuffers": 3133509
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 234044.031
+  },
+  "trace": [
+    {
+      "column": 32,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminBookings.controller.js",
+      "function": "bookingStatusListing",
+      "line": 171,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}

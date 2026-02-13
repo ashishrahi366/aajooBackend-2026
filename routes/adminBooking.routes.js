@@ -10,9 +10,10 @@ const { adminApiLimiter } = require("../middleware/adminRateLimiter");
 
 // router.post("/admin/property/create", upload.fields([{ name: "propertyCover", maxCount: 1 }, { name: "propertyImage" }, { name: "propertyDoc" }]), [validation(schema.propertySchema), adminAuthToken], controller.createuUpdateProperty);
 router.post("/admin/booking/search", [adminAuthToken], controller.getBookingList);
-// router.post("/admin/property/delete", [validation(schema.propertyIdSchema), adminAuthToken], controller.deleteProperty);
+router.post("/admin/booking/update", [validation(schema.bookingStatusUpdate), adminAuthToken], controller.updateBookingStatusforBookings);
 router.post("/admin/booking/detail", [validation(schema.bookingId), adminAuthToken], controller.bpokingDetail);
-// router.post("/admin/properties/update-status", [validation(schema.propertyStatusSchema), adminAuthToken], controller.updateStatus);
+router.get("/admin/booking/status/list", [adminAuthToken], controller.bookingStatusListing);
+router.post("/admin/booking/status/update", [validation(schema.statusUpdate), adminAuthToken], controller.updateBookingStatus);
 
 
 module.exports = router;
