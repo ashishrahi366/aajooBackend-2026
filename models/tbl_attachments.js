@@ -21,6 +21,7 @@ module.exports = (sequelize, DataTypes) => {
     static async deleteAttachment(recordId, type, findImage) {
       const fs = require('fs');
       const path = require('path');
+      console.log("Deleting attachment for recordId:", recordId, "type:", type, "findImage:", findImage);
       try {
         if (findImage == null) {
           throw new Error("no record found");
@@ -33,7 +34,8 @@ module.exports = (sequelize, DataTypes) => {
           fs.unlinkSync(imagePath); // synchronous version is easier here
 
         }
-        await tbl_attachments.destroy({ where: { afile_type: type, afile_record_id: recordId } });
+        const x = await tbl_attachments.destroy({ where: { afile_type: type, afile_record_id: recordId } });
+        console.log(x, "Attachment record deleted from database");
         return true;
       } catch (error) {
         return error;
@@ -75,7 +77,7 @@ module.exports = (sequelize, DataTypes) => {
     //with cloudinary
     static async addCloudAttachment(payload) {
       try {
-        const data =await tbl_attachments.create(payload);
+        const data = await tbl_attachments.create(payload);
         return data;
       } catch (error) {
         return error;

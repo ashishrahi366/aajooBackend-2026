@@ -5,7 +5,6 @@ const { Op } = require("sequelize");
 const { CloudinaryManager } = require("../utils/cloudinary");
 const moduleConfig = require("../config/moduleConfigs");
 const methods = require("../utils/methods");
-
 const cloudinaryInstance = new CloudinaryManager();
 
 const PropertySearch = async (req, res) => {
@@ -84,7 +83,6 @@ const PropertySearch = async (req, res) => {
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
-
 const updateStatus = async (req, res) => {
     try {
         const { propertyId, status } = req.body;
@@ -98,7 +96,6 @@ const updateStatus = async (req, res) => {
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
-
 const deleteProperty = async (req, res) => {
     try {
         const { propertyId } = req.body;
@@ -179,12 +176,15 @@ const getPropetyById = async (req, res) => {
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
-
 const createuUpdateProperty = async (req, res) => {
     let transaction = await model.sequelize.transaction();
     try {
         const reqData = { ...req.body };
         let files = req.files;
+        // console.log(reqData,"reqData")
+        // console.log(req.files,"req.files")
+
+        // return
         let propertyId = reqData.propertyId ?? null;
         const isUpdate = Boolean(propertyId);
         const propertyPayload = {
@@ -278,9 +278,6 @@ const createuUpdateProperty = async (req, res) => {
                 await model.tbl_prop_to_tag.bulkCreate(tagPayload, { transaction });
             }
         }
-
-        // console.log("test",files)
-        // return
         if (files?.propertyCover?.length > 0) {
             let findCoverImg = await model.tbl_attachments.findOne(
                 {
@@ -351,6 +348,33 @@ const createuUpdateProperty = async (req, res) => {
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
+const deletePropertyImages = async (req, res) => {
+    try {
+        const reqData = req.body;
+        const findImage = await model.tbl_attachments.findOne({
+            raw: true,
+            where: {
+                afile_id: reqData.afile_id,
+                afile_type: {
+                    [Op.in]: [
+                        moduleConfig.property_cover_image_type,
+                        moduleConfig.property_image_type,
+                        moduleConfig.property_doc_type
+                    ]
+                },
+            },
+            attributes: ['afile_id', 'afile_cldId', 'afile_type']
+        });
+        if (!findImage) {
+            return common.response(req, res, commonConfig.successStatus, false, "Image not found");
+        }
+        await cloudinaryInstance.deleteSingleImage(findImage.afile_cldId);
+        await model.tbl_attachments.destroy({ where: { afile_id: findImage.afile_id } });
+        return common.response(req, res, commonConfig.successStatus, true, "Image deleted successfully");
+    } catch (error) {
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+};
 
 
 
@@ -360,5 +384,6 @@ module.exports = {
     updateStatus,
     deleteProperty,
     getPropetyById,
-    createuUpdateProperty
+    createuUpdateProperty,
+    deletePropertyImages
 }

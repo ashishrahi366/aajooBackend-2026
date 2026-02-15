@@ -13,20 +13,40 @@ const getBookingList = async (req, res) => {
         const limit = Number(reqData.limit) > 0 ? Number(reqData.limit) : 10;
         const offset = (page - 1) * limit;
         const search = reqData.search?.trim() || "";
-        const status = reqData.status ?? null;
-        const paymentStatus = reqData.paymentStatus ?? null;
-        const categoryId = reqData.categoryId ?? null;
+        const statusId = reqData.status ? Number(reqData.status) : null;
+        let paymentStatus = null;
+        if (reqData.paymentStatus === "paid") paymentStatus = 1;
+        if (reqData.paymentStatus === "unpaid") paymentStatus = 0;
         const fromDate = reqData.fromDate ? new Date(reqData.fromDate) : null;
         const toDate = reqData.toDate ? new Date(reqData.toDate) : null;
 
         let whereClause = {
             book_is_delete: commonConfig.isNo,
         };
-        if (reqData.search) {
-            whereClause.book_id = reqData.bookingId;
+        if (search) {
+            whereClause.book_id = {
+                [Op.like]: `%${search}%`,
+            };
         }
-
-
+        if (statusId) {
+            whereClause.book_status = statusId;
+        }
+        if (paymentStatus !== null) {
+            whereClause.book_is_paid = paymentStatus;
+        }
+        if (fromDate && toDate) {
+            whereClause.book_added_at = {
+                [Op.between]: [fromDate, toDate],
+            };
+        } else if (fromDate) {
+            whereClause.book_added_at = {
+                [Op.gte]: fromDate,
+            };
+        } else if (toDate) {
+            whereClause.book_added_at = {
+                [Op.lte]: toDate,
+            };
+        }
         const { rows, count } = await model.tbl_bookings.findAndCountAll({
             where: whereClause,
             limit,

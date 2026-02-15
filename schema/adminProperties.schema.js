@@ -57,6 +57,14 @@ exports.propertyStatusSchema = yup.object({
         .oneOf([0, 1], "Status must be 0 or 1")
         .required("Status is required"),
 });
+exports.deletePropImageSchema = yup.object({
+    property_id: yup.number()
+        .required("Property ID is required"),
+
+    afile_id: yup.number()
+        .required("Attachment ID is required"),
+
+});
 exports.propertyIdSchema = yup.object({
     propertyId: yup.number()
         .required("Property ID is required"),

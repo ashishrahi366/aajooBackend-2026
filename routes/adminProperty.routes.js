@@ -13,6 +13,7 @@ router.post("/admin/properties/search", [adminAuthToken], controller.PropertySea
 router.post("/admin/property/delete", [validation(schema.propertyIdSchema), adminAuthToken], controller.deleteProperty);
 router.post("/admin/property", [validation(schema.propertyIdSchema), adminAuthToken], controller.getPropetyById);
 router.post("/admin/properties/update-status", [validation(schema.propertyStatusSchema), adminAuthToken], controller.updateStatus);
+router.post("/admin/properties/delete/image", [validation(schema.deletePropImageSchema), adminAuthToken], controller.deletePropertyImages);
 
 
 module.exports = router;
