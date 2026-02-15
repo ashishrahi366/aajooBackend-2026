@@ -10,6 +10,7 @@ const { upload } = require("../utils/fileHandler")
 router.post("/admin/login", [validation(schema.adminLogin)], controller.adminLogin);
 router.post("/admin/logout", [adminAuth], controller.adminLogout);
 router.post("/admin/create", [], controller.addCreate);
+router.get("/admin/dashboard", [adminAuth], controller.adminDashboard);
 
 
 

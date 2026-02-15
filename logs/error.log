@@ -4255,3 +4255,65 @@ META: {
     }
   ]
 }
+2026-02-16 00:35:52 [ERROR]: ReferenceError: tbl_bookings is not defined
+    at getMonthlyBookings (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\admin.controller.js:100:26)
+    at adminDashboard (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\admin.controller.js:189:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {},
+  "rejection": true,
+  "date": "Mon Feb 16 2026 00:35:52 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 15756,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 116568064,
+      "heapTotal": 79491072,
+      "heapUsed": 40866680,
+      "external": 6466614,
+      "arrayBuffers": 3068111
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 335350.859
+  },
+  "trace": [
+    {
+      "column": 26,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\admin.controller.js",
+      "function": "getMonthlyBookings",
+      "line": 100,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 40,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\admin.controller.js",
+      "function": "adminDashboard",
+      "line": 189,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
