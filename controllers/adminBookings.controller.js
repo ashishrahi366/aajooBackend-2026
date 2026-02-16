@@ -227,7 +227,7 @@ const bookingStatusListing = async (req, res) => {
 const updateBookingStatus = async (req, res) => {
     try {
         const reqData = { ...req.body };
-        const statusId = reqData.statusId;
+        const statusId = reqData.bs_id;
         const payload = {
             bs_title: reqData.bs_title,
             bs_code: reqData.bs_code,
@@ -239,10 +239,44 @@ const updateBookingStatus = async (req, res) => {
     }
 };
 
+const bookingStatusListingforAdminPage = async (req, res) => {
+    try {
+        const reqData = { ...req.body };
+        const page = Number(reqData.page) > 0 ? Number(reqData.page) : 1;
+        const limit = Number(reqData.limit) > 0 ? Number(reqData.limit) : 10;
+        const offset = (page - 1) * limit;
+        const { rows, count } = await model.tbl_book_status.findAndCountAll({
+            where: { bs_isDelete: commonConfig.isNo },
+            attributes: ["bs_id", "bs_title", "bs_code"],
+            raw: true,
+            limit: 10,
+            offset: offset,
+            order: [["bs_id", "DESC"]],
+            raw: true
+        });
+        if (rows.length === 0) {
+            return common.response(req, res, commonConfig.notFoundStatus, false, "No booking status found");
+        }
+        return common.response(req, res, commonConfig.successStatus, true, "Booking status listing fetched successfully", {
+            page,
+            limit,
+            offset,
+            totalRecords: count,
+            currentPage: page,
+            totalPages: Math.ceil(count / limit),
+            bookings: rows
+        });
+    } catch (error) {
+        // console.log(error, "error in bookingStatusListing");
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+};
+
 module.exports = {
     getBookingList,
     bpokingDetail,
     bookingStatusListing,
     updateBookingStatus,
-    updateBookingStatusforBookings
+    updateBookingStatusforBookings,
+    bookingStatusListingforAdminPage
 }   

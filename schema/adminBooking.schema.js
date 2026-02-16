@@ -7,7 +7,7 @@ exports.bookingId = yup.object({
         .required("bookingId is required")
 });
 exports.statusUpdate = yup.object({
-    statusId: yup
+    bs_id: yup
         .number()
         .typeError("status id must be a number")
         .required("status id is required"),

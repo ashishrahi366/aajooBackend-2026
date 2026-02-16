@@ -14,6 +14,7 @@ router.post("/admin/booking/update", [validation(schema.bookingStatusUpdate), ad
 router.post("/admin/booking/detail", [validation(schema.bookingId), adminAuthToken], controller.bpokingDetail);
 router.get("/admin/booking/status/list", [adminAuthToken], controller.bookingStatusListing);
 router.post("/admin/booking/status/update", [validation(schema.statusUpdate), adminAuthToken], controller.updateBookingStatus);
+router.post("/admin/booking/status/listing/admin-page", [adminAuthToken], controller.bookingStatusListingforAdminPage);
 
 
 module.exports = router;
