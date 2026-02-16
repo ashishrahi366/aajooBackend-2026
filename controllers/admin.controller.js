@@ -240,44 +240,44 @@ const getUserStats = async (req, res) => {
 };
 const getHostStats = async (req, res) => {
     try {
-      const totalHosts = await model.tbl_user.count({
-        where: {
-          user_isDelete: commonConfig.isNo,
-          user_isHost: commonConfig.isYes,
-        },
-      });
-  
-      const active = await tbl_user.count({
-        where: {
-          user_isDelete: commonConfig.isNo,
-          user_isHost: commonConfig.isYes,
-          user_isActive: commonConfig.isYes,
-        },
-      });
-  
-      const inactive = await tbl_user.count({
-        where: {
-          user_isDelete: commonConfig.isNo,
-          user_isHost: commonConfig.isYes,
-          user_isActive: commonConfig.isNo,
-        },
-      });
-  
-      const verified = await tbl_user.count({
-        where: {
-          user_isDelete: commonConfig.isNo,
-          user_isHost: commonConfig.isYes,
-          user_isVerified: commonConfig.isYes,
-        },
-      });
-  
-      const other = totalHosts - (active + inactive + verified);
-  
-      return data = { active, inactive, verified, other }
+        const totalHosts = await model.tbl_user.count({
+            where: {
+                user_isDelete: commonConfig.isNo,
+                user_isHost: commonConfig.isYes,
+            },
+        });
+
+        const active = await tbl_user.count({
+            where: {
+                user_isDelete: commonConfig.isNo,
+                user_isHost: commonConfig.isYes,
+                user_isActive: commonConfig.isYes,
+            },
+        });
+
+        const inactive = await tbl_user.count({
+            where: {
+                user_isDelete: commonConfig.isNo,
+                user_isHost: commonConfig.isYes,
+                user_isActive: commonConfig.isNo,
+            },
+        });
+
+        const verified = await tbl_user.count({
+            where: {
+                user_isDelete: commonConfig.isNo,
+                user_isHost: commonConfig.isYes,
+                user_isVerified: commonConfig.isYes,
+            },
+        });
+
+        const other = totalHosts - (active + inactive + verified);
+
+        return data = { active, inactive, verified, other }
     } catch (error) {
-      return error
+        return error
     }
-  };
+};
 
 const adminDashboard = async (req, res) => {
     try {
@@ -318,14 +318,69 @@ const adminDashboard = async (req, res) => {
         const getMonthlyBookingsData = await getMonthlyBookings()
         const getDailyUsersData = await getDailyUsers()
         const getUserStatsData = await getUserStats()
-        const getHostStats = await getHostStats()
+        const getHostStatsData = await getHostStats()
+        const getLatestUser = await model.tbl_user.findAll({
+            raw: true,
+            where: {
+                user_isDelete: commonConfig.isNo,
+                user_isUser: commonConfig.isYes,
+                // user_isActive: commonConfig.isYes,
+            },
+            include: {
+                model: model.tbl_user_cred,
+                as: "userCred",
+                required: true,
+                attributes: ["cred_user_email"]
+            },
+            order: [['added_at', 'DESC']],
+            attributes: ["user_fullName", "user_isVerified", "user_isActive"],
+            limit: 5
+        })
+        const getLatestBooking = await model.tbl_bookings.findAll({
+            raw: true,
+            where: {
+                book_is_delete: commonConfig.isNo,
+            },
+            order: [["book_added_at", "DESC"]],
+            attributes: ["book_id", "book_total_amt", "book_is_paid", "book_status"],
+            include: [
+                {
+                    model: model.tbl_book_status,
+                    as: "bookingStatus",
+                    required: true,
+                    attributes: ["bs_title", "bs_code"],
+                },
+            ],
+            limit: 5
+        })
+        const getLatestProperties = await model.tbl_properties.findAll({
+            raw: true,
+            where: {
+                is_deleted: commonConfig.isNo,
+            },
+            order: [["created_at", "DESC"]],
+            limit: 5,
+            attributes: ["property_name", "property_price", "is_verify", "is_active"]
+        })
+        return common.response(req, res, commonConfig.successStatus, true, "Dashboard data fetched successfully", {
+            userCount,
+            hostCount,
+            propCount,
+            BookingCount,
+            pendingPropCount,
+            getMonthlyBookingsData,
+            getDailyUsersData,
+            getUserStatsData,
+            getHostStatsData,
+            getLatestUser,
+            getLatestBooking,
+            getLatestProperties
+        });
 
-
-        console.log(getDailyUsersData, "getMonthlyBookingsData")
     } catch (error) {
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
-}
+};
 
 
 

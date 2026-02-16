@@ -50016,3 +50016,85 @@ META: {
   "requestId": "N/A"
 }
 2026-02-16 18:55:04 [INFO]: SIGINT signal received: closing database connection.
+2026-02-16 21:53:49 [INFO]: ✅ Database connection established successfully.
+2026-02-16 21:53:49 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 21:58:13 [INFO]: ✅ Database connection established successfully.
+2026-02-16 21:58:13 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 21:58:35 [INFO]: ✅ Database connection established successfully.
+2026-02-16 21:58:35 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 21:59:20 [INFO]: ✅ Database connection established successfully.
+2026-02-16 21:59:20 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 21:59:31 [INFO]: ✅ Database connection established successfully.
+2026-02-16 21:59:31 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:01:10 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:01:10 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:01:18 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:01:18 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:01:26 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:01:26 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:01:33 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:01:33 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:02:36 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 401,
+  "responseTime": "8.06ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-16 22:02:47 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 400,
+  "responseTime": "257.95ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-16 22:03:13 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:03:13 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:06:25 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:06:25 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:06:49 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:06:49 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:06:54 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:06:54 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:06:57 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 400,
+  "responseTime": "98.88ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
+2026-02-16 22:07:27 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:07:27 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:07:44 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:07:44 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:08:03 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:08:03 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:10:33 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:10:33 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:10:43 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:10:43 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:11:42 [INFO]: ✅ Database connection established successfully.
+2026-02-16 22:11:42 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-16 22:11:44 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "172.81ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.51.1",
+  "requestId": "N/A"
+}
