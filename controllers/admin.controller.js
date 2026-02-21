@@ -161,43 +161,98 @@ const getLastNDays = (n = 10) => {
 };
 const getDailyUsers = async (req, res) => {
     try {
-        const DAYS = 10; // past 10 days
-        const today = new Date();
-        const startDate = new Date();
-        startDate.setDate(today.getDate() - (DAYS - 1)); // 10 days ago
-        const users = await model.tbl_user.findAll({
-            attributes: [
-                [fn('DATE', col('added_at')), 'date'],
-                [fn('COUNT', col('user_id')), 'count'],
-            ],
-            where: {
-                user_isDelete: commonConfig.isNo,
-                user_isUser: commonConfig.isYes,
-                added_at: {
-                    [Op.gte]: startDate,
-                    [Op.lte]: today,
-                },
-            },
-            group: [literal('DATE(added_at)')],
-            raw: true,
+      const DAYS = 10; // past 10 days
+      const today = new Date();
+      const startDate = new Date();
+      startDate.setDate(today.getDate() - (DAYS - 1)); // 10 days ago
+  
+      const users = await model.tbl_user.findAll({
+        attributes: [
+          [fn("DATE", col("added_at")), "date"],
+          [fn("COUNT", col("user_id")), "count"],
+        ],
+        where: {
+          user_isDelete: commonConfig.isNo,
+          user_isUser: commonConfig.isYes,
+          added_at: {
+            [Op.gte]: startDate,
+            [Op.lte]: today,
+          },
+        },
+        group: [literal("DATE(added_at)")],
+        raw: true,
+      });
+  
+      // Helper to format date => Feb 12
+      const formatDate = (dateStr) => {
+        const date = new Date(dateStr);
+        return date.toLocaleDateString("en-US", {
+          month: "short",
+          day: "numeric",
         });
-
-        // Prepare response array with 0 defaults
-        const lastNDays = getLastNDays(DAYS);
-        const userData = lastNDays.map((d) => {
-            const userRecord = users.find(u => u.date === d);
-            return userRecord ? parseInt(userRecord.count) : Math.floor(Math.random() * 10) + 5; // add dummy if 0
-        });
-        const data = {
-            dates: lastNDays,
-            users: userData,
-        }
-        return data;
-
+      };
+  
+      // Get last N days in YYYY-MM-DD
+      const lastNDays = getLastNDays(DAYS);
+  
+      // Prepare user count data
+      const userData = lastNDays.map((d) => {
+        const userRecord = users.find((u) => u.date === d);
+        return userRecord ? parseInt(userRecord.count) : 0;
+      });
+  
+      // Format dates for frontend (Feb 12, Feb 13, ...)
+      const formattedDates = lastNDays.map(formatDate);
+  
+      const data = {
+        dates: formattedDates,
+        users: userData,
+      };
+  
+      return data;
     } catch (error) {
-        return error;
+      return error;
     }
-};
+  };
+// const getDailyUsers = async (req, res) => {
+//     try {
+//         const DAYS = 10; // past 10 days
+//         const today = new Date();
+//         const startDate = new Date();
+//         startDate.setDate(today.getDate() - (DAYS - 1)); // 10 days ago
+//         const users = await model.tbl_user.findAll({
+//             attributes: [
+//                 [fn('DATE', col('added_at')), 'date'],
+//                 [fn('COUNT', col('user_id')), 'count'],
+//             ],
+//             where: {
+//                 user_isDelete: commonConfig.isNo,
+//                 user_isUser: commonConfig.isYes,
+//                 added_at: {
+//                     [Op.gte]: startDate,
+//                     [Op.lte]: today,
+//                 },
+//             },
+//             group: [literal('DATE(added_at)')],
+//             raw: true,
+//         });
+
+//         // Prepare response array with 0 defaults
+//         const lastNDays = getLastNDays(DAYS);
+//         const userData = lastNDays.map((d) => {
+//             const userRecord = users.find(u => u.date === d);
+//             return userRecord ? parseInt(userRecord.count) : Math.floor(Math.random() * 10) + 5; // add dummy if 0
+//         });
+//         const data = {
+//             dates: lastNDays,
+//             users: userData,
+//         }
+//         return data;
+
+//     } catch (error) {
+//         return error;
+//     }
+// };
 const getUserStats = async (req, res) => {
     try {
         const totalUsers = await model.tbl_user.count({
@@ -207,7 +262,7 @@ const getUserStats = async (req, res) => {
             },
         });
 
-        const active = await tbl_user.count({
+        const active = await model.tbl_user.count({
             where: {
                 user_isDelete: commonConfig.isNo,
                 user_isUser: commonConfig.isYes,
@@ -215,7 +270,7 @@ const getUserStats = async (req, res) => {
             },
         });
 
-        const inactive = await tbl_user.count({
+        const inactive = await model.tbl_user.count({
             where: {
                 user_isDelete: commonConfig.isNo,
                 user_isUser: commonConfig.isYes,
@@ -223,7 +278,7 @@ const getUserStats = async (req, res) => {
             },
         });
 
-        const verified = await tbl_user.count({
+        const verified = await model.tbl_user.count({
             where: {
                 user_isDelete: commonConfig.isNo,
                 user_isUser: commonConfig.isYes,
@@ -232,9 +287,11 @@ const getUserStats = async (req, res) => {
         });
 
         const other = totalUsers - (active + inactive + verified);
-
+        // console.log(data, "data")
         return data = { active, inactive, verified, other }
+
     } catch (error) {
+        console.log(error, "error")
         return error
     }
 };
@@ -247,32 +304,28 @@ const getHostStats = async (req, res) => {
             },
         });
 
-        const active = await tbl_user.count({
+        const active = await model.tbl_user.count({
             where: {
                 user_isDelete: commonConfig.isNo,
                 user_isHost: commonConfig.isYes,
                 user_isActive: commonConfig.isYes,
             },
         });
-
-        const inactive = await tbl_user.count({
+        const inactive = await model.tbl_user.count({
             where: {
                 user_isDelete: commonConfig.isNo,
                 user_isHost: commonConfig.isYes,
                 user_isActive: commonConfig.isNo,
             },
         });
-
-        const verified = await tbl_user.count({
+        const verified = await model.tbl_user.count({
             where: {
                 user_isDelete: commonConfig.isNo,
                 user_isHost: commonConfig.isYes,
                 user_isVerified: commonConfig.isYes,
             },
         });
-
         const other = totalHosts - (active + inactive + verified);
-
         return data = { active, inactive, verified, other }
     } catch (error) {
         return error
@@ -281,6 +334,10 @@ const getHostStats = async (req, res) => {
 
 const adminDashboard = async (req, res) => {
     try {
+        const getMonthlyBookingsData = await getMonthlyBookings()
+        const getDailyUsersData = await getDailyUsers()
+        const getUserStatsData = await getUserStats()
+        const getHostStatsData = await getHostStats()
         const userCount = await model.tbl_user.count({
             where: {
                 user_isDelete: commonConfig.isNo,
@@ -315,10 +372,7 @@ const adminDashboard = async (req, res) => {
                 // is_active: commonConfig.isYes,
             }
         });
-        const getMonthlyBookingsData = await getMonthlyBookings()
-        const getDailyUsersData = await getDailyUsers()
-        const getUserStatsData = await getUserStats()
-        const getHostStatsData = await getHostStats()
+
         const getLatestUser = await model.tbl_user.findAll({
             raw: true,
             where: {
