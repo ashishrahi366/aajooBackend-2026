@@ -205,7 +205,7 @@ const getDailyUsers = async (req, res) => {
       const formattedDates = lastNDays.map(formatDate);
   
       const data = {
-        dates: formattedDates,
+        dates: formattedDates,  
         users: userData,
       };
   

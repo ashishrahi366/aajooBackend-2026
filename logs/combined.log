@@ -50771,3 +50771,196 @@ META: {
   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
   "requestId": "N/A"
 }
+2026-02-22 03:50:36 [INFO]: SIGINT signal received: closing database connection.
+2026-02-22 14:03:45 [INFO]: ✅ Database connection established successfully.
+2026-02-22 14:03:45 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-22 14:04:21 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "337.43ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:04:28 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": "",
+    "status": null
+  },
+  "statusCode": 200,
+  "responseTime": "13.30ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:04:28 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "12.23ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:05:34 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/create",
+  "body": {
+    "user_fullName": "check data",
+    "cred_user_email": "check@mailinator.com",
+    "user_pnumber": "9876543210",
+    "cred_user_password": "Ashish@123",
+    "user_dob": "2016-02-09",
+    "user_address": "check test address",
+    "user_city": "Chennai",
+    "user_zipcode": "600113",
+    "user_isActive": "1",
+    "user_isVerified": "1",
+    "cred_user_doc_type": "1",
+    "cred_user_doc_number": "1111222233334444",
+    "user_isUser": "1",
+    "user_isHost": "0"
+  },
+  "statusCode": 200,
+  "responseTime": "166.63ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:05:34 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/user/search",
+  "body": {
+    "page": 1,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "10.99ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:05:41 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "39.16ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:06:44 [INFO]: ✅ Database connection established successfully.
+2026-02-22 14:06:44 [INFO]: 🚀 Server running on http://localhost:8000
+2026-02-22 14:12:41 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/booking/status/list",
+  "body": {},
+  "statusCode": 304,
+  "responseTime": "95.35ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:12:41 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/search",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "67.15ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:12:42 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/status/listing/admin-page",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "6.70ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:12:57 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/status/update",
+  "body": {
+    "bs_id": 12,
+    "bs_title": "Pending",
+    "bs_code": "#123412"
+  },
+  "statusCode": 200,
+  "responseTime": "21.60ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:12:58 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/status/listing/admin-page",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "45.22ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:13:04 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/status/listing/admin-page",
+  "body": {
+    "page": 2,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "4.24ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:13:06 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/booking/status/listing/admin-page",
+  "body": {
+    "page": 1,
+    "limit": 10
+  },
+  "statusCode": 200,
+  "responseTime": "3.42ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-02-22 14:27:08 [INFO]: SIGINT signal received: closing database connection.
