@@ -160,7 +160,7 @@ exports.propertySchema = yup.object().shape({
 
     isVerify: yup
         .number()
-        .oneOf([0, 1], "Verify must be 0 or 1")
+        .oneOf([0, 1, 2], "Verify must be 0 or 1 or 2")
         .required("Verify status is required"),
 
     isLuxury: yup

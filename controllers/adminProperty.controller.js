@@ -15,6 +15,7 @@ const PropertySearch = async (req, res) => {
         const offset = (page - 1) * limit;
         const search = reqData.search?.trim() || "";
         const status = reqData.status ?? null;
+        const forVerification = reqData.forVerification ? true : false;
 
         let whereCondition = {
             is_deleted: 0,
@@ -24,6 +25,9 @@ const PropertySearch = async (req, res) => {
         }
         if (search) {
             whereCondition.property_name = { [Op.like]: `%${search}%` }
+        }
+        if (forVerification) {
+            whereCondition.is_verify = { [Op.ne]: 1 };
         }
         const { count, rows } = await model.tbl_properties.findAndCountAll({
             where: whereCondition,
@@ -38,7 +42,7 @@ const PropertySearch = async (req, res) => {
                 }
             ],
             order: [['property_id', 'DESC']],
-            attributes: ["property_id", "property_name", "is_active"],
+            attributes: ["property_id", "property_name", "is_active","is_verify"],
             raw: true,
         });
         if (count === commonConfig.isNo) {

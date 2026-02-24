@@ -22,7 +22,7 @@ module.exports = (sequelize, DataTypes) => {
       tbl_properties.hasMany(models.tbl_prop_to_amenities, { foreignKey: 'pa_prop_id', as: 'propertyAmenities' });
       tbl_properties.hasMany(models.tbl_prop_to_tag, { foreignKey: 'pt_tag_prop_id', as: 'propertyTags' });
 
-      
+
     };
 
     static async getPropertiesBylangLat(userLat, userLng, kmRadius) {
@@ -155,7 +155,14 @@ module.exports = (sequelize, DataTypes) => {
           row.is_active = row.is_active === 1 ? true : false;
         }
         if (row.is_verify !== undefined) {
-          row.is_verify = row.is_verify === 1 ? true : false;
+          row.is_verify =
+            row.is_verify === 1
+              ? true
+              : row.is_verify === 2
+                ? "Rejected"
+                : row.is_verify === 3
+                  ? false
+                  : row.is_verify;
         }
         if (row['propDetails.propDetail_isPetFriendly'] !== undefined) {
           row['propDetails.propDetail_isPetFriendly'] =
