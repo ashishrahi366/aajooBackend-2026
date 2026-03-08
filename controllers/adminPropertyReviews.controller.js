@@ -2,9 +2,6 @@ const model = require("../models");
 const common = require("../utils/common");
 const commonConfig = require("../config/commonConfig");
 const { Op, where } = require("sequelize");
-const { CloudinaryManager } = require("../utils/cloudinary");
-const moduleConfig = require("../config/moduleConfigs");
-const methods = require("../utils/methods");
 
 const reviewListing = async (req, res) => {
     try {
@@ -160,13 +157,53 @@ const detailedReview = async (req, res) => {
         const hostReview = await model.tbl_host_review.findOne({
             raw: true,
             where: {
-                hr_isDelete: commonConfig.isNo,
-                hr_book_id: bookingId
+                hr_book_id: String(bookingId),
+                // hr_isDelete: commonConfig.isNo,
             },
-            // attributes: ["hr_id", "hr_book_id", "hr_rating", "hr_title", "hr_description"],
+            attributes: ["hr_id", "hr_book_id", "hr_rating", "hr_title", "hr_description"]
         });
-        return common.response(req, res, commonConfig.successStatus, true, "Review details", hostReview);
+        const platformReview = await model.tbl_platform_review.findOne({
+            raw: true,
+            where: {
+                pr_book_id: String(bookingId),
+                // pr_isDelete: commonConfig.isNo
+            },
+            attributes: ["pr_id", "pr_book_id", "pr_rating", "pr_title", "pr_description"]
+        });
+        const hostReviewForUser = await model.tbl_host_review_for_user.findOne({
+            raw: true,
+            where: {
+                hru_bookingId: String(bookingId),
+                // hru_isDelete: commonConfig.isNo
+            },
+            attributes: ["hru_id", "hru_bookingId", "hru_rating", "hru_title", "hru_description", "hru_userId", "hru_hostId"],
+            include: [
+                {
+                    model: model.tbl_user,
+                    as: "reviewUsername",
+                    attributes: ["user_fullName"]
+                },
+                {
+                    model: model.tbl_user,
+                    as: "reviewHostName",
+                    attributes: ["user_fullName"]
+                },
+                {
+                    model: model.tbl_properties,
+                    as: "reviewProp",
+                    attributes: ["property_name"]
+                },
+            ]
+        });
+        const responseData = {
+            propertyReview: propReview,
+            hostReview: hostReview,
+            platformReview: platformReview,
+            hostReviewForUser: hostReviewForUser
+        };
+        return common.response(req, res, commonConfig.successStatus, true, "Success", responseData);
     } catch (error) {
+        console.log(error, "error")
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 }

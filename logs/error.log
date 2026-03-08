@@ -4317,3 +4317,964 @@ META: {
     }
   ]
 }
+2026-03-08 22:01:46 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajooBackend-2026\aajooBackend-2026\utils\common.js:4:31)
+    at propAnalytics (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminPropAnalytics.controller.js:28:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sun Mar 08 2026 22:01:46 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 680,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 117329920,
+      "heapTotal": 78442496,
+      "heapUsed": 40592976,
+      "external": 6466493,
+      "arrayBuffers": 3067990
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 564933.328
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminPropAnalytics.controller.js",
+      "function": "propAnalytics",
+      "line": 28,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-03-08 22:19:36 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajooBackend-2026\aajooBackend-2026\utils\common.js:4:31)
+    at propAnalytics (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminPropAnalytics.controller.js:63:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sun Mar 08 2026 22:19:36 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 5276,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 116183040,
+      "heapTotal": 79753216,
+      "heapUsed": 40754440,
+      "external": 6466493,
+      "arrayBuffers": 3067990
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 566003.593
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminPropAnalytics.controller.js",
+      "function": "propAnalytics",
+      "line": 63,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-03-08 22:20:16 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajooBackend-2026\aajooBackend-2026\utils\common.js:4:31)
+    at propAnalytics (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminPropAnalytics.controller.js:61:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sun Mar 08 2026 22:20:16 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 20424,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 115273728,
+      "heapTotal": 80015360,
+      "heapUsed": 40747152,
+      "external": 6466493,
+      "arrayBuffers": 3067990
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 566043.328
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminPropAnalytics.controller.js",
+      "function": "propAnalytics",
+      "line": 61,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-03-08 22:21:05 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajooBackend-2026\aajooBackend-2026\utils\common.js:4:31)
+    at propAnalytics (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminPropAnalytics.controller.js:62:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Sun Mar 08 2026 22:21:04 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 4340,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 115187712,
+      "heapTotal": 79228928,
+      "heapUsed": 40876976,
+      "external": 6466493,
+      "arrayBuffers": 3067990
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 566091.921
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminPropAnalytics.controller.js",
+      "function": "propAnalytics",
+      "line": 62,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-03-09 00:47:39 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajooBackend-2026\aajooBackend-2026\utils\common.js:4:31)
+    at propAnalytics (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminPropAnalytics.controller.js:74:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Mon Mar 09 2026 00:47:39 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 1800,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 115314688,
+      "heapTotal": 79491072,
+      "heapUsed": 40734824,
+      "external": 6466493,
+      "arrayBuffers": 3067990
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 276.234
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminPropAnalytics.controller.js",
+      "function": "propAnalytics",
+      "line": 74,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-03-09 00:47:54 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajooBackend-2026\aajooBackend-2026\utils\common.js:4:31)
+    at propAnalytics (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminPropAnalytics.controller.js:74:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Mon Mar 09 2026 00:47:54 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 1800,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 81342464,
+      "heapTotal": 41742336,
+      "heapUsed": 40039072,
+      "external": 6474500,
+      "arrayBuffers": 3075957
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 291.031
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminPropAnalytics.controller.js",
+      "function": "propAnalytics",
+      "line": 74,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-03-09 00:49:11 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajooBackend-2026\aajooBackend-2026\utils\common.js:4:31)
+    at propAnalytics (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminPropAnalytics.controller.js:74:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Mon Mar 09 2026 00:49:11 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 1800,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 83054592,
+      "heapTotal": 43053056,
+      "heapUsed": 40767280,
+      "external": 6482692,
+      "arrayBuffers": 3084149
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 368.312
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminPropAnalytics.controller.js",
+      "function": "propAnalytics",
+      "line": 74,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-03-09 00:50:25 [ERROR]: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\express\lib\response.js:278:15)
+    at Object.response (D:\project\aajooBackend-2026\aajooBackend-2026\utils\common.js:4:31)
+    at propAnalytics (D:\project\aajooBackend-2026\aajooBackend-2026\controllers\adminPropAnalytics.controller.js:74:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+META: {
+  "error": {
+    "code": "ERR_HTTP_INVALID_STATUS_CODE"
+  },
+  "rejection": true,
+  "date": "Mon Mar 09 2026 00:50:25 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 2428,
+    "uid": null,
+    "gid": null,
+    "cwd": "D:\\project\\aajooBackend-2026\\aajooBackend-2026",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v20.16.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 116224000,
+      "heapTotal": 79491072,
+      "heapUsed": 41056520,
+      "external": 6466560,
+      "arrayBuffers": 3068057
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 442.609
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_server",
+      "function": "ServerResponse.writeHead",
+      "line": 352,
+      "method": "writeHead",
+      "native": false
+    },
+    {
+      "column": 8,
+      "file": "node:_http_server",
+      "function": "ServerResponse._implicitHeader",
+      "line": 338,
+      "method": "_implicitHeader",
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "node:_http_outgoing",
+      "function": "write_",
+      "line": 945,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.end",
+      "line": 1056,
+      "method": "end",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 232,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 31,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\utils\\common.js",
+      "function": "Object.response",
+      "line": 4,
+      "method": "response",
+      "native": false
+    },
+    {
+      "column": 23,
+      "file": "D:\\project\\aajooBackend-2026\\aajooBackend-2026\\controllers\\adminPropAnalytics.controller.js",
+      "function": "propAnalytics",
+      "line": 74,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 95,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+2026-03-09 01:12:01 [ERROR]: SyntaxError: Unexpected token '}', ..."ertyId":
+}" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\body-parser\lib\types\json.js:92:19)
+    at D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\raw-body\index.js:238:16)
+    at done (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\project\aajooBackend-2026\aajooBackend-2026\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+META: {
+  "body": {},
+  "params": {},
+  "query": {}
+}

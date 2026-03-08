@@ -24,7 +24,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     },
     pr_rating: {
-      type: DataTypes.STRING(100),
+      type: DataTypes.TINYINT(1),
       allowNull: false
     },
     pr_title: {
@@ -36,12 +36,12 @@ module.exports = (sequelize, DataTypes) => {
       // allowNull: false
     },
     pr_isActive: {
-      type: DataTypes.ENUM('0', '1', '2'),
-      defaultValue: '1'
+      type: DataTypes.TINYINT(1),
+      defaultValue: 1
     },
     pr_isDelete: {
-      type: DataTypes.ENUM('0', '1'),
-      defaultValue: '0'
+      type: DataTypes.TINYINT(1),
+      defaultValue: 0
     }
   }, {
     sequelize,

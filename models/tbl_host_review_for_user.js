@@ -2,7 +2,11 @@
 const { Model } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
   class tbl_host_review_for_user extends Model {
-    static associate(models) { }
+    static associate(models) {
+      tbl_host_review_for_user.belongsTo(models.tbl_user, { foreignKey: 'hru_userId', targetKey: "user_id", as: 'reviewUsername' });
+      tbl_host_review_for_user.belongsTo(models.tbl_user, { foreignKey: 'hru_hostId', targetKey: "user_id", as: 'reviewHostName' });
+      tbl_host_review_for_user.belongsTo(models.tbl_properties, { foreignKey: 'hru_propId', targetKey: "property_id", as: 'reviewProp' });
+    }
   }
   tbl_host_review_for_user.init({
     hru_id: {

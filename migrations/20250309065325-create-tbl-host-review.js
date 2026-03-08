@@ -22,7 +22,7 @@ module.exports = {
         allowNull: false
       },
       hr_rating: {
-        type: Sequelize.STRING(100),
+        type: Sequelize.TINYINT(1),
         allowNull: false
       },
       hr_title: {
@@ -34,12 +34,12 @@ module.exports = {
         // allowNull: false
       },
       hr_isActive: {
-        type: Sequelize.ENUM('0', '1'),
-        defaultValue: '1'
+        type: Sequelize.TINYINT(1),
+        defaultValue: 1
       },
       hr_isDelete: {
-        type: Sequelize.ENUM('0', '1'),
-        defaultValue: '0'
+        type: Sequelize.TINYINT(1),
+        defaultValue: 0
       },
       createdAt: {
         allowNull: false,

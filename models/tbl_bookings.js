@@ -7,6 +7,7 @@ module.exports = (sequelize, DataTypes) => {
       tbl_bookings.belongsTo(sequelize.models.tbl_user, { foreignKey: "book_user_id", targetKey: "user_id", as: "userDetails" });
       tbl_bookings.belongsTo(sequelize.models.tbl_properties, { foreignKey: "book_prop_id", targetKey: "property_id", as: "bookingProperty" });
       tbl_bookings.belongsTo(sequelize.models.tbl_book_status, { foreignKey: "book_status", targetKey: "bs_id", as: "bookingStatus" });
+      tbl_bookings.belongsTo(sequelize.models.tbl_reviews, { foreignKey: "book_id", targetKey: "br_book_id", as: "bookingReview" });
     };
 
     static async createBooking(payload) {

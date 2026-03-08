@@ -26,7 +26,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     },
     hr_rating: {
-      type: DataTypes.STRING(100),
+      type: DataTypes.TINYINT(1),
       allowNull: false
     },
     hr_title: {
@@ -38,16 +38,17 @@ module.exports = (sequelize, DataTypes) => {
       // allowNull: false
     },
     hr_isActive: {
-      type: DataTypes.ENUM('0', '1', '2'),
-      defaultValue: '1'
+      type: DataTypes.TINYINT(1),
+      defaultValue: 1
     },
     hr_isDelete: {
-      type: DataTypes.ENUM('0', '1'),
-      defaultValue: '0'
+      type: DataTypes.TINYINT(1),
+      defaultValue: 0
     }
   }, {
     sequelize,
     modelName: 'tbl_host_review',
+    // tableName: 'tbl_host_reviews',
   });
   return tbl_host_review;
 };
