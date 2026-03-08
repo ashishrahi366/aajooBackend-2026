@@ -14,9 +14,10 @@ const getBookingList = async (req, res) => {
         const offset = (page - 1) * limit;
         const search = reqData.search?.trim() || "";
         const statusId = reqData.status ? Number(reqData.status) : null;
-        let paymentStatus = null;
-        if (reqData.paymentStatus === "paid") paymentStatus = 1;
-        if (reqData.paymentStatus === "unpaid") paymentStatus = 0;
+        let paymentStatus = reqData.paymentStatus;
+        // console.log(paymentStatus, "paymentStatus")
+        // if (reqData.paymentStatus === "paid") paymentStatus = 1;
+        // if (reqData.paymentStatus === "unpaid") paymentStatus = 0;
         const fromDate = reqData.fromDate ? new Date(reqData.fromDate) : null;
         const toDate = reqData.toDate ? new Date(reqData.toDate) : null;
 
@@ -31,7 +32,7 @@ const getBookingList = async (req, res) => {
         if (statusId) {
             whereClause.book_status = statusId;
         }
-        if (paymentStatus !== null) {
+        if (paymentStatus !== undefined) {
             whereClause.book_is_paid = paymentStatus;
         }
         if (fromDate && toDate) {

@@ -4,6 +4,8 @@ module.exports = (sequelize, DataTypes) => {
   class tbl_reviews extends Model {
     static associate(models) {
       tbl_reviews.belongsTo(models.tbl_user, { foreignKey: "br_userId", targetKey: "user_id", as: "userReview" })
+      tbl_reviews.belongsTo(models.tbl_properties, { foreignKey: "br_propId", targetKey: "property_id", as: "propReview" })
+      tbl_reviews.belongsTo(models.tbl_bookings, { foreignKey: "br_book_id", targetKey: "book_id", as: "bookReview" })
       tbl_reviews.belongsTo(models.tbl_review_likes, { foreignKey: "br_id", targetKey: "rl_review_id", as: "ReviewLikesDislikes" })
     }
 

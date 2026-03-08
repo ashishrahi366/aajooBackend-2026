@@ -1,0 +1,177 @@
+const model = require("../models");
+const common = require("../utils/common");
+const commonConfig = require("../config/commonConfig");
+const { Op, where } = require("sequelize");
+const { CloudinaryManager } = require("../utils/cloudinary");
+const moduleConfig = require("../config/moduleConfigs");
+const methods = require("../utils/methods");
+
+const reviewListing = async (req, res) => {
+    try {
+        const reqData = { ...req.body };
+        const page = Number(reqData.page) > 0 ? Number(reqData.page) : 1;
+        const limit = Number(reqData.limit) > 0 ? Number(reqData.limit) : 10;
+        const offset = (page - 1) * limit;
+        const search = reqData.search?.trim() || "";
+        let whereCodn = {
+            br_isDelete: commonConfig.isNo,
+        };
+        let propWhereCond = {}
+        if (search) {
+            propWhereCond = {
+                property_name: {
+                    [Op.like]: `%${search}%`
+                }
+            };
+        }
+        if (reqData.status) {
+            whereCodn = {
+                ...whereCodn,
+                br_isActive: reqData.status
+            }
+        }
+        if (reqData.rating) {
+            whereCodn = {
+                ...whereCodn,
+                br_rating: reqData.rating
+            }
+
+        }
+        const { rows, count } = await model.tbl_reviews.findAndCountAll({
+            where: whereCodn,
+            include: [
+                {
+                    model: model.tbl_properties,
+                    as: "propReview",
+                    where: propWhereCond,
+                    attributes: ["property_name"],
+                    required: search ? true : false
+                },
+                {
+                    model: model.tbl_user,
+                    as: "userReview",
+                    attributes: ["user_fullName"]
+                }
+            ],
+            attributes: ["br_id", "br_book_id", "br_propId", "br_rating", "br_isActive", "br_addedAt"],
+            order: [["br_addedAt", "DESC"]],
+            offset: offset,
+            limit: limit,
+        });
+        if (rows.length == 0) {
+            return common.response(req, res, commonConfig.notFoundStatus, false, "No review found");
+        }
+        const totalPages = Math.ceil(count / limit);
+        return common.response(req, res, commonConfig.successStatus, true, "Review list", {
+            page,
+            limit,
+            offset,
+            totalRecords: count,
+            currentPage: page,
+            totalPages,
+            reviews: rows
+        });
+    } catch (error) {
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+};
+const updateReview = async (req, res) => {
+    let transaction = await model.sequelize.transaction();
+    try {
+        const reqData = { ...req.body };
+        const bookingId = reqData.bookingId;
+        const reviewData = await model.tbl_reviews.findOne({
+            raw: true,
+            where: {
+                br_isDelete: commonConfig.isNo,
+                br_book_id: bookingId
+            },
+            attributes: ["br_id"]
+        });
+        if (!reviewData) {
+            return common.response(req, res, commonConfig.notFoundStatus, false, "Review not found");
+        }
+        await model.tbl_reviews.update(
+            {
+                br_isActive: reqData.status
+            },
+            {
+                where: {
+                    br_book_id: bookingId
+                },
+                transaction
+            }
+        );
+        await model.tbl_host_review.update(
+            {
+                hr_isActive: reqData.status
+            },
+            {
+                where: {
+                    hr_book_id: bookingId
+                },
+                transaction
+            }
+        );
+        await model.tbl_host_review_for_user.update(
+            {
+                hru_isActive: reqData.status
+            },
+            {
+                where: {
+                    hru_bookingId: bookingId
+                },
+                transaction
+            }
+        );
+        await model.tbl_platform_review.update(
+            {
+                pr_isActive: reqData.status
+            },
+            {
+                where: {
+                    pr_book_id: bookingId
+                },
+                transaction
+            }
+        );
+        await transaction.commit();
+        return common.response(req, res, commonConfig.successStatus, true, "Review status updated successfully");
+    } catch (error) {
+        await transaction.rollback();
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+};
+const detailedReview = async (req, res) => {
+    try {
+        const reqData = { ...req.body };
+        const bookingId = reqData.bookingId;
+        const propReview = await model.tbl_reviews.findOne({
+            raw: true,
+            where: {
+                br_isDelete: commonConfig.isNo,
+                br_book_id: bookingId
+            },
+            attributes: ["br_id", "br_book_id", "br_rating", "br_title", "br_desc"],
+        });
+        if (!propReview) {
+            return common.response(req, res, commonConfig.notFoundStatus, false, "Review not found");
+        }
+        const hostReview = await model.tbl_host_review.findOne({
+            raw: true,
+            where: {
+                hr_isDelete: commonConfig.isNo,
+                hr_book_id: bookingId
+            },
+            // attributes: ["hr_id", "hr_book_id", "hr_rating", "hr_title", "hr_description"],
+        });
+        return common.response(req, res, commonConfig.successStatus, true, "Review details", hostReview);
+    } catch (error) {
+        return common.response(req, res, commonConfig.errorStatus, false, error.message);
+    }
+}
+module.exports = {
+    reviewListing,
+    updateReview,
+    detailedReview
+}

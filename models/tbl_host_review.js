@@ -38,7 +38,7 @@ module.exports = (sequelize, DataTypes) => {
       // allowNull: false
     },
     hr_isActive: {
-      type: DataTypes.ENUM('0', '1'),
+      type: DataTypes.ENUM('0', '1', '2'),
       defaultValue: '1'
     },
     hr_isDelete: {
