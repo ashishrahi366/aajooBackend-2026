@@ -41,6 +41,14 @@ module.exports = {
       cs_order: {
         type: Sequelize.INTEGER,
         // allowNull: true
+      },
+      cs_created_at: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      cs_updated_at: {
+        allowNull: false,
+        type: Sequelize.DATE
       }
     });
   },
