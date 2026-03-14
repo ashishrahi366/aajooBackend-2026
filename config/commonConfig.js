@@ -6,7 +6,10 @@ exports.isYes = 1;
 exports.isNo = 0;
 exports.listLimit = 10;
 exports.listPage = 1;
-
+// T&C
+// tc_type
+exports.tcTypeHost = 1;
+exports.tcTypeGuest = 2;
 
 //status
 exports.checkIn = 6;

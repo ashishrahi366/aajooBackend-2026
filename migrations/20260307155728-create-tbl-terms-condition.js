@@ -20,12 +20,17 @@ module.exports = {
       tc_isActive: {
         type: Sequelize.TINYINT(1),
         allowNull: false,
-        defaultValue: true  
+        defaultValue: 1
+      },
+      tc_type: {
+        type: Sequelize.TINYINT(1),
+        allowNull: false,
+        defaultValue: 1
       },
       tc_isdeleted: {
         type: Sequelize.TINYINT(1),
         allowNull: false,
-        defaultValue: false
+        defaultValue: 0
       },
       tc_created_at: {
         allowNull: false,

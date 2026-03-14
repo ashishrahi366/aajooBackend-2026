@@ -16,7 +16,7 @@ const addUpdateCMSSection = async (req, res) => {
             cs_order: reqData.cs_order,
         };
         if (sectionId) {
-            await model.tbl_cms_section.update(reqData, { where: { cs_id: sectionId } });
+            await model.tbl_cms_section.update(payload, { where: { cs_id: sectionId } });
         } else {
             await model.tbl_cms_section.create(payload);
         }
@@ -25,7 +25,6 @@ const addUpdateCMSSection = async (req, res) => {
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
-
 const listingCMSSection = async (req, res) => {
     try {
         const reqData = { ...req.body };
@@ -63,10 +62,9 @@ const listingCMSSection = async (req, res) => {
             sections: rows,
         });
     } catch (error) {
-        console.log(error);
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
-}
+};
 
 
 module.exports = {

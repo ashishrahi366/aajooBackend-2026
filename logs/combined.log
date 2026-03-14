@@ -56147,3 +56147,536 @@ META: {
   "userAgent": "PostmanRuntime/7.52.0",
   "requestId": "N/A"
 }
+2026-03-13 04:11:47 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:11:47 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:14:38 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:14:38 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:22:12 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:22:12 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:23:49 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:23:49 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:24:44 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:24:45 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:26:28 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:26:28 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:26:57 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:26:57 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:27:15 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:27:15 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:27:41 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:27:41 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:27:56 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:27:56 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:28:11 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:28:11 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:36:38 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:36:38 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:37:44 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:37:44 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:38:46 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {},
+  "statusCode": 422,
+  "responseTime": "398.83ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:39:41 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_question": "test question",
+    "faq_answer": "test ans",
+    "faq_display_order": 1,
+    "faq_is_active": 1
+  },
+  "statusCode": 422,
+  "responseTime": "12.19ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:40:02 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:40:02 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:40:06 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_question": "test question",
+    "faq_answer": "test ans",
+    "faq_display_order": 1,
+    "faq_is_active": 1
+  },
+  "statusCode": 401,
+  "responseTime": "55.78ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:40:16 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 200,
+  "responseTime": "623.24ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:40:46 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_question": "test question",
+    "faq_answer": "test ans",
+    "faq_display_order": 1,
+    "faq_is_active": 1
+  },
+  "statusCode": 400,
+  "responseTime": "33.86ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:41:17 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:41:17 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:41:25 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:41:25 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:41:36 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:41:36 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:42:36 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:42:36 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:42:48 [INFO]: SIGINT signal received: closing database connection.
+2026-03-13 04:43:10 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:43:10 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:43:20 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_question": "test question",
+    "faq_answer": "test ans",
+    "faq_display_order": 1,
+    "faq_is_active": 1
+  },
+  "statusCode": 200,
+  "responseTime": "270.14ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:44:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "54.48ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:44:57 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:44:57 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:45:35 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:45:35 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:45:46 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:45:46 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:45:49 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "117.26ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:45:54 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_question": "test question",
+    "faq_answer": "test ans",
+    "faq_display_order": 1,
+    "faq_is_active": 1
+  },
+  "statusCode": 400,
+  "responseTime": "20.05ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:47:22 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:47:22 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:47:46 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:47:46 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:48:01 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:48:01 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:48:14 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:48:14 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:48:23 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_question": "test question 2",
+    "faq_answer": "test ans 2",
+    "faq_display_order": 1,
+    "faq_is_active": 1
+  },
+  "statusCode": 200,
+  "responseTime": "146.24ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:48:39 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "63.85ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:48:50 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "search": "2"
+  },
+  "statusCode": 200,
+  "responseTime": "33.69ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:49:45 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:49:45 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:49:58 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:49:58 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:50:15 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:50:15 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:50:21 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:50:21 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:50:29 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:50:29 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:50:58 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:50:58 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:51:11 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:51:11 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:51:22 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:51:22 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:51:30 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:51:30 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:52:39 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:52:39 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:53:26 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:53:26 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:54:26 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:54:26 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:55:08 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:55:08 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:55:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/delete",
+  "body": {
+    "faq_id": 1
+  },
+  "statusCode": 400,
+  "responseTime": "51.79ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:55:57 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:55:57 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:56:10 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:56:10 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:56:22 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/delete",
+  "body": {
+    "faq_Id": 1
+  },
+  "statusCode": 422,
+  "responseTime": "19.39ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:56:46 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:56:46 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:57:02 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/delete",
+  "body": {
+    "faq_Id": 1
+  },
+  "statusCode": 200,
+  "responseTime": "189.28ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:57:50 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/detail",
+  "body": {
+    "faq_Id": 1
+  },
+  "statusCode": 200,
+  "responseTime": "346.54ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:57:54 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/detail",
+  "body": {
+    "faq_Id": 2
+  },
+  "statusCode": 200,
+  "responseTime": "12.92ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 04:59:14 [INFO]: ✅ Database connection established successfully.
+2026-03-13 04:59:14 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 04:59:15 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_question": "test question 2",
+    "faq_answer": "test ans 2",
+    "faq_display_order": 1,
+    "faq_is_active": 1
+  },
+  "statusCode": 200,
+  "responseTime": "175.82ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 05:00:15 [INFO]: ✅ Database connection established successfully.
+2026-03-13 05:00:15 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 05:01:48 [INFO]: ✅ Database connection established successfully.
+2026-03-13 05:01:48 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 05:01:51 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_question": "test question 2",
+    "faq_answer": "test ans 2",
+    "faq_display_order": 1,
+    "faq_is_active": 1,
+    "faq_id": 2
+  },
+  "statusCode": 400,
+  "responseTime": "142.23ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 05:02:11 [INFO]: ✅ Database connection established successfully.
+2026-03-13 05:02:11 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 05:02:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_question": "test question 2",
+    "faq_answer": "test ans 2",
+    "faq_display_order": 2,
+    "faq_is_active": 1,
+    "faq_id": 2
+  },
+  "statusCode": 400,
+  "responseTime": "185.66ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 05:02:16 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_question": "test question 2",
+    "faq_answer": "test ans 2",
+    "faq_display_order": 3,
+    "faq_is_active": 1,
+    "faq_id": 2
+  },
+  "statusCode": 200,
+  "responseTime": "44.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 05:02:25 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "search": "2"
+  },
+  "statusCode": 200,
+  "responseTime": "21.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 05:02:28 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "14.93ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-13 05:02:57 [INFO]: ✅ Database connection established successfully.
+2026-03-13 05:02:57 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-13 05:08:29 [INFO]: SIGINT signal received: closing database connection.
+2026-03-14 17:00:33 [INFO]: ✅ Database connection established successfully.
+2026-03-14 17:00:33 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-14 17:00:48 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 200,
+  "responseTime": "525.31ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-14 17:03:36 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/add",
+  "body": {
+    "tc_title": "reqData.tc_title",
+    "tc_description": "reqData.tc_description",
+    "tc_type": "reqData.tc_type",
+    "tc_isActive": "reqData.tc_isActive"
+  },
+  "statusCode": 422,
+  "responseTime": "13.22ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-14 17:03:47 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/add",
+  "body": {
+    "tc_title": "reqData.tc_title",
+    "tc_description": "reqData.tc_description",
+    "tc_type": 1,
+    "tc_isActive": 1
+  },
+  "statusCode": 200,
+  "responseTime": "65.64ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-14 17:09:41 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "tc_title": "reqData.tc_title",
+    "tc_description": "reqData.tc_description",
+    "tc_type": 1,
+    "tc_isActive": 1
+  },
+  "statusCode": 400,
+  "responseTime": "217.97ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-14 17:10:04 [INFO]: ✅ Database connection established successfully.
+2026-03-14 17:10:04 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-14 17:10:07 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "203.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-14 17:10:58 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/detail",
+  "body": {},
+  "statusCode": 422,
+  "responseTime": "19.50ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-14 17:11:08 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/detail",
+  "body": {
+    "tc_id": 1
+  },
+  "statusCode": 200,
+  "responseTime": "43.76ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-14 17:11:53 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/delete",
+  "body": {
+    "tc_id": 1
+  },
+  "statusCode": 200,
+  "responseTime": "84.30ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
