@@ -1,7 +1,7 @@
 const yup = require("yup");
 
 exports.reviewSearchSchema = yup.object().shape({
-    search: yup
+    keyword: yup
         .string()
         .trim()
         .typeError("Search must be text")

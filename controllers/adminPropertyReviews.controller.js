@@ -9,7 +9,7 @@ const reviewListing = async (req, res) => {
         const page = Number(reqData.page) > 0 ? Number(reqData.page) : 1;
         const limit = Number(reqData.limit) > 0 ? Number(reqData.limit) : 10;
         const offset = (page - 1) * limit;
-        const search = reqData.search?.trim() || "";
+        const search = reqData.keyword?.trim() || "";
         let whereCodn = {
             br_isDelete: commonConfig.isNo,
         };
@@ -56,7 +56,7 @@ const reviewListing = async (req, res) => {
             limit: limit,
         });
         if (rows.length == 0) {
-            return common.response(req, res, commonConfig.notFoundStatus, false, "No review found");
+            return common.response(req, res, commonConfig.notFoundStatus, true, "No review found");
         }
         const totalPages = Math.ceil(count / limit);
         return common.response(req, res, commonConfig.successStatus, true, "Review list", {
@@ -142,18 +142,21 @@ const updateReview = async (req, res) => {
 const detailedReview = async (req, res) => {
     try {
         const reqData = { ...req.body };
-        const bookingId = reqData.bookingId;
+        const reviewId = reqData.reviewId;
         const propReview = await model.tbl_reviews.findOne({
             raw: true,
             where: {
                 br_isDelete: commonConfig.isNo,
-                br_book_id: bookingId
+                br_id: reviewId
             },
-            attributes: ["br_id", "br_book_id", "br_rating", "br_title", "br_desc"],
+            attributes: ["br_id", "br_book_id", "br_rating", "br_title", "br_desc","br_isActive"],
         });
         if (!propReview) {
             return common.response(req, res, commonConfig.notFoundStatus, false, "Review not found");
         }
+        // console.log(propReview, "propReview");
+        const bookingId = propReview.br_book_id;
+        // return
         const hostReview = await model.tbl_host_review.findOne({
             raw: true,
             where: {
