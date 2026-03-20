@@ -1,7 +1,7 @@
 const model = require("../models");
 const common = require("../utils/common");
 const commonConfig = require("../config/commonConfig");
-const { Op, where } = require("sequelize");
+const { Op } = require("sequelize");
 const { Sequelize } = require("sequelize");
 
 const calculateBookingAnalytics = (bookings) => {
@@ -42,7 +42,7 @@ const buildRevenueGraphData = (bookings) => {
         const month = date.toLocaleString("default", {
             month: "short",
             year: "numeric"
-          });
+        });
 
         const revenue = Number(b.book_total_amt) || 0;
 
@@ -114,6 +114,7 @@ const propAnalytics = async (req, res) => {
                 "property_price",
                 "is_active",
                 "is_verify",
+                "is_luxury",
                 [
                     Sequelize.literal(`(
                         SELECT COUNT(*)
@@ -139,7 +140,6 @@ const propAnalytics = async (req, res) => {
         }
         return common.response(req, res, commonConfig.successStatus, true, "Property analytics listing", propertyAnalytics);
     } catch (error) {
-        console.log("Error in property analytics listing => ", error);
         return common.response(req, res, commonConfig.errorStatus, false, error.message);
     }
 };
@@ -156,16 +156,6 @@ const propAnalyticDetail = async (req, res) => {
                 "property_id",
                 "property_name",
                 "property_price",
-                // "is_active",
-                // "is_verify",
-                // [
-                //     Sequelize.literal(`(
-                //         SELECT COUNT(*)
-                //         FROM tbl_bookings
-                //         WHERE tbl_bookings.book_prop_id = tbl_properties.property_id
-                //     )`),
-                //     "total_bookings"
-                // ]
             ],
             include: [
                 {
@@ -190,7 +180,7 @@ const propAnalyticDetail = async (req, res) => {
         });
 
         const categoryTitles = propertyCategories.map(item => item["category.cat_title"]);
-        console.log(propId, "propId")
+        // console.log(propId, "propId")
         const { rows, count } = await model.tbl_bookings.findAndCountAll({
             raw: true,
             where: { book_prop_id: propId },
@@ -206,6 +196,12 @@ const propAnalyticDetail = async (req, res) => {
                     model: model.tbl_reviews,
                     as: "bookingReview",
                     attributes: ["br_rating"],
+                    required: false
+                },
+                {
+                    model: model.tbl_book_status,
+                    as: "bookingStatus",
+                    attributes: ["bs_title", "bs_code"],
                     required: false
                 }
             ]
@@ -224,10 +220,12 @@ const propAnalyticDetail = async (req, res) => {
         });
         const revenueGraph = buildRevenueGraphData(graphBookings);
         return common.response(req, res, commonConfig.successStatus, true, "Booking analytics", {
+            propertyDetail,
+            categoryTitles,
             bookings: rows,
             totalRecords: count,
             analytics,
-            revenueGraph
+            revenueGraph,
         });
         // return common.response(req, res, commonConfig.successStatus, true, "Property analytics details", );
     } catch (error) {

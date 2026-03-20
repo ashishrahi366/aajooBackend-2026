@@ -76,7 +76,7 @@ const listingFaq = async (req, res) => {
 };
 const deleteFaq = async (req, res) => {
     try {
-        const faqId = req.body.faq_Id;
+        const faqId = req.body.faq_id;
         await model.tbl_faqs.update(
             {
                 faq_is_delete: commonConfig.isYes,
@@ -91,7 +91,7 @@ const deleteFaq = async (req, res) => {
 };
 const detailFaq = async (req, res) => {
     try {
-        const faqId = req.body.faq_Id;
+        const faqId = req.body.faq_id;
         const faqDetails = await model.tbl_faqs.findOne({
             where: { faq_id: faqId, faq_is_delete: commonConfig.isNo },
             raw: true,

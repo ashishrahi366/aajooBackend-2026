@@ -1,12 +1,15 @@
 const yup = require("yup");
 
-exports.faqId = yup.object().shape({
-    faq_Id: yup
-        .number()
-        .integer()
-        .nullable()
-        .required("FAQ Id is required"),
-});
+exports.faqId = yup
+    .object({
+        faq_id: yup
+            .number()
+            .typeError("FAQ Id must be a number")
+            .required("FAQ Id is required")
+            .integer("FAQ Id must be an integer")
+            .positive("FAQ Id must be a positive number"),
+    })
+    .noUnknown(true, "Unknown fields are not allowed");
 exports.faqSchema = yup.object().shape({
     faq_id: yup
         .number()
