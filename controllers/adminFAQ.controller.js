@@ -18,15 +18,15 @@ const addUpdateFaq = async (req, res) => {
             faq_updated_by: adminId,
         };
         if (faqId) {
-            const existingFaq = await model.tbl_faqs.findOne({ raw: true, where: { faq_id: faqId, faq_is_delete: commonConfig.isNo } });
-            if (existingFaq) {
-                if (existingFaq.faq_display_order !== payload.faq_display_order) {
-                    await model.tbl_faqs.update(payload, { where: { faq_id: faqId } });
-                }
-                else {
-                    return common.response(req, res, commonConfig.errorStatus, false, "FAQ display order must be unique");
-                }
-            }
+            // const existingFaq = await model.tbl_faqs.findOne({ raw: true, where: { faq_id: faqId, faq_is_delete: commonConfig.isNo } });
+            await model.tbl_faqs.update(payload, { where: { faq_id: faqId } });
+            // if (existingFaq) {
+            //     if (existingFaq.faq_display_order !== payload.faq_display_order) {
+            //     }
+            //     else {
+            //         return common.response(req, res, commonConfig.errorStatus, false, "FAQ display order must be unique");
+            //     }
+            // }
         } else {
             await model.tbl_faqs.create(payload);
         }

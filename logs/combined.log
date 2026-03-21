@@ -62288,3 +62288,1903 @@ META: {
   "requestId": "N/A"
 }
 2026-03-20 08:11:18 [INFO]: SIGINT signal received: closing database connection.
+2026-03-21 22:27:29 [INFO]: ✅ Database connection established successfully.
+2026-03-21 22:27:29 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-21 22:29:51 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 401,
+  "responseTime": "34.60ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 22:30:20 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 200,
+  "responseTime": "467.60ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 22:30:21 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "317.61ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 22:31:22 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "60.67ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 22:32:41 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "257.91ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 22:36:34 [INFO]: SIGINT signal received: closing database connection.
+2026-03-21 22:36:49 [INFO]: ✅ Database connection established successfully.
+2026-03-21 22:36:49 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-21 22:37:42 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 200,
+  "responseTime": "617.88ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-21 22:39:24 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "148.86ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-21 22:47:18 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/login",
+  "body": {
+    "username": "admin@mailinator.com",
+    "password": "Admin@123"
+  },
+  "statusCode": 200,
+  "responseTime": "406.48ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 22:47:20 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "739.11ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 22:48:23 [INFO]: SIGINT signal received: closing database connection.
+2026-03-21 23:27:06 [INFO]: ✅ Database connection established successfully.
+2026-03-21 23:27:06 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-21 23:27:25 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 400,
+  "responseTime": "27.08ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:30:47 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "118.14ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:30:55 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "6.98ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:31:04 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "Home"
+  },
+  "statusCode": 200,
+  "responseTime": "4.37ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:31:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "Ashish"
+  },
+  "statusCode": 200,
+  "responseTime": "7.08ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:31:13 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "7.05ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:35:19 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "20.95ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:35:22 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "108.31ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:35:26 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "6.23ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:35:28 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "28.59ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:35:31 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/coupon/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "9.74ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:35:43 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "20.45ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:35:46 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "30.45ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:35:53 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/coupon/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "7.13ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:35:54 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "26.08ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:35:57 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "81.31ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:36:13 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "14.75ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:36:16 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "58.75ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:37:10 [INFO]: HTTP Request
+META: {
+  "method": "GET",
+  "path": "/admin/dashboard",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "30.03ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:37:34 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "28.00ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:38:15 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "17.97ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:39:28 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "9.52ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:40:46 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "17.95ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:44:30 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/coupon/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "8.98ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:46:39 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "9.51ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:46:56 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "15.44ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:47:03 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "3.49ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:47:10 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "4.19ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:47:18 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "2.54ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:49:35 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "7.87ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:49:40 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "4.14ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:49:43 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "2.91ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:50:02 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "6.99ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:50:09 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "2.88ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:50:20 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "2.61ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-21 23:50:42 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/coupon/detail",
+  "body": {
+    "cpn_id": 1
+  },
+  "statusCode": 400,
+  "responseTime": "10.65ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-21 23:52:48 [INFO]: SIGINT signal received: closing database connection.
+2026-03-22 01:41:21 [INFO]: ✅ Database connection established successfully.
+2026-03-22 01:41:21 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-22 01:41:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "98.43ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:41:55 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "14.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:42:00 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/detail",
+  "body": {
+    "faq_id": 2
+  },
+  "statusCode": 200,
+  "responseTime": "6.19ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:44:27 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "21.20ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:44:33 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "5.30ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:44:38 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "5.29ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:49:28 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "9.19ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:49:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/detail",
+  "body": {
+    "faq_id": 2
+  },
+  "statusCode": 200,
+  "responseTime": "14.86ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:49:52 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_id": 2,
+    "faq_question": "test question tes",
+    "faq_answer": "test ans 2",
+    "faq_display_order": 3,
+    "faq_is_active": 1
+  },
+  "statusCode": 400,
+  "responseTime": "7.07ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:51:07 [INFO]: ✅ Database connection established successfully.
+2026-03-22 01:51:07 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-22 01:51:09 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_id": 2,
+    "faq_question": "test question 2",
+    "faq_answer": "test ans 2",
+    "faq_display_order": 3,
+    "faq_is_active": 1
+  },
+  "statusCode": 200,
+  "responseTime": "77.60ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:51:09 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "23.61ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:51:16 [INFO]: ✅ Database connection established successfully.
+2026-03-22 01:51:16 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-22 01:52:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "44.66ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:54:21 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/detail",
+  "body": {
+    "faq_id": 2
+  },
+  "statusCode": 200,
+  "responseTime": "10.23ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:54:23 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_id": 2,
+    "faq_question": "test question 2",
+    "faq_answer": "test ans 2",
+    "faq_display_order": 3,
+    "faq_is_active": 1
+  },
+  "statusCode": 200,
+  "responseTime": "16.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:54:24 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "10.77ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:56:04 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/detail",
+  "body": {
+    "faq_id": 2
+  },
+  "statusCode": 200,
+  "responseTime": "6.65ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:56:06 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_id": 2,
+    "faq_question": "test question 2",
+    "faq_answer": "test ans 2",
+    "faq_display_order": 3,
+    "faq_is_active": 1
+  },
+  "statusCode": 200,
+  "responseTime": "14.45ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:56:07 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "8.04ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:57:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "8.89ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:57:41 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/add",
+  "body": {
+    "faq_id": null,
+    "faq_question": "from ui",
+    "faq_answer": "testing ",
+    "faq_display_order": 2,
+    "faq_is_active": 0
+  },
+  "statusCode": 200,
+  "responseTime": "20.82ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:57:42 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "61.77ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:58:15 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/delete",
+  "body": {
+    "faq_id": 2
+  },
+  "statusCode": 200,
+  "responseTime": "15.75ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:58:15 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/faq/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "9.43ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:58:39 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "17.06ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 01:58:53 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "31.33ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-22 02:00:16 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/add",
+  "body": {
+    "tc_title": "reqData.tc_title",
+    "tc_description": "reqData.tc_description",
+    "tc_type": 1,
+    "tc_isActive": 1
+  },
+  "statusCode": 200,
+  "responseTime": "12.80ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-22 02:00:27 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {},
+  "statusCode": 200,
+  "responseTime": "11.99ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-22 02:09:26 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "10.61ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:11:39 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "9.43ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:11:51 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "7.93ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:12:03 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "15.10ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:10 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "15.58ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:12 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "a"
+  },
+  "statusCode": 200,
+  "responseTime": "20.16ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:13 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "as"
+  },
+  "statusCode": 200,
+  "responseTime": "11.17ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:14 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "ash"
+  },
+  "statusCode": 200,
+  "responseTime": "6.04ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:16 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "as"
+  },
+  "statusCode": 200,
+  "responseTime": "13.16ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:16 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "a"
+  },
+  "statusCode": 200,
+  "responseTime": "6.62ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:16 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "9.75ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:17 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "r"
+  },
+  "statusCode": 200,
+  "responseTime": "8.63ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:17 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "re"
+  },
+  "statusCode": 200,
+  "responseTime": "7.27ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:17 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "req"
+  },
+  "statusCode": 200,
+  "responseTime": "13.82ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:19 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "re"
+  },
+  "statusCode": 200,
+  "responseTime": "7.58ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:20 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "r"
+  },
+  "statusCode": 200,
+  "responseTime": "5.49ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:14:20 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "6.39ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:15:44 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/coupon/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "15.67ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:15:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "10.28ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:15:52 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/cms/section/search",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "50.58ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:15:56 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "6.50ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:16:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/detail",
+  "body": {
+    "tc_id": 1
+  },
+  "statusCode": 200,
+  "responseTime": "8.55ms",
+  "ip": "127.0.0.1",
+  "userAgent": "PostmanRuntime/7.52.0",
+  "requestId": "N/A"
+}
+2026-03-22 02:19:10 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "17.73ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:19:32 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "20.46ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:19:47 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "23.79ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:20:48 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "9.15ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:20:51 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "7.15ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:23:31 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "63.91ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:24:23 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/detail",
+  "body": {
+    "tc_id": 2
+  },
+  "statusCode": 200,
+  "responseTime": "14.80ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:24:40 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "7.01ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:26:57 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/detail",
+  "body": {
+    "tc_id": 2
+  },
+  "statusCode": 200,
+  "responseTime": "7.99ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:27:00 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/detail",
+  "body": {
+    "tc_id": 1
+  },
+  "statusCode": 200,
+  "responseTime": "7.38ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:29:24 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "14.07ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:29:45 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "7.56ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:30:47 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "16.07ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:31:49 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "25.22ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:32:19 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "9.77ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:32:43 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "178.46ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:33:03 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "17.64ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:33:06 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "6.82ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:33:13 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/detail",
+  "body": {
+    "tc_id": 2
+  },
+  "statusCode": 200,
+  "responseTime": "4.10ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:33:21 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/add",
+  "body": {
+    "tc_id": 2,
+    "tc_title": "First Terms",
+    "tc_description": "reqData.tc_description",
+    "tc_type": 1,
+    "tc_isActive": 0
+  },
+  "statusCode": 200,
+  "responseTime": "10.83ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:33:21 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "8.90ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:33:36 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/add",
+  "body": {
+    "tc_title": "add",
+    "tc_description": "srxdcfnjkl;lbkvjfgdhgghjk",
+    "tc_type": 1,
+    "tc_isActive": 1
+  },
+  "statusCode": 200,
+  "responseTime": "8.47ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:33:36 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "9.60ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:36:13 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "154.34ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:40:31 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "21.92ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:40:37 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/delete",
+  "body": {
+    "tc_id": 2
+  },
+  "statusCode": 200,
+  "responseTime": "10.97ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:40:37 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "9.73ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:40:52 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/add",
+  "body": {
+    "tc_title": "delete record",
+    "tc_description": "testting",
+    "tc_type": 1,
+    "tc_isActive": 0
+  },
+  "statusCode": 200,
+  "responseTime": "7.29ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:40:52 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "11.53ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:40:56 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "d"
+  },
+  "statusCode": 200,
+  "responseTime": "8.51ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:40:57 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "de"
+  },
+  "statusCode": 200,
+  "responseTime": "10.81ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:40:57 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "dee"
+  },
+  "statusCode": 200,
+  "responseTime": "9.17ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:40:58 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "de"
+  },
+  "statusCode": 200,
+  "responseTime": "6.59ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:40:58 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "del"
+  },
+  "statusCode": 200,
+  "responseTime": "5.92ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:40:58 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": "dele"
+  },
+  "statusCode": 200,
+  "responseTime": "8.77ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:41:00 [INFO]: HTTP Request
+META: {
+  "method": "POST",
+  "path": "/admin/terms-condition/listing",
+  "body": {
+    "page": 1,
+    "limit": 10,
+    "search": ""
+  },
+  "statusCode": 200,
+  "responseTime": "7.72ms",
+  "ip": "127.0.0.1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "requestId": "N/A"
+}
+2026-03-22 02:41:24 [INFO]: ✅ Database connection established successfully.
+2026-03-22 02:41:24 [INFO]: 🚀 Server running on http://localhost:8000
+2026-03-22 02:41:44 [INFO]: SIGINT signal received: closing database connection.
